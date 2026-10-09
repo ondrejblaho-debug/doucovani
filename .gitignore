@@ -1,0 +1,6 @@
+node_modules/
+dist/
+screenshots/
+src/generated/
+validation-report.json
+*.log

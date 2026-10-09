@@ -1,0 +1,215 @@
+# ČEŠTINA 5 – pravopis
+@topic c5-vyjmenovana-slova
+@gapprompt Doplň i/í, nebo y/ý.
+@diff 1
+gap | b{y|i}dliště | =bydlet
+gap | b{y|i}strý | =bystrý
+gap | b{ý|í}k | =býk
+gap | ob{y|i}vatel | =obyvatel
+gap | b{y|i}linkový čaj | =bylina
+gap | kob{y|i}la | =kobyla
+gap | b{y|i}tva | Bitva je příbuzná se slovesem bít (udeřit), ne s být – píšeme i.
+gap | b{í|ý}lý | -
+gap | ml{ý|í}nek | =mlýn
+gap | sl{y|i}šet | =slyšet
+gap | l{y|i}žař | =lyže
+gap | pl{y|i}novod | =plyn
+gap | l{i|y}stí | -
+gap | l{í|ý}pa | -
+gap | m{y|i}dlo | =mýt
+gap | m{y|i}š | =myš
+gap | hm{y|i}z | =hmyz
+gap | m{y|i}slivec | =myslet
+gap | m{i|y}nuta | -
+gap | m{i|y}lovat | -
+gap | p{y|i}tel | =pytel
+gap | p{ý|í}cha | =pýcha
+gap | p{y|i}sk | =pysk
+gap | netop{ý|í}r | =netopýr
+gap | p{i|y}vo | -
+gap | p{í|ý}sek | -
+gap | s{ý|í}r | =sýr
+gap | s{y|i}pat | =sypat
+gap | s{ý|í}kora | =sýkora
+gap | s{í|ý}la | -
+gap | v{y|i}soký | =vysoký
+gap | v{y|i}dra | =vydra
+gap | v{ý|í}let | Předpona vy-/vý- se píše vždy s y/ý: výlet.
+gap | v{i|y}dlička | -
+gap | jaz{y|i}k | =jazyk
+gap | z{í|ý}vat | =zívat
+gap | z{i|y}ma | -
+gap | brz{y|i} | =brzy
+@diff 2
+gap | Doplň i/y ve větě. | Na louce se pásl b{ý|í}k. | =býk
+gap | Doplň i/y ve větě. | Maminka koupila p{y|i}tel brambor. | =pytel
+gap | Doplň i/y ve větě. | V lese jsme viděli v{y|i}dru u potoka. | =vydra
+gap | Doplň i/y ve větě. | Děda šel do lesa s m{y|i}slivcem. | =myslet
+gap | Doplň i/y ve větě. | Na stole leží l{i|y}stek do divadla. | -
+gap | Doplň i/y ve větě. | Kuře se ukrylo pod kř{í|ý}dlo slepice. | Po ř (měkká souhláska) píšeme vždy i/í.
+gap | Doplň i/y ve větě. | Ve sklepě se objevila m{y|i}ška. | =myš
+mc | Ve kterém slově je CHYBA? | bylina; *bilý; pytel; sýkora | Správně „bílý“ – slovo není příbuzné s vyjmenovanými slovy (býlí je jiné slovo).
+mc | Které slovo je příbuzné s vyjmenovaným slovem „být“? | bitva; *obyvatel; bič; bílý | Obyvatel – ten, kdo někde bydlí/je. Bitva je od „bít“.
+mc | Která řada obsahuje jen vyjmenovaná slova po L? | lyže, list, lípa; *slyšet, lysý, lýko; líný, lis, lidé; lilie, lis, lov | Slyšet, lysý a lýko patří mezi vyjmenovaná slova po L.
+mc [2] | Ve které řadě jsou všechna slova napsána správně? | *mýdlo, myš, hmyz; mýdlo, miš, hmyz; mídlo, myš, hmiz; mýdlo, myš, hmiz | Mýdlo (mýt), myš i hmyz jsou vyjmenovaná slova.
+mc [2] | Které slovo NENÍ příbuzné se slovem „mýt“? | mýdlo; umyvadlo; *mile; myčka | „Mile“ je od „milý“, ne od „mýt“.
+yn | Ve slově „pytlák“ píšeme y, protože je příbuzné s vyjmenovaným slovem pytel. | ano | Pytlák nosil kořist v pytli.
+yn | Ve slově „sýček“ (sova) píšeme ý. | ano | Sýček je ptačí jméno, patří mezi vyjmenovaná slova po S.
+mc | Po kterých souhláskách píšeme vždy jen i/í (měkké)? | b, l, m; *ž, š, č, ř, c, j; h, ch, k; p, s, v | Ž, Š, Č, Ř, C, J (a Ď, Ť, Ň) jsou měkké souhlásky.
+mc | Po kterých souhláskách píšeme vždy jen y/ý (tvrdé)? | b, f, l; ž, š, č; *h, ch, k, r, d, t, n; s, z, v | H, CH, K, R, D, T, N jsou tvrdé souhlásky.
+mc | Které souhlásky jsou obojetné? | h, ch, k; *b, f, l, m, p, s, v, z; ž, š, č; a, e, i | Po obojetných souhláskách rozhodují vyjmenovaná slova.
+
+@topic c5-pravopis-dalsi
+@diff 1
+@gapprompt Doplň správnou možnost.
+gap | {ú|ů}kol | Na začátku slova píšeme ú (úkol).
+gap | d{ů|ú}m | Uvnitř slova píšeme ů (dům – domy, o se mění v ů).
+gap | k{ů|ú}ň | Uvnitř slova ů: kůň – koně.
+gap | bez{ú|ů}čelný | Po předponě (bez-) zůstává ú na začátku kořene: bez-účelný.
+gap | stol{ů|ú} | Na konci slova píšeme ů (stolů).
+gap | m{ů|ú}ra | Uvnitř slova píšeme ů.
+gap | {ú|ů}terý | Na začátku slova píšeme ú.
+gap | pr{ů|ú}vod | Uvnitř slova píšeme ů.
+gap | ob{ě|je}d | Ve slově oběd nejde o předponu ob- + kořen s j, píšeme ě.
+gap | ob{je|ě}kt | Předpona ob- + jekt? Slovo objekt se píše s „je“ (cizí slovo objekt).
+gap | v{ě|je}trný | Větrný – vě (vítr), bez j.
+gap | ob{je|ě}t | Předpona ob- + jet → objet (objet kolem).
+gap | m{ě|ně}sto | Město – mě, protože v kořeni není n.
+gap | zapom{ně|ě}l | Zapomněl – v kořeni je „pomn-“ (pomník, památka) → mně.
+gap | Dej to {mně|mě}, prosím. | Mně = komu? (3. pád) – dej to mně.
+gap | Vidíš {mě|mně}? | Mě = koho? (4. pád) – vidíš mě.
+gap | p{ě|je}t | Pět – po p píšeme vždy ě (pě), nikdy pje.
+gap | {s|z}běr papíru | Předpona s- (dohromady): sběr = sbírat dohromady.
+gap | {z|s}ranit se | Z- znamená změnu stavu: zranit (stát se zraněným).
+gap | {vz|z|s}létnout | Vz- = směr vzhůru: vzlétnout.
+gap | {s|z}tékat z kopce | S- = směr shora dolů: stékat.
+gap | ro{zz|z}lobit | Předpona roz- + kořen zlob- → dvě z: rozzlobit.
+gap | ne{n|nn}ápadný | Ne- + nápadný → nenápadný; n se tu nezdvojuje.
+gap | ce{nn|n}ý | Cenný – cena + přípona -ný → dvě n.
+gap | ra{nn|n}í | Ranní – ráno + -ní → dvě n.
+gap | Pojedeme do {B|b}rna. | Názvy měst píšeme s velkým písmenem.
+gap | Na {v|V}ánoce pojedeme k babičce. | Názvy svátků píšeme s velkým písmenem: Vánoce.
+gap | Přečetla jsem knihu {M|m}alý princ. | Název knihy začíná velkým písmenem (jen první slovo).
+gap | Řeka {V|v}ltava teče Prahou. | Vlastní jméno řeky – velké písmeno.
+gap | Zítra přijede teta {J|j}ana. | Křestní jméno je vlastní jméno – velké písmeno.
+gap | Náš pes {A|a}rgo rád běhá. | Jméno zvířete je vlastní jméno – velké písmeno.
+@diff 2
+gap | Pod stromem rostly hři{b|p}y. | Hřib – hřiby: zkouška tvarem, píšeme b.
+gap | Venku je velký mrá{z|s}. | Mráz – mrazy: píšeme z.
+gap | Na stole stojí hrne{k|g}. | Hrnek – hrnky: píšeme k.
+mc | Ve které větě je CHYBA ve velkém písmenu? | Bydlíme v Brně.; *Pojedeme k babičce do ostravy.; Na Vánoce bude sníh.; Moje kamarádka se jmenuje Klára. | Ostrava je název města – správně „do Ostravy“.
+mc | Které slovo je napsáno správně? | ůkol; *úkol; ukól; ůkól | Na začátku slova píšeme ú.
+mc | Které slovo je napsáno CHYBNĚ? | domů; kůň; *ůterý; úplně | Správně „úterý“ – na začátku slova ú.
+mc [2] | Ve které řadě jsou všechna slova napsána správně? | *zapomněl, město, pět; zapoměl, město, pět; zapomněl, mněsto, pět; zapomněl, město, pjet | Zapomněl (pomník), město (bez n), pět (pě).
+mc [2] | Které slovo má předponu vz- (směr vzhůru)? | *vzlétnout; zlomit; sběr; spadnout | Vzlétnout – vzhůru.
+yn | Ve slově „sjezd“ (jízda dolů z kopce) je předpona s-. | ano | S- vyjadřuje směr shora dolů.
+yn | Slovo „letní“ se píše se dvěma n. | ne | Léto + -ní → letní (v kořeni není n). Dvě n jsou např. v „ranní“, „cenný“.
+
+@topic c5-koncovky-pj
+@diff 1
+@gapprompt Doplň správnou koncovku.
+gap | Na zahradě rostou krásné strom{y|i}. | Vzor hrad (strom – hrad) → v 1. pádě množného čísla stromy.
+gap | Kluci si hrají s míč{i|y}. | Vzor stroj (míč – stroj) → se stroji, s míči.
+gap | Na poli se pásli kon{ě|é}. | Kůň – koně (vzor muž/zvláštní tvar) – koně.
+gap | Ptáci sedí na drát{ech|ěch}. | Drát – vzor hrad: na hradech → na drátech.
+gap | Jdeme k babičce s dárk{y|i}. | Vzor hrad: s hrady → s dárky.
+gap | Na stole leží knih{y|i}. | Vzor žena: ženy → knihy.
+gap | Ve škole jsme se učili o hrad{ech|ích}. | Vzor hrad: o hradech.
+gap | Psi štěkali na pošťák{a|y}. | Pošťák – vzor pán: koho? pána → pošťáka.
+gap | Přišli jsme s kamarád{y|i}. | Kamarád – vzor pán: s pány → s kamarády.
+gap | Hráli jsme si s koťat{y|i}. | Vzor kuře: s kuřaty → s koťaty.
+gap | Sešit leží mezi učebnic{emi|ami}. | Vzor růže: mezi růžemi → mezi učebnicemi.
+gap | Vlaštovky odlétají do teplých kraj{in|yn}. | Krajina – vzor žena: do krajin.
+gap | Ve vodě plavou ryb{y|i}. | Ryba – vzor žena: ženy → ryby.
+gap | Chlapc{i|y} hrají fotbal. | Chlapec – vzor muž: muži → chlapci.
+mc | Podle kterého vzoru se skloňuje slovo „hrad“? Jakého je rodu? | ženský; *mužský neživotný; střední; mužský životný | Hrad je rod mužský neživotný, vzor hrad.
+mc | Ke kterému vzoru patří slovo „ulice“? | žena; *růže; píseň; kost | Ulice končí na -e a je rodu ženského → vzor růže.
+mc | Ke kterému vzoru patří slovo „pes“? | hrad; *pán; muž; stroj | Pes je rod mužský životný a končí tvrdou souhláskou → vzor pán.
+mc | Ke kterému vzoru patří slovo „moře“? | město; *moře; kuře; stavení | Moře je samo vzorem pro střední rod na -e.
+mc [2] | Ke kterému vzoru patří slovo „nádraží“? | město; moře; kuře; *stavení | Nádraží je střední rod na -í → vzor stavení.
+mc [2] | Ve které větě je chybná koncovka? | Psi štěkají.; Na stromech zpívají ptáci.; *Na poli jezdily traktori.; Děti mají nové sešity. | Traktor – vzor hrad: traktory.
+mc | Jaký rod má slovo „kuře“? | mužský; ženský; *střední; žádný | Ptáme se „to kuře“ → rod střední.
+
+@topic c5-koncovky-prid-jm
+@diff 1
+@gapprompt Doplň správnou koncovku.
+gap | Na stole stál mal{ý|í} hrnek. | Mladý – tvrdé přídavné jméno: malý.
+gap | Venku je jarn{í|ý} den. | Jarní – měkké přídavné jméno: vždy -í.
+gap | Kupili jsme nov{é|í} boty. | Mladý → mladé boty → nové boty.
+gap | Mám rád letn{í|ý} prázdniny. | Letní – měkké přídavné jméno (vzor jarní).
+gap | Za domem rostou vysok{é|í} stromy. | Vzor mladý: mladé stromy → vysoké stromy.
+gap | Mlad{í|ý} hráči vyhráli. | Hráči jsou rod mužský životný: mladí hráči.
+gap | Velc{í|ý} psi štěkali. | Rod mužský životný v množném čísle: mladí → velcí psi.
+gap | Statn{í|é} koně táhli vůz. | Koně jsou rod mužský životný: mladí → statní koně.
+gap | Malé děti byly unaven{é|í}. | Děti v množném čísle = rod ženský: mladé → unavené.
+gap | Pod lampou ležely zlat{é|í} klíče. | Klíče jsou neživotné: mladé → zlaté klíče.
+gap | Sněhov{é|í} vločky padaly. | Vločky – rod ženský: mladé → sněhové.
+gap | Přišli noví sousedé – milí a {přátelští|přátelský}. | Sousedé jsou rod mužský životný: přátelští.
+gap | Pošli to {mně|mě}. | Mně = komu? (3. pád zájmena já).
+gap | Pozvali {mě|mně} na oslavu. | Mě = koho? (4. pád zájmena já).
+gap | Mluvili o {mně|mě}. | O kom? O mně – 6. pád zájmena já.
+gap | Bez {mě|mně} nikam nechoďte. | Bez koho? Bez mě – 2. pád zájmena já.
+mc | Které přídavné jméno je měkké? | dobrý; malý; *cizí; zelený | Cizí končí vždy na -í, je to měkké přídavné jméno (vzor jarní).
+mc | Ve které větě je chyba? | Velcí kluci hráli fotbal.; Malé holky skákaly.; *Staří psy štěkali.; Nové sešity leží na stole. | Správně „Staří psi štěkali.“ – psi jsou rod mužský životný.
+mc [2] | Které spojení je napsáno správně? | *velcí psi; velký psi; velcí psy; velký psy | Mužský životný v množném čísle: velcí psi (vzor mladý → mladí).
+
+@topic c5-shoda-podmetu
+@diff 1
+@gapprompt Doplň správnou koncovku příčestí.
+gap | Kluci běhal{i|y} po hřišti. | Kluci – rod mužský životný → -i.
+gap | Dívky zpíval{y|i} písničky. | Dívky – rod ženský → -y.
+gap | Kuřata pobíhal{a|y} po dvoře. | Kuřata – rod střední v množném čísle → -a.
+gap | Stromy se ohýbal{y|i} ve větru. | Stromy – rod mužský neživotný → -y.
+gap | Psi štěkal{i|y} na kočku. | Psi – rod mužský životný → -i.
+gap | Děti si hrál{y|i} na schovávanou. | Děti – v množném čísle se chovají jako rod ženský → -y.
+gap | Vlaky přijížděl{y|i} pozdě. | Vlaky – rod mužský neživotný → -y.
+gap | Ptáci odlétal{i|y} na jih. | Ptáci – rod mužský životný → -i.
+gap | Kočky mňoukal{y|i} u dveří. | Kočky – rod ženský → -y.
+gap | Města se rozrůstal{a|y}. | Města – rod střední → -a.
+gap | Maminka a tatínek odjel{i|y} na výlet. | Několikanásobný podmět, je v něm mužský životný (tatínek) → -i.
+gap | Hrnky a talíře stál{y|i} na stole. | Hrnky i talíře jsou mužský neživotný → -y.
+gap | Babička a teta pekl{y|i} koláče. | Obě ženského rodu → -y.
+gap | Pes a kočka spal{i|y} u kamen. | Pes je mužský životný → -i.
+gap | Holky a kluci tancoval{i|y}. | Je tu mužský životný (kluci) → -i.
+gap | Kola se točil{a|y} rychle. | Kola – rod střední → -a.
+gap | Lvi řval{i|y} v kleci. | Lvi – mužský životný → -i.
+gap | Sněhové vločky padal{y|i} celý den. | Vločky – rod ženský → -y.
+mc | Ve které větě je chyba ve shodě? | Holubi vrkali na střeše.; *Ovce se pásli na louce.; Kamarádky přišly včas.; Auta stála na parkovišti. | Ovce – rod ženský → „Ovce se pásly“.
+mc [2] | Ve které větě je správně? | Chlapci a dívky zpívaly.; *Chlapci a dívky zpívali.; Kočky a psi spaly.; Žáci a učitelky odešly. | Je-li v podmětu mužský životný, píšeme -i.
+
+@topic c5-carky
+@diff 1
+yn | Je čárka správně? „Myslím, že zítra bude pršet.“ | ano | Před spojkou „že“ píšeme čárku.
+yn | Je čárka správně? „Šel jsem domů, a lehl si.“ | ne | Před slučovací spojkou „a“ obvykle čárku nepíšeme.
+yn | Je čárka správně? „Nevím, kdy přijede.“ | ano | Vedlejší věta „kdy přijede“ se odděluje čárkou.
+yn | Je čárka správně? „Petře, pojď sem!“ | ano | Oslovení se odděluje čárkou.
+yn | Je čárka správně? „Koupili jsme jablka, hrušky, a švestky.“ | ne | V přímém výčtu před posledním „a“ čárku nepíšeme.
+yn | Je čárka správně? „Chtěl jsem jít ven, ale pršelo.“ | ano | Před „ale“ píšeme čárku vždy.
+mc | Kam patří čárka? „Učím se protože chci jít na gymnázium.“ | za „Učím“; *před „protože“; za „chci“; nikam | Před spojkou „protože“ píšeme čárku.
+mc | Která věta je napsána správně? | Ahoj Evo, jak se máš?; *Ahoj, Evo, jak se máš?; Ahoj, Evo jak se máš?; Ahoj Evo jak, se máš? | Oslovení „Evo“ oddělujeme čárkami z obou stran.
+mc | Ve které větě chybí čárka? | Jana a Petr šli do kina.; *Řekl mi že přijde.; Koupil si chleba a mléko.; Venku svítí slunce. | Před „že“ musí být čárka: „Řekl mi, že přijde.“
+mc | Ve které větě je čárka zbytečně? | Vím, že to umíš.; *Pes, štěkal na pošťáka.; Pojď, Tome, domů.; Byl unavený, ale šťastný. | Mezi podmětem a přísudkem čárka nepatří.
+mc [2] | Která věta je napsána správně? | Až přijdeš domů zavolej mi.; *Až přijdeš domů, zavolej mi.; Až, přijdeš domů zavolej mi.; Až přijdeš, domů zavolej mi. | Vedlejší věta „Až přijdeš domů“ se odděluje čárkou.
+mc [2] | Kam patří čárky? „Na výlet si vezmi svačinu pití a pláštěnku.“ | *za „svačinu“; za „pití“; za „vezmi“; za „výlet“ | Výčet: svačinu, pití a pláštěnku.
+yn | Je čárka správně? „Byla zima, protože foukal studený vítr.“ | ano | Před „protože“ píšeme čárku.
+yn | Je čárka správně? „Babička, upekla bábovku.“ | ne | Babička je podmět, ne oslovení – čárka nepatří.
+mc | Kterou spojku NEPŘEDCHÁZÍ obvykle čárka? | ale; že; protože; *a | Před slučovacím „a“ čárku obvykle nepíšeme.
+yn | Je čárka správně? „Mami, kde máš klíče?“ | ano | Oslovení „Mami“ je oddělené čárkou.
+
+@topic c5-prima-rec
+@diff 2
+mc | Která věta je správně zapsaná přímá řeč? | Maminka řekla: „pojď domů.“; *Maminka řekla: „Pojď domů.“; Maminka řekla „Pojď domů“.; Maminka řekla: Pojď domů. | Uvozovací věta, dvojtečka, uvozovky, velké písmeno a znaménko uvnitř uvozovek.
+mc | Jak převedeš do nepřímé řeči: Petr řekl: „Mám hlad.“ | Petr řekl, že mám hlad.; *Petr řekl, že má hlad.; Petr řekl: že má hlad.; Petr řekl, mám hlad. | V nepřímé řeči měníme osobu: já mám → on má.
+mc | Převeď do nepřímé řeči: Eva se zeptala: „Půjdeš se mnou?“ | Eva se zeptala, půjdeš se mnou.; *Eva se zeptala, jestli s ní půjdu.; Eva se zeptala, že půjde.; Eva se zeptala: jestli půjdu. | Otázka se převádí pomocí „jestli/zda“ a mění se osoby.
+mc | Kde je správně umístěna čárka? | „Zítra přijdu“ řekl Tom.; *„Zítra přijdu,“ řekl Tom.; „Zítra přijdu.“, řekl Tom.; „Zítra, přijdu“ řekl Tom. | Když uvozovací věta stojí za přímou řečí, píšeme čárku uvnitř uvozovek.
+mc | Převeď nepřímou řeč na přímou: Učitelka řekla, ať si otevřeme učebnice. | *Učitelka řekla: „Otevřete si učebnice.“; Učitelka řekla: „ať si otevřeme učebnice“.; Učitelka řekla, „Otevřete si učebnice“.; Učitelka řekla Otevřete si učebnice. | Přímá řeč: dvojtečka, uvozovky, velké písmeno, tečka uvnitř.
+yn | Zápis „Kdy pojedeme?“ zeptal se Jirka. je správný. | ano | Otazník je uvnitř uvozovek a uvozovací věta za přímou řečí začíná malým písmenem.
+mc | Co znamená, že je řeč NEPŘÍMÁ? | slova postavy jsou v uvozovkách; *vypravěč převypráví, co postava řekla, bez uvozovek; postava mlčí; jde o otázku | Nepřímá řeč nepoužívá uvozovky.
+mc [2] | Která věta obsahuje přímou řeč? | Tom řekl, že přijde.; *„Přijdu v pět,“ slíbil Tom.; Tom slíbil, že přijde v pět.; Tom přišel v pět. | Jen druhá věta uvádí doslovná slova v uvozovkách.
+mc | Převeď do nepřímé řeči: Babička řekla: „Upeču vám buchty.“ | Babička řekla, že upeču vám buchty.; *Babička řekla, že nám upeče buchty.; Babička řekla: že upeče buchty.; Babička řekla, upeču buchty. | Mění se osoba: upeču → upeče, vám → nám.
+mc | Jaké znaménko následuje po uvozovací větě, která stojí PŘED přímou řečí? | čárka; tečka; *dvojtečka; pomlčka | Například: Řekl: „Ahoj.“
+yn | V zápisu Jana zvolala: „to je krása!“ je chyba. | ano | Přímá řeč začíná velkým písmenem: „To je krása!“
+mc [2] | Převeď do nepřímé řeči: Táta mi řekl: „Pomoz mi s nákupem.“ | *Táta mi řekl, ať mu pomůžu s nákupem.; Táta mi řekl, pomoz mi s nákupem.; Táta řekl, ať mi pomůže.; Táta mi řekl: ať pomůžu. | Rozkaz se v nepřímé řeči vyjádří spojkou „ať“ a mění se osoby.
+mc | Kde jsou uvozovky správně? | „Ahoj, řekla Ema.“; *„Ahoj,“ řekla Ema.; Ahoj, „řekla Ema“.; „Ahoj“, řekla Ema. | Uvozovky ohraničují jen slova postavy, čárka je uvnitř.
+yn | V nepřímé řeči nepíšeme uvozovky. | ano | Uvozovky patří jen k přímé řeči.
+mc | Převeď na přímou řeč: Kamarád se ptal, kolik je hodin. | Kamarád se ptal: „kolik je hodin.“; *Kamarád se ptal: „Kolik je hodin?“; Kamarád se ptal, „Kolik je hodin?“; Kamarád se ptal kolik je hodin? | Otázka v přímé řeči končí otazníkem uvnitř uvozovek.

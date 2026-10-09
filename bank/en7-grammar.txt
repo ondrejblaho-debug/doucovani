@@ -1,0 +1,164 @@
+# Angličtina – gramatika (vlastní úlohy, úroveň A1–A2)
+
+@topic en7-present
+@diff 1
+mc | Choose: „My brother ___ in a bank.“ | work; *works; working; is work | Přítomný čas prostý, 3. osoba j. č. (he/she/it) → sloveso + -s: works.
+mc | Choose: „Listen! The baby ___.“ | cries; cry; *is crying; crying | „Listen!“ = děje se to právě teď → přítomný čas průběhový: is crying.
+mc | Choose: „We ___ to the cinema every Friday.“ | *go; goes; are going; going | Every Friday = pravidelně → přítomný čas prostý. We → bez -s: go.
+mc | Choose: „___ your sister like pizza?“ | Do; *Does; Is; Are | Otázka v přítomném čase prostém, 3. osoba j. č. → Does … like?
+mc | Choose: „I ___ like horror films.“ | doesn't; *don't; am not; not | Zápor v přítomném čase prostém: I don't like (do not).
+mc | Choose: „Look! It ___ outside.“ | snows; snow; *is snowing; snowing | Look! → právě teď → is snowing.
+mc [2] | Which sentence is correct? | She always is late.; *She is always late.; Always she is late.; She is late always. | Příslovce častosti stojí ZA slovesem „be“ (is always), ale PŘED ostatními slovesy (she always goes).
+mc [2] | Which sentence is correct? | *He never eats meat.; He eats never meat.; Never he eats meat.; He never eat meat. | Příslovce častosti před významovým slovesem, 3. os. j. č. → eats.
+gap | Doplň správný tvar. | What {are you doing|do you do|you are doing} right now? I'm reading. | Right now = teď → průběhový čas: What are you doing?
+gap | Doplň správný tvar. | The sun {rises|is rising|rise} in the east. | Obecná pravda (platí vždy) → přítomný čas prostý: The sun rises.
+gap | Doplň správný tvar. | My dad {watches|watchs|watch} the news every evening. | Po -ch, -sh, -s, -x, -o přidáváme -es: watches, goes, washes.
+text | Napiš tvar slovesa „study“ pro „she“ v přítomném čase prostém: She ___ English. | studies | Souhláska + y → -ies: study → studies (ale play → plays).
+text | Napiš správný tvar slovesa v závorce: „I can't talk now, I ___ (have) dinner.“ | am having; 'm having | Teď → průběhový čas. Have u jídla (have dinner) může být v průběhovém čase: I am having dinner.
+mc [2] | Choose: „I ___ the answer.“ (rozumím, vím) | am knowing; *know; knowing; am know | Slovesa jako know, like, want, understand se běžně v průběhovém čase nepoužívají: I know.
+yn | Je věta správně? „She don't speak French.“ | ne | Správně: She doesn't speak French. (3. osoba j. č. → doesn't)
+order | Seřaď slova do správné otázky. | Where; does; your; aunt; live; ? | Otázka: tázací slovo + does + podmět + sloveso: Where does your aunt live?
+mc [2] | Choose: „How often do you play tennis?“ – „___“ | Yes, I do.; *Twice a week.; I'm playing now.; At the park. | How often = jak často → odpověď: twice a week (dvakrát týdně).
+
+@topic en7-past
+@diff 1
+mc | Past simple of „see“ is | seed; *saw; seen; sees | see – saw – seen (nepravidelné sloveso).
+mc | Past simple of „write“ is | writed; *wrote; writes; written | write – wrote – written.
+mc | Choose: „We ___ in Italy last summer.“ | are; *were; was; been | Minulý čas slovesa be: I/he/she/it was, we/you/they were.
+mc | Choose: „___ you visit your grandma yesterday?“ | Do; *Did; Was; Were | Otázka v minulém čase prostém: Did + podmět + základní tvar slovesa.
+mc | Choose: „She didn't ___ the bus.“ | caught; *catch; catches; catching | Po didn't je vždy základní tvar slovesa: didn't catch.
+mc | Choose: „I ___ my keys two days ago.“ | lose; *lost; losed; have lose | Two days ago → minulý čas: lose – lost.
+gap | Doplň správný tvar. | Yesterday I {bought|buyed|buy} a new bike. | buy – bought – bought.
+gap | Doplň správný tvar. | They {stopped|stoped|stopt} the car at the corner. | Krátké sloveso končící souhláska–samohláska–souhláska zdvojuje koncovou souhlásku: stop → stopped.
+gap | Doplň správný tvar. | The film {was|were|did} very funny. | The film = it → was.
+text | Napiš minulý čas slovesa „go“. | went | go – went – gone.
+text | Napiš minulý čas slovesa „take“. | took | take – took – taken.
+text | Napiš minulý čas slovesa „eat“. | ate | eat – ate – eaten.
+text | Napiš minulý čas slovesa „carry“. | carried | Souhláska + y → -ied: carry → carried (ale play → played).
+match | Spoj základní tvar s minulým časem. | come => came; give => gave; think => thought; drink => drank; teach => taught | Nepravidelná slovesa je třeba se naučit nazpaměť.
+mc [2] | Which sentence is correct? | Did she went to school?; *Did she go to school?; Does she went to school?; Went she to school? | V otázce s did je základní tvar: Did she go …?
+mc [2] | Choose: „When I was six, I ___ swim.“ | can't; *couldn't; didn't can; wasn't can | Minulý čas od can = could, zápor couldn't.
+yn | Je věta správně? „We didn't saw the match.“ | ne | Po didn't je základní tvar: We didn't see the match.
+
+@topic en7-have-there
+@diff 1
+mc | Choose: „She ___ two cousins.“ | have got; *has got; is got; haves got | He/she/it → has got; I/you/we/they → have got.
+mc | Choose: „___ you got a pet?“ | Do; Has; *Have; Are | Otázka s have got: Have you got …?
+mc | Choose: „There ___ a lot of milk in the fridge.“ | are; *is; have; has | Milk je nepočitatelné → jednotné číslo: there is.
+mc | Choose: „There ___ three windows in my room.“ | is; *are; has; have | Množné číslo (three windows) → there are.
+mc | Choose: „Is there ___ bread?“ | some; *any; a; many | V otázkách a záporech obvykle any: Is there any bread?
+mc | Choose: „I'd like ___ water, please.“ | any; *some; many; a | V kladné větě a v nabídce/prosbě: some.
+mc | Choose: „How ___ apples do you need?“ | much; *many; lot; some | Apples se dají počítat → how many. Nepočitatelné (water, money) → how much.
+mc | Choose: „We haven't got ___ time.“ | many; *much; a; few | Time je zde nepočitatelné → much (v záporu).
+gap | Doplň. | {Is there|Are there|There is} a bank near here? | Otázka: Is there …? (jednotné číslo)
+gap | Doplň. | My grandparents {haven't got|hasn't got|don't got} a car. | They → haven't got.
+mc [2] | Which word is uncountable (nepočitatelné)? | chair; apple; *information; egg | Information je v angličtině nepočitatelné: some information (ne an information).
+mc [2] | Choose: „There aren't ___ students in the classroom.“ | some; *any; much; a | Zápor + množné číslo → any.
+text | Doplň jedno slovo: „___ there any juice left?“ | Is | Juice je nepočitatelné → Is there any juice?
+yn | Je věta správně? „There is two dogs in the garden.“ | ne | Two dogs = množné číslo → There are two dogs.
+
+@topic en7-comparatives
+@diff 1
+mc | Comparative of „happy“ is | more happy; *happier; happyer; happiest | Souhláska + y → -ier: happy → happier.
+mc | Superlative of „good“ is | goodest; most good; better; *best | good – better – best (nepravidelné).
+mc | Comparative of „bad“ is | badder; *worse; worst; more bad | bad – worse – worst.
+mc | Choose: „This book is ___ than that one.“ | interesting; *more interesting; most interesting; interestinger | Dlouhá přídavná jména (3+ slabiky) → more + přídavné jméno.
+mc | Choose: „Mount Everest is the ___ mountain in the world.“ | higher; high; *highest; most high | „The … in the world“ → 3. stupeň: the highest.
+gap | Doplň. | My dog is {smaller|more small|smallest} than your dog. | Krátké přídavné jméno → -er + than: smaller than.
+gap | Doplň. | Today is {hotter|hoter|more hot} than yesterday. | hot → hotter (zdvojení t).
+gap | Doplň. | Tom is as tall {as|than|like} his father. | Stejně jako = as … as: as tall as.
+text | Napiš 2. stupeň přídavného jména „far“. | farther; further | far – farther/further – farthest/furthest.
+text | Napiš 3. stupeň přídavného jména „big“ i se členem (např. the …). | the biggest | big → the biggest (zdvojení g, se superlativem používáme the).
+mc [2] | Which sentence is correct? | She is more taller than me.; *She is taller than me.; She is taller as me.; She is tallest than me. | Buď -er, nebo more – nikdy obojí. Srovnání: than.
+mc [2] | Choose: „It was the ___ day of my life!“ | worse; badest; *worst; most bad | Superlativ od bad: the worst.
+
+@topic en7-prepositions
+@diff 1
+mc | Choose: „My birthday is ___ May.“ | on; at; *in; to | Měsíce, roky, roční období → in: in May, in 2027, in summer.
+mc | Choose: „The lesson starts ___ 8 o'clock.“ | in; on; *at; by | Přesný čas → at: at 8 o'clock.
+mc | Choose: „We have PE ___ Monday.“ | in; *on; at; by | Dny a data → on: on Monday, on 5th May.
+mc | Choose: „I don't go out ___ night.“ | in; on; *at; by | Ustálené spojení: at night (ale in the morning).
+mc | Choose: „The cat is sleeping ___ the bed.“ (pod) | on; *under; above; in | Under = pod.
+mc | Choose: „The bank is ___ the post office and the café.“ (mezi dvěma) | among; *between; next; opposite | Between = mezi dvěma věcmi.
+mc | Choose: „There's a picture ___ the wall.“ | in; *on; at; of | Na stěně = on the wall.
+gap | Doplň. | I usually read {in|on|at} the evening. | in the morning / in the afternoon / in the evening, ale at night.
+gap | Doplň. | We met {at|in|on} the bus stop. | Konkrétní bod / místo setkání → at the bus stop.
+gap | Doplň. | She lives {in|on|at} London. | Města a státy → in: in London, in the Czech Republic.
+mc [2] | Choose: „The shop is open ___ 9 a.m. ___ 6 p.m.“ | *from … to; since … to; at … to; on … till | Od … do = from … to (until).
+mc [2] | Choose: „Where's the car?“ – „It's ___ the house.“ (za) | in front of; *behind; opposite; between | Behind = za. In front of = před.
+match | Spoj předložku s českým významem. | next to => vedle; opposite => naproti; in front of => před; above => nad | next to – vedle, opposite – naproti, in front of – před, above – nad.
+yn | Je věta správně? „See you in Friday!“ | ne | Dny v týdnu → on: See you on Friday!
+
+@topic en7-questions
+@diff 1
+mc | Choose the question word: „___ is your teacher?“ – „Mrs Smith.“ | What; *Who; Where; Whose | Who = kdo (ptáme se na osobu).
+mc | Choose: „___ do you go to school?“ – „By bus.“ | What; Where; *How; When | How = jak (jakým způsobem).
+mc | Choose: „___ bag is this?“ – „It's Peter's.“ | Who; Who's; *Whose; Which | Whose = čí. (Who's = who is.)
+mc | Choose: „___ is the T-shirt?“ – „It's £12.“ | How many; *How much; How long; What | Cena → How much is it?
+mc | Choose: „___ are you crying?“ – „Because I'm sad.“ | What; *Why; Where; How | Why = proč, odpověď because.
+mc [2] | Choose: „You're from Prague, ___?“ | are you; *aren't you; don't you; isn't it | Dovětek: kladná věta → záporný dovětek se stejným slovesem: You are …, aren't you?
+mc [2] | Choose: „She likes chocolate, ___?“ | isn't she; doesn't it; *doesn't she; does she | Přítomný čas prostý → pomocné does; kladná věta → záporný dovětek: doesn't she?
+mc [2] | Choose: „They didn't come, ___?“ | didn't they; *did they; do they; weren't they | Záporná věta → kladný dovětek: did they?
+order | Seřaď slova do otázky. | What; time; did; you; get; up; ? | Minulý čas: What time + did + you + get up?
+order | Seřaď slova do otázky. | Are; you; going; to; the; party; ? | Are you going to the party?
+gap | Doplň. | {Who|Whom|Which} wrote this letter? – My aunt did. | Ptáme se na podmět (kdo to udělal) → bez do/did: Who wrote …?
+text | Doplň tázací slovo: „___ old is your brother?“ – „He's fourteen.“ | How | How old = kolik je let.
+mc | Choose: „___ do you live?“ – „In Prague.“ | When; *Where; What; Who | Where = kde.
+yn | Je otázka správně? „Where you live?“ | ne | Chybí pomocné sloveso: Where do you live?
+
+@topic en7-nouns
+@diff 1
+mc | Choose: „I saw ___ elephant at the zoo.“ | a; *an; the; – | Před samohláskovou výslovností → an: an elephant.
+mc | Choose: „She is ___ university student.“ | an; *a; the; – | University se vyslovuje „ju-“ (souhláska) → a university.
+mc | Choose: „We usually have breakfast at 7.“ – před „breakfast“ je | a; the; *žádný člen; an | Jídla dne (breakfast, lunch, dinner) bývají bez členu.
+mc | Plural of „foot“ is | foots; *feet; feets; footes | foot – feet, tooth – teeth, goose – geese.
+mc | Plural of „woman“ is | womans; womens; *women; woman | woman – women, man – men.
+mc | Plural of „box“ is | boxs; *boxes; boxies; boxen | Po -x, -s, -ch, -sh → -es: boxes.
+mc [2] | Plural of „knife“ is | knifes; *knives; knive; knifies | -fe/-f se často mění na -ves: knife → knives, leaf → leaves (ale roof → roofs).
+gap | Doplň. | This is my {sister's|sisters|sister} room. | Přivlastňovací pád jednotného čísla: 's → my sister's room.
+gap | Doplň. | The {children's|childrens'|childrens} toys are everywhere. | Nepravidelné množné číslo (children) + 's: children's.
+gap | Doplň. | Can you help {me|I|my}? | Po slovesu je předmětový tvar zájmena: me, him, her, us, them.
+gap | Doplň. | Is this {your|you|yours} pen? | Před podstatným jménem přivlastňovací zájmeno: my, your, his, her, our, their.
+mc | Choose: „___ shoes over there are mine.“ | This; That; *Those; These | Daleko (over there) + množné číslo → those.
+text | Napiš množné číslo slova „baby“. | babies | Souhláska + y → -ies: babies.
+text | Napiš množné číslo slova „sheep“. | sheep | Sheep, fish, deer mají v množném čísle stejný tvar.
+
+@topic en7-modals-future
+@diff 1
+mc | Choose: „You ___ wear a helmet when you ride a bike. It's the rule.“ | can; *must; mustn't; could | Povinnost/pravidlo → must.
+mc | Choose: „You ___ use your phone during the test.“ (je to zakázáno) | *mustn't; don't have to; can; should | Zákaz → mustn't. Don't have to = nemusíš.
+mc | Choose: „Tomorrow is Saturday, so I ___ get up early.“ | mustn't; *don't have to; can't; haven't to | Nemusím (není to nutné) → don't have to.
+mc | Choose: „You look tired. You ___ go to bed.“ | *should; mustn't; can't; are | Rada → should.
+mc | Choose: „Look at those clouds! It ___ rain.“ | *is going to; goes to; will to; going | Vidíme důkaz (mraky) → be going to.
+mc | Choose: „Next summer we ___ visit Spain.“ (máme to v plánu) | visit; *are going to; go to; will to | Plán do budoucna → be going to.
+gap | Doplň. | {Can|Must|Should} you swim? – Yes, I can. | Schopnost (umíš?) → can.
+gap | Doplň. | I'm hungry. I {am going to|going to|go to} make a sandwich. | Úmysl → am going to + sloveso.
+gap | Doplň. | {Could|Can|Must} you open the window, please? | Zdvořilá prosba → Could you …?
+mc [2] | Which sentence is correct? | She cans dance.; She can to dance.; *She can dance.; She can dances. | Po can je základní tvar bez to a bez -s: She can dance.
+mc [2] | Choose: „___ I borrow your pencil?“ – „Of course.“ | Must; *Can; Should; Am | Žádost o dovolení → Can I …? / May I …?
+text | Doplň jedno slovo: „He ___ going to buy a new phone.“ | is | He is going to …
+
+
+@topic en7-comparatives
+@diff 2
+mc | Choose: „Prague is ___ city in the Czech Republic.“ | the larger; *the largest; larger; the most large | Největší ze všech → superlativ: the largest.
+text | Doplň správný tvar: „My new phone is ___ than my old one.“ (GOOD) | better | good – better – best.
+yn | Je věta správně? „This exercise is more easy than the last one.“ | ne | Dvouslabičná přídavná jména na -y stupňujeme -ier: easier than.
+
+@topic en7-modals-future
+@diff 2
+mc | Choose: „I think it ___ be sunny tomorrow.“ (předpověď, názor) | *will; is going; must; can | Předpověď s „I think“ → will.
+text | Doplň jedno slovo: „You ___ eat in the library. It's forbidden.“ | mustn't; must not; can't; cannot | Zákaz: mustn't (nebo can't).
+mc | Choose: „When I was little, I ___ ride a bike.“ (neuměl/a jsem) | can't; *couldn't; mustn't; shouldn't | Minulá (ne)schopnost → could / couldn't.
+
+@topic en7-have-there
+mc | Choose: „Has your brother got a bike?“ – „Yes, ___.“ | he got; *he has; he does; he is | Krátká odpověď s have got: Yes, he has. / No, he hasn't.
+
+@topic en7-prepositions
+mc | Choose: „We're going on holiday ___ the 2nd of July.“ | in; *on; at; by | Datum → on: on the 2nd of July.
+
+@topic en7-questions
+mc | Choose: „___ subject do you like more, history or biology?“ | What; *Which; Who; Whose | Výběr z omezeného počtu možností → which.
+
+@topic en7-nouns
+mc | Choose: „Is this book ___?“ – „No, it isn't mine.“ | your; *yours; you; your's | Samostatné přivlastňovací zájmeno (bez podstatného jména): mine, yours, his, hers, ours, theirs.

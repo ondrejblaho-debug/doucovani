@@ -1,0 +1,111 @@
+# Angličtina – čtení a poslech (vlastní texty)
+
+@passage en-r1 E-mail from a new friend
+Hi Tereza,
+
+My name is Molly and I'm your new e-mail friend from Leeds, a city in the north of England. I'm twelve and I've got a younger brother, Sam. He's eight and he loves dinosaurs.
+
+I go to Hillside School. It's a big school with nine hundred students. My favourite subjects are art and science, but I don't like maths very much. School starts at a quarter to nine and finishes at half past three. After school I usually go swimming on Mondays and Wednesdays. On Saturdays I help my aunt in her small café.
+
+Last weekend we visited my grandparents in Scotland. We went by train and it took five hours! It rained all the time, but we had a great time.
+
+What about you? Have you got any brothers or sisters? Write soon!
+
+Molly
+@end
+
+@passage en-r2 Lost and found
+FOUND IN CITY PARK – Sunday 14th March
+
+A small brown dog with a red collar. He is very friendly and he likes children. He hasn't got a name tag, but he has got a white spot on his left ear. We are looking after him at the moment.
+
+If he is your dog, please call Martin on 0771 465 230 (after 5 p.m.) or come to 12 Green Street. Please bring a photo of your dog.
+
+No reward needed – we just want him to go home!
+@end
+
+@passage en-r3 A day at the science museum
+Last Friday our class didn't have normal lessons. Instead, we went to the Science Museum. We met at school at eight o'clock and travelled there by bus. The journey was short, only forty minutes.
+
+First, we saw a show about electricity. A man made his hair stand up with a big metal ball – everybody laughed. Then we went to the space room. You can sit in a real rocket there, but only four people at a time, so we waited for twenty minutes. My friend Jakub was a bit scared, but I loved it.
+
+We had lunch in the museum café. The food was expensive, so most of us ate our own sandwiches outside in the garden. In the afternoon we made simple robots in a workshop. Mine didn't work at first, but the teacher helped me.
+
+We came back to school at four. I was tired but happy. Next year I want to go there again with my parents.
+@end
+
+@passage en-r4 Village or city?
+Ruby (13): I live in a small village. There isn't a cinema or a shopping centre, but there are fields and a river where I go fishing with my dad. The worst thing is the bus: there are only three buses a day, so I often ask my mum to drive me to my friends. It's very quiet here and I like that.
+
+Leo (14): I live in the centre of a big city. I can walk to school in ten minutes, and there are lots of things to do – I go to a climbing centre twice a week. But the city is noisy and there aren't many green places. In the future I'd like to live near the sea.
+
+Hana (12): We moved from a city to a village last year. At first I was sad because I missed my friends, but now I've got a horse! I still visit the city every month to see my grandma.
+@end
+
+@topic en7-reading
+@diff 2
+mc@en-r1 | How old is Molly's brother? | twelve; *eight; nine; five | „He's eight and he loves dinosaurs.“
+mc@en-r1 | Which subject doesn't Molly like very much? | art; science; *maths; English | „…but I don't like maths very much.“
+mc@en-r1 | What time does Molly's school finish? | at 2:45; *at 3:30; at 8:45; at 3:15 | „…finishes at half past three“ = 3:30.
+mc@en-r1 | What does Molly do on Saturdays? | She goes swimming.; *She helps in a café.; She visits Scotland.; She plays with dinosaurs. | „On Saturdays I help my aunt in her small café.“
+mc@en-r1 | „The weather in Scotland was good.“ | True; *False; Not given | „It rained all the time“ → nepravda (False).
+mc@en-r1 | „Molly's grandparents have got a dog.“ | True; False; *Not given | O psovi prarodičů text nic neříká → Not given (informace v textu není).
+mc@en-r2 | Where did somebody find the dog? | in Green Street; *in City Park; at school; near the river | „FOUND IN CITY PARK“.
+mc@en-r2 | How can you recognise the dog? | It has got a name tag.; It's black and white.; *It has got a white spot on one ear.; It doesn't like children. | „…he has got a white spot on his left ear.“
+mc@en-r2 | When can you phone Martin? | in the morning; at lunchtime; *after five o'clock; only on Sunday | „please call Martin … (after 5 p.m.)“.
+mc@en-r2 | „The owner gets money for the dog.“ – Ve skutečnosti: | The owner must pay money.; *Nobody wants money.; Martin wants a reward.; The text doesn't say. | „No reward needed“ = žádná odměna není potřeba.
+mc@en-r3 | How did the class travel to the museum? | by train; on foot; *by bus; by car | „…travelled there by bus“.
+mc@en-r3 | Why did the students wait in the space room? | The rocket was broken.; *Only four people could sit in the rocket at a time.; The teacher was late.; They had lunch. | „…only four people at a time, so we waited for twenty minutes.“
+mc@en-r3 | Why did most students eat outside? | It was sunny.; *The café food was expensive.; The café was closed.; The teacher told them to. | „The food was expensive, so most of us ate our own sandwiches outside in the garden.“
+mc@en-r3 | „The writer's robot worked well immediately.“ | True; *False; Not given | „Mine didn't work at first“ → False.
+mc@en-r3 | „Jakub liked the electricity show the most.“ | True; False; *Not given | Text říká jen, že se všichni smáli; co měl Jakub nejradši, neuvádí → Not given.
+mc@en-r3 | How long were they away from school? | four hours; six hours; *eight hours; forty minutes | Sraz v 8:00, návrat ve 4 odpoledne (16:00) → 8 hodin.
+mc@en-r4 | Who has got problems with transport? | Leo; *Ruby; Hana; nobody | Ruby: „there are only three buses a day“.
+mc@en-r4 | Who does a sport twice a week? | Ruby; *Leo; Hana; Ruby and Hana | Leo: „I go to a climbing centre twice a week.“
+mc@en-r4 | Who was unhappy about moving at first? | Ruby; Leo; *Hana; nobody | Hana: „At first I was sad because I missed my friends“.
+mc@en-r4 | Where would Leo like to live one day? | in a village; in the city centre; *near the sea; in the mountains | „In the future I'd like to live near the sea.“
+mc@en-r4 | „Ruby goes fishing alone.“ | True; *False; Not given | „…where I go fishing with my dad“ → False.
+
+@listen en-l1 Poslech 1: Announcement at the station
+Good morning, ladies and gentlemen. The train to Manchester at ten fifteen is late. It will leave at ten forty-five from platform four. Platform four. Passengers for Liverpool, please change at Manchester. The café on platform one is closed today. We are sorry for the delay.
+@end
+
+@listen en-l2 Poslech 2: A phone message
+Hi Daniel, it's Emma. Listen, the football match on Saturday is cancelled because the pitch is wet. But we can go to the cinema instead! The film starts at six o'clock. Tickets are seven pounds. Meet me in front of the cinema at a quarter to six. And please bring my blue umbrella – I left it at your house. Bye!
+@end
+
+@listen en-l3 Poslech 3: In a shop
+Assistant: Hello, can I help you?
+Boy: Yes, I'm looking for a present for my sister. It's her birthday tomorrow.
+Assistant: How old is she?
+Boy: She's ten. She likes drawing.
+Assistant: What about these pencils? There are twenty-four colours.
+Boy: How much are they?
+Assistant: Eight pounds fifty.
+Boy: Hmm, that's a bit expensive. Have you got anything cheaper?
+Assistant: This sketchbook is four pounds.
+Boy: Great, I'll take it. And a card, please.
+@end
+
+@listen en-l4 Poslech 4: My weekend
+Last weekend was really busy. On Saturday morning I had a piano lesson, and in the afternoon I went to the swimming pool with my cousin. In the evening we watched a film at home and ate pizza. On Sunday it was sunny, so my family went to the mountains. We walked for three hours and saw a deer! I was very tired, so I went to bed at nine.
+@end
+
+@topic en7-listening
+@diff 2
+mc@en-l1 | What time will the Manchester train leave? | 10:15; *10:45; 10:40; 11:15 | „It will leave at ten forty-five“ = 10:45.
+mc@en-l1 | Which platform? | one; two; *four; fourteen | „from platform four“.
+mc@en-l1 | What is closed today? | platform four; *the café; the ticket office; the train to Liverpool | „The café on platform one is closed today.“
+mc@en-l1 | „Passengers for Liverpool must change trains.“ | *True; False; Not given | „Passengers for Liverpool, please change at Manchester.“
+mc@en-l2 | Why is the football match cancelled? | It's raining.; *The pitch is wet.; Emma is ill.; The cinema is open. | „…cancelled because the pitch is wet.“
+mc@en-l2 | Where will they meet? | at Daniel's house; at the football pitch; *in front of the cinema; at the station | „Meet me in front of the cinema“.
+mc@en-l2 | What time will they meet? | 6:00; 6:15; *5:45; 5:15 | „at a quarter to six“ = 5:45.
+mc@en-l2 | What must Daniel bring? | tickets; *an umbrella; a football; seven pounds for Emma | „please bring my blue umbrella“.
+mc@en-l3 | Who is the present for? | his mother; *his sister; his friend; his cousin | „a present for my sister“.
+mc@en-l3 | How much are the pencils? | £4; £8; *£8.50; £24 | „Eight pounds fifty.“
+mc@en-l3 | What does the boy buy? | the pencils; *a sketchbook and a card; only a card; nothing | Prodavač nabídne skicák za 4 libry („This sketchbook is four pounds“), chlapec odpoví „Great, I'll take it. And a card, please.“
+mc@en-l3 | „The sister's birthday is today.“ | True; *False; Not given | „It's her birthday tomorrow.“
+mc@en-l4 | What did the speaker do on Saturday afternoon? | had a piano lesson; *went swimming; went to the mountains; watched a film | „in the afternoon I went to the swimming pool“.
+mc@en-l4 | What animal did they see? | a bear; a fox; *a deer; a horse | „…and saw a deer!“
+mc@en-l4 | How long did they walk? | two hours; *three hours; nine hours; all day | „We walked for three hours“.
+mc@en-l4 | „The weather on Sunday was bad.“ | True; *False; Not given | „On Sunday it was sunny“ → False.

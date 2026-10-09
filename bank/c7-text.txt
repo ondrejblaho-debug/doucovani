@@ -1,0 +1,133 @@
+# ČEŠTINA 7 – texty, sloh, literatura, strategie
+@passage c7p1 Městské včely
+Na střechách několika brněnských budov dnes stojí včelí úly. Městské včelaření se rozšířilo v posledních letech a jeho zastánci tvrdí, že včely se ve městě mají lépe než na venkově. V parcích, zahradách a na balkonech totiž kvete během roku mnoho různých rostlin, zatímco na rozsáhlých polích s jedinou plodinou mají včely potravu jen krátce. Kritici však upozorňují, že příliš mnoho úlů na malém území může ohrozit divoké opylovače, například čmeláky a samotářské včely, protože jim medonosné včely konkurují v hledání nektaru.
+Odborníci se shodují alespoň v jednom: chceme-li pomoci všem opylovačům, nestačí stavět úly. Je třeba vysazovat kvetoucí rostliny a nechávat část trávníků neposekanou.
+@end
+@passage c7p2 Výsledky ankety
+V anketě odpovídalo 200 žáků druhého stupně na otázku, jak nejčastěji tráví volný čas.
+sport: 70 žáků
+počítačové hry: 54 žáků
+četba: 26 žáků
+setkávání s přáteli: 40 žáků
+jiné: 10 žáků
+@end
+@passage c7p3 Reklama
+SUPERFIT JOGURT – JEDINÝ JOGURT, KTERÝ VÁS NAKOPNE!
+Devět z deseti spokojených zákazníků doporučuje! Vědci potvrzují: obsahuje vápník.* Kupte dnes, zítra může být pozdě!
+* Vápník obsahuje většina mléčných výrobků.
+@end
+@passage c7p4 Definice
+Ostrov je část pevniny obklopená ze všech stran vodou, která je menší než pevnina kontinentu. Poloostrov je část pevniny obklopená vodou ze tří stran, která je s pevninou spojena.
+@end
+@passage c7p5 Úryvek
+Hrom zaburácel tak, že se okenní tabulky zachvěly. Babička se pokřižovala a zapálila hromničku. „To se zlobí nebe,“ řekla tiše. Barunka se k ní přitiskla a dívala se, jak se po skle kutálejí obrovské kapky. Za chvíli však bouře přešla, z mraků vykouklo slunce a nad lesem se rozepjala duha.
+@end
+
+@topic c7-porozumeni-textu
+@diff 2
+yng@c7p1 | Rozhodni, zda tvrzení odpovídá textu. | Ve městě kvete během roku více druhů rostlin než na poli s jedinou plodinou.=A; Kritici městského včelaření chtějí úplně zakázat včely ve městech.=N; Medonosné včely mohou konkurovat čmelákům.=A; Podle odborníků stačí na pomoc všem opylovačům postavit dost úlů.=N | Zákaz text nezmiňuje; odborníci říkají, že úly NESTAČÍ.
+mc@c7p1 | Které tvrzení z textu jednoznačně vyplývá? | Městské včely dávají více medu.; *Na střechách některých brněnských budov jsou úly.; Čmeláci ve městě vymřeli.; Venkovské včely jsou nemocné. | Jen tato informace je v textu přímo uvedena.
+mc@c7p1 [3] | Na čem se podle textu shodují odborníci? | že městské včelaření je škodlivé; že ve městě má být více úlů; *že pro pomoc opylovačům nestačí stavět úly; že čmeláci nepotřebují nektar | Viz poslední odstavec: „nestačí stavět úly“.
+mc@c7p1 | Co text radí udělat pro všechny opylovače? | stavět jen úly; *vysazovat kvetoucí rostliny a část trávníků nesekat; zrušit parky; chovat čmeláky doma | Viz poslední věta textu.
+num@c7p2 | Kolik procent žáků uvedlo sport? | 35 | 70 z 200 = 70/200 = 35 %. | %
+num@c7p2 [2] | O kolik žáků více uvedlo počítačové hry než četbu? | 28 | 54 − 26 = 28. | žáků
+yng@c7p2 [2] | Rozhodni, zda tvrzení odpovídá výsledkům ankety. | Méně než čtvrtina žáků uvedla počítačové hry.=N; Četbu uvedlo 13 % žáků.=A; Sport a setkávání s přáteli dohromady uvedlo více než polovina žáků.=A; Nejméně žáků uvedlo četbu.=N | 54/200 = 27 % > 25 %; 26/200 = 13 %; 110/200 > 1/2; nejméně je „jiné“ (10).
+mc@c7p3 [2] | Která informace v reklamě je zavádějící? | jogurt se jmenuje Superfit; *vápník je uveden jako zvláštnost, ačkoli ho obsahuje většina mléčných výrobků; jogurt je mléčný výrobek; reklama je psaná velkými písmeny | Reklama vydává běžnou vlastnost za výjimečnou.
+mc@c7p3 [2] | Co má vyvolat věta „Kupte dnes, zítra může být pozdě!“? | informovat o ceně; *pocit naléhavosti, aby zákazník neváhal; popsat složení; poděkovat zákazníkům | Jde o manipulativní výzvu, která tlačí ke koupi.
+yn@c7p3 | Z reklamy vyplývá, že jogurt je opravdu jediný, který „nakopne“. | ne | Jde o reklamní tvrzení bez důkazu.
+mc@c7p4 | Podle definice je poloostrov | obklopen vodou ze všech stran; *obklopen vodou ze tří stran a spojen s pevninou; větší než kontinent; jezero | Viz druhá věta definice.
+yn@c7p4 [2] | Podle uvedené definice je Grónsko ostrov, pokud je obklopeno vodou ze všech stran a je menší než pevnina kontinentu. | ano | Splňuje obě podmínky definice ostrova.
+mc@c7p4 [2] | Co z definic NEVYPLÝVÁ? | ostrov je obklopen vodou ze všech stran; poloostrov je spojen s pevninou; *každý poloostrov je větší než ostrov; ostrov je menší než kontinent | O velikosti poloostrova definice nic neříká.
+mc@c7p5 | Kde se odehrává úryvek nejpravděpodobněji? | ve městě v obchodě; *ve stavení během bouřky; na lodi; ve škole | Okenní tabulky, babička a hromnička – v domě.
+mc@c7p5 [2] | Jak se během úryvku mění nálada? | z veselé na smutnou; *z napjaté (bouřka) na klidnou (duha); stále stejně napjatá; ze smutné na zlostnou | Bouře přejde a objeví se duha.
+
+@topic c7-fakta-nazory
+@diff 2
+yng | Rozhodni, zda jde o fakt (A), nebo o názor (N). | Brno leží na soutoku Svratky a Svitavy.=A; Brněnské nádraží je ostudou města.=N; Voda se skládá z vodíku a kyslíku.=A; Letní prázdniny jsou příliš dlouhé.=N | Fakta lze ověřit, názory hodnotí.
+mc | Která věta vyjadřuje názor? | Kniha má 320 stran.; *Kniha je zbytečně dlouhá.; Kniha vyšla v roce 2020.; Autorkou je Iva Procházková. | „Zbytečně dlouhá“ je hodnocení.
+mc | Co je hlavním záměrem reklamy? | pobavit čtenáře; *přesvědčit ke koupi; objektivně informovat; vyprávět příběh | Reklama chce, abychom si něco koupili.
+mc [2] | Která věta je manipulativní? | Výrobek stojí 129 Kč.; *Každá chytrá maminka už ho používá!; Výrobek obsahuje 20 % ovoce.; Prodává se v balení po 4 kusech. | Věta vyvolává pocit, že kdo výrobek nemá, není „chytrý“.
+mc | Jaká je funkce zpravodajského textu? | bavit; *informovat; přesvědčit; dojmout | Zpráva informuje o událostech.
+mc | Jaká je funkce úvahy? | jen informovat; *zamýšlet se nad problémem a vyjádřit názor; prodat výrobek; popsat cestu | Úvaha hodnotí a přemýšlí.
+mc [2] | Komunikační záměr věty „Nemohl bys prosím zavřít okno?“ je | otázka na schopnost; *zdvořilá žádost; rozkaz bez zdvořilosti; přání | Formou je to otázka, ale záměrem je žádost.
+mc [2] | Komunikační záměr věty „Tady je ale zima!“ pronesené u otevřeného okna může být | pochvala; *nepřímá prosba, aby někdo zavřel okno; otázka; pozdrav | Mluvčí naznačuje, co by chtěl.
+yn | Věta „Podle meteorologů zítra napadne 10 cm sněhu.“ je předpověď, kterou dnes nelze s jistotou ověřit. | ano | Jde o předpověď – fakt to bude až zítra.
+mc | Ve kterém textu převládají fakta? | v recenzi filmu; *v encyklopedickém hesle; v reklamě; v úvaze | Encyklopedie podává ověřitelné údaje.
+mc [2] | Text: „Nová cyklostezka je dlouhá 8 km. Podle mě je to nejlepší investice města za posledních deset let.“ Který díl je názor? | celý text; *druhá věta; první věta; žádný | „Podle mě…“ uvozuje názor.
+mc | Které slovo nejvíce prozrazuje, že jde o hodnocení? | kilometr; *úžasný; leží; pondělí | Úžasný je hodnoticí výraz.
+mc [3] | Které tvrzení je pouhá domněnka? | Teploměr ukazuje 30 °C.; *Soused asi odjel na dovolenou, protože má zatažené žaluzie.; Dnes je středa.; Obchod otevírá v 8.00. | Zatažené žaluzie nejsou důkaz – je to dohad.
+mc | Hlavní myšlenku textu nejlépe vystihuje | nejdelší věta; *stručné shrnutí toho, co chce text sdělit; první slovo; počet odstavců | Hlavní myšlenka = podstata sdělení.
+mc [2] | Pro koho je nejspíš určen text s nadpisem „Jak si vyrobit krmítko – návod pro malé kutily“? | pro odborníky; *pro děti; pro ptáky; pro důchodce | „Malí kutilové“ = děti.
+
+@topic c7-textova-navaznost
+@diff 2
+order | Seřaď části textu. | Nejstarší zmínky o Brně pocházejí z 11. století.; Tehdy na místě dnešního města stálo knížecí hradiště.; Ve 13. století získalo Brno městská práva.; Dnes je Brno druhým největším městem České republiky. | Chronologie: 11. století – tehdy – 13. století – dnes.
+order | Seřaď kroky postupu. | Nejprve si přečti zadání celé úlohy.; Poté si vypiš, co je dáno a co se hledá.; Teprve potom počítej.; Nakonec udělej zkoušku a zapiš odpověď. | Nejprve – poté – teprve potom – nakonec.
+mc | Doplň: „Byl unavený, ______ dokončil práci.“ | proto; *přesto; protože; tudíž | Odporovací vztah: unavený, a přesto dokončil.
+mc | Doplň: „Ceny v obchodech stouply, ______ lidé nakupují méně.“ | ačkoli; *a proto; ale; zatímco | Příčina a důsledek.
+mc [2] | Které slovo nejlépe doplníš? „Vlaštovka se na jaře vrací do Evropy. ______ zimu tráví v Africe.“ | Tu; *Tento pták; Ty; Ona tam | „Tento pták“ odkazuje na vlaštovku a vytváří souvislost.
+mc [2] | Který text je souvislý a logicky navazuje? | Šel jsem do obchodu. Venku je Měsíc. Koupil jsem mléko.; *Šel jsem do obchodu. Koupil jsem tam mléko a chléb. Pak jsem šel domů.; Mléko je bílé. Šel jsem domů. Obchod je zavřený pondělí.; Domů. Obchod. Mléko. | Druhý text má jasný sled a odkazy.
+order [2] | Seřaď odstavce úvahy. | Mnoho lidí si myslí, že sociální sítě děti jen rozptylují.; Je pravda, že trávíme-li na nich hodiny, chybí nám čas na jiné činnosti.; Na druhou stranu mohou sítě pomoci udržet kontakt s přáteli.; Záleží proto hlavně na tom, jak rozumně je používáme. | Úvod – argument – protiargument – závěr.
+mc | Doplň: „______ prší, půjdeme na procházku.“ | Protože; *I když; Aby; Proto | I když (přípustka): navzdory dešti.
+mc | Které pokračování je nejlogičtější? „Teploty klesly pod nulu a rybník zamrzl.“ | Děti se šly koupat.; *Děti vyndaly brusle.; Rostly houby.; Kvetly třešně. | Na zamrzlém rybníce se bruslí.
+mc [2] | Doplň výraz: „Ve škole proběhl sběr papíru. ______ se vybralo přes 800 kg.“ | Během něj; *Celkem; Proto; Avšak | „Celkem“ uvádí souhrnný údaj.
+order | Seřaď repliky rozhovoru. | Dobrý den, chtěla bych si půjčit knihu o astronomii.; Dobrý den, máte čtenářský průkaz?; Ano, tady je.; Děkuji, kniha je v regálu vpravo. | Pozdrav s žádostí – otázka – odpověď – informace.
+mc | Doplň: „Nejen že prohrál, ______ si ještě zranil koleno.“ | proto; *ale; protože; i když | Nejen že…, ale (i)…
+mc [3] | Která věta do textu NEPATŘÍ? „Tygr je největší kočkovitá šelma. Žije v Asii. Loví hlavně jeleny a divoká prasata. Lev žije ve smečkách. Tygr je samotář.“ | Žije v Asii.; Loví hlavně jeleny a divoká prasata.; *Lev žije ve smečkách.; Tygr je samotář. | Věta o lvu přeskakuje téma.
+mc | Doplň: „Jdi spát, ______ zítra nebudeš unavený.“ | protože; *aby; ale; ačkoli | Účel – aby.
+mc | Doplň: „Petr četl, ______ Jana malovala.“ | proto; *zatímco; protože; aby | Dva souběžné děje – spojka zatímco.
+
+@topic c7-slohove-utvary
+@diff 2
+mc | Která část NEPATŘÍ do úřední žádosti? | adresa příjemce; datum; *smajlík; podpis | Úřední žádost je formální.
+mc | Co obsahuje strukturovaný životopis? | vymyšlený příběh; *osobní údaje, vzdělání, dovednosti; reklamu; báseň | Životopis shrnuje údaje o člověku.
+mc | Co je charakteristika? | popis cesty; *popis vlastností osoby (vnějších i vnitřních); zpráva o události; návod | Charakteristika popisuje povahu a vlastnosti osoby.
+mc | Jak správně oslovíš ředitele školy v e-mailu? | Čau, řediteli,; *Vážený pane řediteli,; Ahoj Pepo,; Hej, | Úřední oslovení: Vážený pane řediteli,
+mc | Co by měla obsahovat zpráva? | vlastní pocity a dojmy; *odpovědi na otázky kdo, co, kdy, kde; dialog postav; básně | Zpráva stručně a věcně informuje.
+mc | Co je typické pro vypravování? | věcný jazyk bez děje; *děj s napětím, často přímá řeč; tabulky; odrážky | Vypravování vypráví příběh.
+mc [2] | Ve kterém útvaru se nejspíš objeví věta „Těším se na Vaši odpověď.“? | v pohádce; *v dopise či e-mailu; v receptu; v zápisu do deníku | Typický závěr dopisu nebo žádosti.
+mc [2] | Proč se v dopise píše „Vás/Vám“ s velkým V? | je to chyba; *vyjadřuje úctu k jednomu adresátovi; vždy na začátku věty; jen v básních | Velké písmeno v dopise vyjadřuje zdvořilost.
+mc | Která věta je oznamovací? | Kdy přijdeš?; *Zítra přijdu.; Přijď zítra!; Kéž bys přišel! | Oznamuje – tečka.
+mc | Jaký útvar je „Ztratil se černý kocour, odměna 500 Kč, tel. 606 111 222“? | zpráva; *inzerát; charakteristika; žádost | Krátké sdělení s kontaktem – inzerát.
+mc [2] | Do oznámení o koncertu nemusí patřit | datum; místo; *podrobný životopis všech muzikantů; čas začátku | Oznámení má být stručné.
+mc | Komu napíšeš „S pozdravem“? | kamarádovi při chatu; *do formálního dopisu; do básně; na pohled z dovolené jen babičce | „S pozdravem“ je neutrální formální závěr.
+yn | Popis pracovního postupu (návod) se obvykle píše v krocích, které jdou za sebou. | ano | Návod popisuje postup krok za krokem.
+mc [2] | Na konec věty „Nevím, jestli přijde“ patří | otazník; *tečka; vykřičník; dvojtečka | Je to oznamovací věta (nepřímá otázka) – tečka.
+mc | Vypravování má tyto části: | jen úvod; *úvod, zápletku, vyvrcholení, rozuzlení a závěr; jen nadpis a podpis; tabulku a graf | To je typická stavba vypravování.
+
+@topic c7-literatura
+@diff 2
+mc | Lyrika je | literatura s dějem; *literatura vyjadřující city a nálady (bez výrazného děje); divadelní hra; jen pohádky | Lyrika – city, dojmy.
+mc | Epika je | *literatura s dějem; jen písně; jen básně o přírodě; jen divadlo | Epika vypráví děj (próza i poezie).
+mc | Balada je | veselá báseň; *epická báseň s ponurým dějem a často tragickým koncem; krátké přísloví; komiks | Např. Erbenova Kytice.
+mc | Báje (mýtus) | je o skutečné události z novin; *vypráví o bozích a hrdinech, vysvětluje vznik světa; je recept; je reklama | Např. řecké báje o Héraklovi.
+mc | Legenda vypráví | o vymyšlených robotech; *o životě světců; o zvířatech s ponaučením; o vesmíru | Legenda – život svatých (např. sv. Václav).
+mc | Personifikace (zosobnění) je | přirovnání pomocí „jako“; *přisouzení lidských vlastností neživým věcem; opakování slov; rým | Např. „Slunce se usmívá.“
+mc | Ve verši „Vítr šeptal stromům tajemství“ je | rým; *personifikace; přirovnání; sloka | Vítr „šeptá“ jako člověk.
+mc | Sci-fi je žánr, který | vypráví pověsti; *zobrazuje budoucnost, techniku, vesmír; je o zvířatech; vysvětluje přísloví | Science fiction – vědeckofantastická literatura.
+mc | Fantasy je žánr, ve kterém | *se objevují kouzla a smyšlené světy; je jen skutečnost; jsou jen fakta; jsou jen básně | Např. Pán prstenů.
+mc | Ústní lidová slovesnost zahrnuje | romány; *říkadla, pohádky, pověsti a přísloví předávané ústně; encyklopedie; noviny | Šířila se ústně z generace na generaci.
+mc [2] | Ve verši „Byl pozdní večer – první máj“ jde o začátek díla | Kytice; *Máj; Babička; Rozmarné léto | Začátek Máchova Máje.
+mc [2] | Kdo napsal Kytici z pověstí národních? | Karel Hynek Mácha; *Karel Jaromír Erben; Božena Němcová; Jan Neruda | K. J. Erben.
+mc [2] | Kdo napsal Babičku? | *Božena Němcová; Karel Čapek; Alois Jirásek; Jan Werich | Božena Němcová.
+mc | Sloka je | jeden řádek; *skupina veršů; jméno autora; rým | Sloka = několik veršů tvořících celek.
+mc [2] | Přirovnání je ve verši | Měsíc pluje nad lesem.; *Oči jako dvě hvězdy.; Les šumí.; Lehla si do trávy. | „jako dvě hvězdy“ – přirovnání.
+mc [2] | Bajka se od pohádky liší hlavně tím, že | je delší; *zvířata v ní představují lidské vlastnosti a končí ponaučením; je vždy ve verších; nemá postavy | Typická bajka – Ezop, La Fontaine.
+
+@topic c7-strategie-testu
+@diff 1
+mc | Kolik minut trvá test z češtiny u JPZ? | 45; *60; 70; 90 | Čeština 60 minut.
+mc | Kolik úloh má zhruba test ČJL pro 7. třídu? | 16; *28; 40; 50 | Kolem 28 úloh.
+mc | Kolik bodů je maximum? | 28; *50; 100; 60 | Maximum je 50 bodů.
+mc | Co je záznamový arch? | sešit se zadáním; *list, kam zapisuješ odpovědi, které se hodnotí; tahák; slovník | Hodnotí se jen záznamový arch.
+mc | Jak se počítá výsledek, když děláš test dvakrát (dva termíny)? | průměr; součet; *lepší z obou výsledků; horší výsledek | Počítá se lepší výsledek.
+mc | Za chybnou odpověď v uzavřené úloze | se odečítají body; *se body neodečítají; se test anuluje; dostaneš pokutu | Proto tipovat se vyplatí.
+mc | U otevřených úloh dávej pozor zejména | na barvu propisky; *na pravopis a přesné splnění zadání; na délku odpovědi; na velikost písma | Pravopisná chyba může stát bod.
+mc [2] | Úloha říká „Napiš JEDNO slovo z textu“. Co uděláš? | napíšu celou větu; *napíšu přesně jedno slovo ve tvaru z textu; napíšu dvě slova pro jistotu; nenapíšu nic | Přesně podle zadání, jinak body ztratíš.
+mc [2] | V úloze ANO/NE jsou 4 tvrzení. Kolik jich musí být správně pro plný počet bodů? | 2; 3; *4 – všechna; 1 | Obvykle 4 správně = plné body, 3 = částečné, méně = 0.
+mc | Co dělat, když ti zbývá 5 minut? | začít přepisovat celý test; *zkontrolovat, zda je vše vyplněné v záznamovém archu; odejít; rozhodně nic | Nevyplněné pole = jistá nula.
+yn | Je dobré si nejdřív přečíst otázky k výchozímu textu a pak text? | ano | Víš pak, na co se při čtení soustředit. (Text si ale přečti celý.)
+yn | Je možné psát do záznamového archu tužkou a pak přetáhnout propiskou? | ne | Tužka se nehodnotí – piš propiskou rovnou a opravuj podle pokynů.
+mc | Jak dlouho máš průměrně na jednu úlohu? | 30 s; *asi 2 minuty; 5 minut; 10 minut | 60 min / 28 úloh ≈ 2 min.
+mc [2] | Řazení částí textu (např. úloha s A–F) se hodnotí | po každé části; *jen jako celek – buď vše správně, nebo 0 bodů; vždy plnými body; vůbec | Proto se vyplatí řazení pečlivě zkontrolovat.
+mc | Co si vezmeš s sebou? | slovník; mobil; *dvě propisky a doklady k přijímačkám; kalkulačku | Pomůcky: propiska. Slovník ani elektroniku ne.

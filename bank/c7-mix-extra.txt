@@ -1,0 +1,65 @@
+@topic c7-mix
+@diff 2
+gap | Doplň. | Ve stáji ržál{i|y} koně. | Koně – rod mužský životný → -i.
+gap | Doplň. | Na stromě seděl v{ý|í}r. | =výr
+mc | Ve které větě je chyba? | Viděl jsem ji ve škole.; *Dej to ji.; Bez ní nepůjdu.; Mluvil jsem s ní. | Komu? Jí – „Dej to jí.“
+mc | Jaký druh vedlejší věty je „aby nezmokl“? | časová; *účelová; příčinná; předmětná | Za jakým účelem? Aby nezmokl.
+mc | Které slovo je antonymum ke slovu „skromný“? | tichý; *namyšlený; pracovitý; chudý | Skromný × namyšlený (domýšlivý).
+yn | Je čárka správně? „Byl to, můj nejlepší kamarád.“ | ne | Čárka mezi přísudkem a jeho částí nepatří.
+mc | Jaký větný člen je „do školy“ ve větě „Jdu do školy.“? | předmět; *příslovečné určení místa; přívlastek; podmět | Kam jdu? Do školy.
+mc | Jaký je 2. stupeň příslovce „dobře“? | dobřeji; *lépe; nejlépe; líp | Dobře – lépe – nejlépe.
+mc [2] | Který zápis je správný? | Krkonošský Národní park; *Krkonošský národní park; krkonošský národní Park; Krkonošský Národní Park | Velké jen první slovo názvu.
+mc | Jaký slovesný rod je ve větě „Okno bylo rozbito.“? | činný; *trpný | Bylo rozbito – trpný rod.
+mc | Co znamená „mít za ušima“? | mít špinavé uši; *být mazaný, vychytralý; špatně slyšet; mít čepici | Mít za ušima = být chytrý a lstivý.
+gap | Doplň. | Přijeli jsme se {dvěma|dvouma} kufry. | Spisovně: se dvěma kufry.
+mc | Literární útvar o životě svatého je | báje; *legenda; balada; bajka | Legenda.
+mc [2] | Spisovně: „Byli jsme tam s našima kamarádama.“ | *Byli jsme tam s našimi kamarády.; Byli jsme tam s našima kamarády.; Byli jsme tam s našimi kamarádama.; Byli jsme tam s naši kamarádi. | Spisovně: s našimi kamarády.
+mc | Kolik vět je v souvětí „Nevím, kdo to byl, ale zjistím to.“? | 2; *3; 4; 1 | Nevím / kdo to byl / ale zjistím to – tři věty.
+
+@topic en7-anglictina
+@diff 1
+mc | Choose the correct form: „She ___ to school every day.“ | go; *goes; going; gone | Přítomný čas prostý, 3. osoba j. č.: she goes.
+mc | Choose the correct form: „They ___ football now.“ | plays; *are playing; play; is playing | Právě teď → přítomný čas průběhový: are playing.
+mc | Past simple of „go“ is | goed; *went; gone; going | Nepravidelné sloveso: go – went – gone.
+mc | Past simple of „buy“ is | buyed; *bought; buys; brought | buy – bought – bought.
+mc | „I ___ my homework yesterday.“ | do; *did; done; does | Včera → minulý čas: did.
+mc | Choose the correct article: „___ apple a day keeps the doctor away.“ | A; *An; The; – | Před samohláskou: an apple.
+mc | Plural of „child“ is | childs; *children; childes; childrens | Nepravidelné množné číslo: children.
+mc | Plural of „mouse“ is | mouses; *mice; mices; mouse | Mouse – mice.
+mc | „There ___ two cats in the garden.“ | is; *are; be; am | Množné číslo: there are.
+mc | Comparative of „big“ is | more big; *bigger; biggest; biger | Krátké přídavné jméno: big – bigger (zdvojení g).
+mc | Superlative of „good“ is | goodest; most good; better; *the best | good – better – the best.
+mc | „How ___ apples do you want?“ | much; *many; any; lot | Počitatelné → how many.
+mc | „Can you ___ me the salt, please?“ | say; *pass; speak; tell | Pass me the salt = podej mi sůl.
+mc | Opposite of „cheap“ is | small; *expensive; easy; old | Cheap (levný) × expensive (drahý).
+mc | „My birthday is ___ May.“ | on; at; *in; by | Měsíce: in May.
+mc | „The film starts ___ 7 o'clock.“ | in; on; *at; by | Čas na hodinách: at 7 o'clock.
+mc | „___ you like pizza?“ | Are; *Do; Does; Is | Otázka v přítomném čase: Do you like…?
+mc | „He ___ like spinach.“ | don't; *doesn't; isn't; not | 3. osoba j. č.: he doesn't like.
+mc [2] | „I have lived here ___ 2020.“ | for; *since; from; at | Since + bod v čase (od roku 2020).
+mc [2] | „If it rains, we ___ at home.“ | stay; *will stay; stayed; would stayed | První kondicionál: if + přítomný čas, will + sloveso.
+match | Match the words. | kitchen => kuchyně; library => knihovna; weather => počasí; journey => cesta | Slovní zásoba.
+match | Match the words. | always => vždy; never => nikdy; sometimes => někdy; usually => obvykle | Příslovce frekvence.
+mc | „What time ___ it?“ | are; *is; do; does | What time is it?
+mc [2] | Choose the correct question: | Where you live?; *Where do you live?; Where does you live?; Where are you live? | Where do you live?
+
+@topic zkk-krestanska-kultura
+@diff 1
+mc | Jak se jmenuje posvátná kniha křesťanů? | Korán; *Bible; Tóra; Védy | Bible – Starý a Nový zákon.
+mc | Ze kterých dvou hlavních částí se skládá Bible? | z Prologu a Epilogu; *ze Starého a Nového zákona; z Genesis a Exodu; z evangelia a žalmů | Starý zákon a Nový zákon.
+mc | Kolik je evangelií v Novém zákoně? | 2; 3; *4; 12 | Matouš, Marek, Lukáš, Jan.
+mc | Které svátky připomínají narození Ježíše Krista? | Velikonoce; *Vánoce; Letnice; Dušičky | Vánoce – narození Ježíše.
+mc | Které svátky připomínají Ježíšovo zmrtvýchvstání? | Vánoce; *Velikonoce; Tři králové; Advent | Velikonoce.
+mc | Jak se jmenuje doba přípravy na Vánoce? | půst; *advent; Letnice; Popeleční středa | Advent – čtyři neděle před Vánocemi.
+mc | Kdo byli Cyril a Metoděj? | čeští králové; *věrozvěstové, kteří přišli na Velkou Moravu (863); malíři; mniši, kteří založili Prahu | Přinesli křesťanství a písmo hlaholici.
+mc | Kdy slavíme svátek svatých Cyrila a Metoděje? | 28. září; *5. července; 24. prosince; 1. ledna | 5. července je státní svátek.
+mc | Který svatý je patronem české země a jeho svátek je 28. září? | sv. Mikuláš; *sv. Václav; sv. Martin; sv. Jiří | Sv. Václav – Den české státnosti.
+mc | Kolik bylo apoštolů? | 7; 10; *12; 40 | Ježíš si vyvolil 12 apoštolů.
+mc | Kde se podle Bible narodil Ježíš? | v Jeruzalémě; v Nazaretu; *v Betlémě; v Římě | V Betlémě.
+mc | Kdo podle Starého zákona postavil archu? | Mojžíš; *Noe; Abraham; David | Noe a potopa světa.
+mc | Kdo dostal od Boha na hoře Sinaj desatero přikázání? | Noe; *Mojžíš; Petr; Pavel | Mojžíš.
+mc | Jak se nazývá modlitba, kterou Ježíš naučil své učedníky? | Zdrávas Maria; *Otče náš; Věřím v Boha; Sláva Otci | Otče náš (Modlitba Páně).
+mc | Které svátky slavíme 6. ledna? | Vánoce; *Tři krále (Zjevení Páně); Velikonoce; Dušičky | Tři králové – Kašpar, Melichar, Baltazar.
+mc | Co je kostel? | škola; *budova určená k bohoslužbám; muzeum; radnice | V kostele se konají bohoslužby.
+mc [2] | Jak se jmenuje brněnská katedrála na Petrově? | katedrála sv. Víta; *katedrála sv. Petra a Pavla; bazilika sv. Jiří; kostel sv. Jakuba | Brněnská katedrála na Petrově je zasvěcena sv. Petru a Pavlovi.
+mc [2] | Co znamená slovo „evangelium“? | písnička; *dobrá zpráva; přikázání; modlitba | Z řečtiny: dobrá (radostná) zpráva.

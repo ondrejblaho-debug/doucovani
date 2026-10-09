@@ -1,0 +1,2287 @@
+{
+ "version": 2,
+ "generated": "2026-10-09",
+ "timezone": "Europe/Prague",
+ "examFormat": {
+  "5": {
+   "cestina": {
+    "tasks": 28,
+    "points": 50
+   },
+   "matematika": {
+    "tasks": 14,
+    "points": 50
+   }
+  },
+  "7": {
+   "cestina": {
+    "tasks": 28,
+    "points": 50
+   },
+   "matematika": {
+    "tasks": 16,
+    "points": 50
+   }
+  },
+  "common": {
+   "subjects": [
+    "cestina",
+    "matematika"
+   ],
+   "maxPointsPerTest": 50,
+   "durationMinutes": {
+    "cestina": 60,
+    "matematika": 70
+   },
+   "allowedTools": {
+    "cestina": "modře/černě píšící propiska",
+    "matematika": "propiska, obyčejná tužka, rýsovací potřeby; bez kalkulačky a tabulek"
+   },
+   "bestOfTwoAttempts": true,
+   "jpzShareOfCriteriaMin": 0.6
+  },
+  "note": "Počty úloh ověřeny v testech JPZ 2025 a 2026 (1. a 2. řádný termín). CERMAT je nemá pevně dané – mohou se mírně lišit."
+ },
+ "phases": [
+  {
+   "id": "diagnostika",
+   "name": "Diagnostika",
+   "start": "2026-10-12",
+   "end": "2026-10-18",
+   "goal": "Vstupní test nanečisto, zjistit silné a slabé stránky, nastavit návyk denní práce."
+  },
+  {
+   "id": "zaklady",
+   "name": "Základy",
+   "start": "2026-10-19",
+   "end": "2027-01-03",
+   "goal": "Projít systematicky všechna témata specifikace CERMAT, vysvětlit a upevnit látku. O Vánocích jen lehké opakování."
+  },
+  {
+   "id": "procvicovani",
+   "name": "Procvičování",
+   "start": "2027-01-04",
+   "end": "2027-02-14",
+   "goal": "Řešit úlohy typu CERMAT po tématech (TAU, náhradní termíny z archivu), doplnit mezery z testů nanečisto."
+  },
+  {
+   "id": "ostry-trenink",
+   "name": "Ostrý trénink",
+   "start": "2027-02-15",
+   "end": "2027-03-28",
+   "goal": "Celé testy v časovém limitu, práce se záznamovým archem, rychlost a kontrola; cílené opakování chyb."
+  },
+  {
+   "id": "finale",
+   "name": "Finále",
+   "start": "2027-03-29",
+   "end": "2027-04-15",
+   "goal": "Generálka, krátké udržovací dávky, klid, spánek, organizace dne zkoušky. Žádná nová látka."
+  }
+ ],
+ "topicCatalog": {
+  "5": {
+   "matematika": [
+    {
+     "id": "m5-pocetni-operace",
+     "name": "Pořadí operací a pamětné počítání",
+     "description": "Přednost násobení a dělení, závorky, počítání zpaměti, násobení a dělení 10, 100, 1000."
+    },
+    {
+     "id": "m5-pisemne-algoritmy",
+     "name": "Písemné počítání",
+     "description": "Písemné sčítání, odčítání, násobení až čtyřciferným činitelem, dělení jedno- a dvojciferným dělitelem, kontrola výsledku."
+    },
+    {
+     "id": "m5-cisla-do-milionu",
+     "name": "Přirozená čísla do milionu",
+     "description": "Zápis čísel, rozvinutý zápis, číselná osa, porovnávání, zaokrouhlování, sudá a lichá čísla."
+    },
+    {
+     "id": "m5-slovni-ulohy",
+     "name": "Slovní úlohy",
+     "description": "Víceúrovňové slovní úlohy (o kolik / kolikrát více, méně), matematizace situace, odhad a zkouška, peníze."
+    },
+    {
+     "id": "m5-zlomky",
+     "name": "Zlomky – základy",
+     "description": "Část celku (polovina, třetina, čtvrtina…), o polovinu více/méně, zápis zlomku, sčítání a odčítání zlomků se stejným jmenovatelem, obrázky."
+    },
+    {
+     "id": "m5-desetinna-zaporna",
+     "name": "Desetinná a záporná čísla (orientace)",
+     "description": "Čtení desetinného čísla, znázornění na ose, záporná celá čísla na číselné ose (teploměr)."
+    },
+    {
+     "id": "m5-jednotky",
+     "name": "Jednotky a převody",
+     "description": "Délka (mm–km), hmotnost (g, kg), obsah (cm², m², km²), převody v úlohách."
+    },
+    {
+     "id": "m5-cas",
+     "name": "Čas a časové úlohy",
+     "description": "Převody s, min, h, den, týden; doba trvání, jízdní řády, kalendář."
+    },
+    {
+     "id": "m5-data-tabulky",
+     "name": "Tabulky a diagramy",
+     "description": "Čtení a doplňování tabulek, sloupcových a kruhových diagramů, třídění dat (bez procent)."
+    },
+    {
+     "id": "m5-geometrie-rysovani",
+     "name": "Rýsování a konstrukce",
+     "description": "Přímka, úsečka, polopřímka, rovnoběžky a kolmice daným bodem, kružnice, čtverec, obdélník, trojúhelník; čisté rýsování a obtažení propiskou."
+    },
+    {
+     "id": "m5-obvod-obsah",
+     "name": "Obvod a obsah",
+     "description": "Obvod mnohoúhelníku, obsah ve čtvercové síti (čtverec, obdélník, trojúhelník, složené obrazce)."
+    },
+    {
+     "id": "m5-osova-soumernost",
+     "name": "Osová souměrnost",
+     "description": "Rozpoznání a dokreslení osově souměrných útvarů ve čtvercové síti."
+    },
+    {
+     "id": "m5-telesa-krychlove-stavby",
+     "name": "Tělesa a krychlové stavby",
+     "description": "Krychle, kvádr, válec, kužel, jehlan, koule; krychlové stavby, počítání krychlí, pohledy shora/zepředu/zboku, sítě, slepování těles."
+    },
+    {
+     "id": "m5-nestandardni",
+     "name": "Logické a nestandardní úlohy",
+     "description": "Úsudek, zákonitosti a posloupnosti, číselné a obrázkové řady, kombinatorika výčtem, schémata."
+    },
+    {
+     "id": "m5-mix",
+     "name": "Smíšené úlohy a oprava chyb",
+     "description": "Mix úloh z archivu CERMAT/TAU, rozbor chyb z posledního testu nanečisto."
+    },
+    {
+     "id": "m5-strategie-testu",
+     "name": "Strategie testu",
+     "description": "Hospodaření s časem (70 min), pořadí úloh, zápis výsledků do záznamového archu, kontrola."
+    },
+    {
+     "id": "mo-z5",
+     "name": "Matematická olympiáda Z5",
+     "description": "Domácí kolo (1. trojice do 13. 11. 2026, 2. trojice do 6. 1. 2027), okresní kolo 26. 1. 2027 – na některých školách body navíc."
+    }
+   ],
+   "cestina": [
+    {
+     "id": "c5-porozumeni-textu",
+     "name": "Porozumění textu",
+     "description": "Čtení s porozuměním, vyhledávání informací, co z textu vyplývá / nevyplývá, nesouvislé texty (tabulka, graf, obrázek)."
+    },
+    {
+     "id": "c5-hlavni-myslenka",
+     "name": "Hlavní myšlenka, nadpis, fakta",
+     "description": "Hlavní myšlenka, vhodný nadpis, klíčová slova, podstatné vs. nepodstatné, fakta vs. domněnky, porovnání dvou zdrojů."
+    },
+    {
+     "id": "c5-vyjmenovana-slova",
+     "name": "Vyjmenovaná slova (i/y)",
+     "description": "Lexikální pravopis i/y po obojetných souhláskách, slova příbuzná, tvrdé a měkké souhlásky."
+    },
+    {
+     "id": "c5-pravopis-dalsi",
+     "name": "Další pravopisné jevy",
+     "description": "ú/ů, bě/bje, vě/vje, pě, mě/mně, předpony s-/z-/vz-, zdvojené souhlásky, párové souhlásky, velká písmena."
+    },
+    {
+     "id": "c5-koncovky-pj",
+     "name": "Koncovky podstatných jmen",
+     "description": "Vzory podstatných jmen, koncovky i/y podle vzoru, pád, číslo, rod."
+    },
+    {
+     "id": "c5-koncovky-prid-jm",
+     "name": "Koncovky přídavných jmen",
+     "description": "Přídavná jména tvrdá a měkká (mladý, jarní), tvary zájmena já."
+    },
+    {
+     "id": "c5-shoda-podmetu",
+     "name": "Shoda přísudku s podmětem",
+     "description": "Koncovky -i/-y/-a v příčestí minulém, podmět několikanásobný, rod podmětu."
+    },
+    {
+     "id": "c5-carky",
+     "name": "Čárky ve větě a souvětí",
+     "description": "Čárky v jednoduchých větných celcích, před spojkami (aby, že, protože, ale…), oslovení, výčet."
+    },
+    {
+     "id": "c5-slovni-druhy",
+     "name": "Slovní druhy",
+     "description": "Rozpoznání ohebných i neohebných slovních druhů (kromě částic), změna slovního druhu ve větě."
+    },
+    {
+     "id": "c5-mluvnicke-kategorie",
+     "name": "Mluvnické kategorie",
+     "description": "Pád, číslo, rod, vzor podstatných jmen; druh a vzor přídavných jmen; osoba, číslo, čas, způsob sloves; správné tvary slov."
+    },
+    {
+     "id": "c5-skladebni-dvojice",
+     "name": "Základní skladební dvojice",
+     "description": "Podmět (vyjádřený, nevyjádřený, několikanásobný) a přísudek; věta jednoduchá × souvětí, spojovací výrazy."
+    },
+    {
+     "id": "c5-prima-rec",
+     "name": "Přímá a nepřímá řeč",
+     "description": "Převod přímé řeči na nepřímou a naopak, interpunkce přímé řeči."
+    },
+    {
+     "id": "c5-vyznam-slov",
+     "name": "Význam slov",
+     "description": "Synonyma, antonyma, slova nadřazená/podřazená/souřadná, jednoznačná × mnohoznačná, zdrobněliny, citově zabarvená slova, význam v kontextu."
+    },
+    {
+     "id": "c5-prislovi",
+     "name": "Přísloví a rčení",
+     "description": "Význam a doplnění přísloví, rčení, pořekadel, pranostik."
+    },
+    {
+     "id": "c5-spisovnost",
+     "name": "Spisovné a nespisovné tvary",
+     "description": "Rozpoznání nespisovných tvarů a jejich nahrazení spisovnými."
+    },
+    {
+     "id": "c5-stavba-slova",
+     "name": "Stavba slova a hlásky",
+     "description": "Kořen, předpona, přípona, slova příbuzná; hláska, slabika, samohláska, souhláska, dvojhláska."
+    },
+    {
+     "id": "c5-textova-navaznost",
+     "name": "Textová návaznost",
+     "description": "Uspořádání částí textu, doplnění vynechaného místa, odhad pokračování textu."
+    },
+    {
+     "id": "c5-slohove-utvary",
+     "name": "Slohové útvary a komunikace",
+     "description": "Dopis, pozvánka, inzerát, návod, oznámení, vzkaz, zpráva, popis, vypravování; komunikační funkce výpovědi a znaménko na konci věty; tvorba krátké věty podle zadání."
+    },
+    {
+     "id": "c5-literatura",
+     "name": "Literární pojmy a žánry",
+     "description": "Próza, poezie, drama, verš, sloka, rým, přirovnání; bajka, pohádka, pověst, povídka, komiks…; umělecký × neumělecký text."
+    },
+    {
+     "id": "c5-mix",
+     "name": "Smíšené úlohy a oprava chyb",
+     "description": "Mix úloh z archivu CERMAT/TAU, rozbor chyb z posledního testu nanečisto."
+    },
+    {
+     "id": "c5-strategie-testu",
+     "name": "Strategie testu",
+     "description": "Hospodaření s časem (60 min), nejdřív přečíst výchozí text, zápis odpovědí do záznamového archu, kontrola."
+    }
+   ],
+   "skola": [
+    {
+     "id": "zkk-krestanska-kultura",
+     "name": "Základy křesťanské kultury",
+     "description": "Školní písemný test školy (2026: max. 30 b., nutno min. 7 b.). Studijní materiály ze dnů otevřených dveří, výukové video (březen), prezenční kurz v březnu."
+    }
+   ]
+  },
+  "7": {
+   "matematika": [
+    {
+     "id": "m7-delitelnost",
+     "name": "Dělitelnost",
+     "description": "Násobek, dělitel, NSN a NSD, prvočísla a čísla složená, znaky dělitelnosti 2, 3, 4, 5, 6, 8, 10, rozklad na prvočinitele, slovní úlohy."
+    },
+    {
+     "id": "m7-ciselne-vyrazy",
+     "name": "Číselné výrazy a mocniny",
+     "description": "Pořadí operací, závorky, hodnota výrazu; druhá mocnina (1–10, 100, 1000, dvojciferná písemně) a odmocnina čísel do 100."
+    },
+    {
+     "id": "m7-cela-cisla",
+     "name": "Celá čísla",
+     "description": "Záporná čísla, číselná osa, opačné číslo, absolutní hodnota, porovnávání, všechny čtyři operace."
+    },
+    {
+     "id": "m7-desetinna-cisla",
+     "name": "Desetinná čísla",
+     "description": "Operace s desetinnými čísly, násobení a dělení 0,1 a 0,01, zaokrouhlování, odhady, převod na desetinný zlomek."
+    },
+    {
+     "id": "m7-zlomky",
+     "name": "Zlomky",
+     "description": "Krácení, rozšiřování, základní tvar, převrácený zlomek, společný jmenovatel, všechny operace, smíšená čísla, složený zlomek, převod na desetinné číslo vč. periodického."
+    },
+    {
+     "id": "m7-procenta",
+     "name": "Procenta a promile",
+     "description": "Základ, procentová část, počet procent, promile, vyjádření části celku procentem/zlomkem/desetinným číslem, jednoduchý úrok, sleva a zdražení."
+    },
+    {
+     "id": "m7-pomer",
+     "name": "Poměr a měřítko",
+     "description": "Dělení celku v daném poměru, změna čísla v poměru, krácení a rozšiřování poměru, postupný a převrácený poměr, měřítko mapy a plánu."
+    },
+    {
+     "id": "m7-umernost",
+     "name": "Přímá a nepřímá úměrnost",
+     "description": "Rozpoznání úměrnosti z textu, tabulky a grafu, trojčlenka, grafy úměrností."
+    },
+    {
+     "id": "m7-data-prumer",
+     "name": "Data, průměr, souřadnice",
+     "description": "Tabulky, sloupcové a kruhové diagramy, aritmetický průměr, body v pravoúhlé soustavě souřadnic."
+    },
+    {
+     "id": "m7-slovni-ulohy",
+     "name": "Slovní úlohy úsudkem",
+     "description": "Víceúrovňové slovní úlohy řešené úsudkem a schématem, zápis postupu. (Formální lineární rovnice jsou až učivo 8. ročníku a ve specifikaci pro 6letá gymnázia nejsou.)"
+    },
+    {
+     "id": "m7-uhly",
+     "name": "Úhly",
+     "description": "Druhy úhlů, měření a výpočet, převody stupňů a minut, vrcholové, vedlejší, střídavé a souhlasné úhly, součet úhlů v trojúhelníku."
+    },
+    {
+     "id": "m7-trojuhelniky",
+     "name": "Trojúhelníky",
+     "description": "Třídění trojúhelníků, trojúhelníková nerovnost, výšky a těžnice, shodnost trojúhelníků (sss, sus, usu)."
+    },
+    {
+     "id": "m7-ctyruhelniky",
+     "name": "Čtyřúhelníky a mnohoúhelníky",
+     "description": "Rovnoběžníky (čtverec, obdélník, kosočtverec, kosodélník), lichoběžníky, pravidelné mnohoúhelníky a jejich vlastnosti."
+    },
+    {
+     "id": "m7-konstrukce",
+     "name": "Konstrukční úlohy",
+     "description": "Osa úsečky a úhlu, úhly 60°, 90°, 45° bez úhloměru, trojúhelník sss/sus/usu, čtyřúhelníky, rozbor náčrtem, šestiúhelník; přesnost a obtažení propiskou."
+    },
+    {
+     "id": "m7-soumernost",
+     "name": "Osová a středová souměrnost",
+     "description": "Vzor a obraz, samodružné body, osy souměrnosti útvarů, konstrukce obrazu."
+    },
+    {
+     "id": "m7-obvod-obsah",
+     "name": "Obvod a obsah",
+     "description": "Čtverec, obdélník, trojúhelník, rovnoběžník, lichoběžník a složené útvary, čtvercová síť, převody jednotek obsahu."
+    },
+    {
+     "id": "m7-telesa",
+     "name": "Krychle, kvádr, hranol",
+     "description": "Sítě, volné rovnoběžné promítání, pohledy, povrch a objem krychle, kvádru a kolmého hranolu, jednotky objemu (cm³, dm³, l)."
+    },
+    {
+     "id": "m7-nestandardni",
+     "name": "Nestandardní úlohy",
+     "description": "Logické úlohy, číselné a obrázkové řady, doplňování tabulek, kombinatorika výčtem, grafické řešení."
+    },
+    {
+     "id": "m7-mix",
+     "name": "Smíšené úlohy a oprava chyb",
+     "description": "Mix úloh z archivu CERMAT/TAU, rozbor chyb z posledního testu nanečisto."
+    },
+    {
+     "id": "m7-strategie-testu",
+     "name": "Strategie testu",
+     "description": "70 minut na 16 úloh, nejdřív jisté body, u úloh s postupem psát celý postup, zápis do záznamového archu, kontrola."
+    }
+   ],
+   "cestina": [
+    {
+     "id": "c7-porozumeni-textu",
+     "name": "Porozumění textu",
+     "description": "Čtení s porozuměním, co z textu jednoznačně vyplývá, nesouvislé texty (tabulka, graf, obrázek), definice a jejich použití."
+    },
+    {
+     "id": "c7-fakta-nazory",
+     "name": "Fakta, názory, záměr autora",
+     "description": "Fakta × názory a hodnocení, hlavní myšlenka, funkce a účel textu, komunikační záměr, manipulace v reklamě."
+    },
+    {
+     "id": "c7-lexikalni-pravopis",
+     "name": "Lexikální pravopis",
+     "description": "Vyjmenovaná a příbuzná slova, ú/ů, bě/bje, vě/vje, mě/mně, předpony s-/z-/vz-, zdvojené souhlásky, cizí slova běžná."
+    },
+    {
+     "id": "c7-morfologicky-pravopis",
+     "name": "Morfologický pravopis",
+     "description": "Koncovky podstatných a přídavných jmen, přivlastňovací přídavná jména, zájmena (mě/mně, ji/jí, tvary já, my, vy), číslovky."
+    },
+    {
+     "id": "c7-shoda",
+     "name": "Shoda přísudku s podmětem",
+     "description": "Shoda v rodě a čísle, podmět několikanásobný a nevyjádřený, zvláštní případy (děti, dívky…)."
+    },
+    {
+     "id": "c7-velka-pismena",
+     "name": "Velká písmena",
+     "description": "Vlastní jména, zeměpisné názvy, instituce, svátky, názvy děl."
+    },
+    {
+     "id": "c7-carky",
+     "name": "Čárky ve větě a souvětí",
+     "description": "Čárky v souvětí, několikanásobné větné členy, vsuvka, oslovení, přístavek (jednodušší případy)."
+    },
+    {
+     "id": "c7-slovni-druhy",
+     "name": "Slovní druhy",
+     "description": "Všechny slovní druhy vč. částic, druhy zájmen, stupňování přídavných jmen a příslovcí, změna slovního druhu."
+    },
+    {
+     "id": "c7-slovesa",
+     "name": "Slovesa a tvary slov",
+     "description": "Osoba, číslo, způsob, čas, slovesný rod (činný/trpný); chybně užité tvary slov a jejich oprava."
+    },
+    {
+     "id": "c7-vetne-cleny",
+     "name": "Větné členy",
+     "description": "Podmět, přísudek slovesný, předmět, přívlastek shodný a neshodný, příslovečná určení (místa, času, způsobu, příčiny), několikanásobné členy."
+    },
+    {
+     "id": "c7-souveti",
+     "name": "Souvětí a vedlejší věty",
+     "description": "Věta hlavní a vedlejší, druhy vedlejších vět (předmětná, přívlastková, příslovečné), spojovací výrazy."
+    },
+    {
+     "id": "c7-vystavba-vet",
+     "name": "Výstavba vět a přímá řeč",
+     "description": "Chybné větné celky a jejich oprava, slovosled, sestavení věty ze slov, přímá × nepřímá řeč."
+    },
+    {
+     "id": "c7-vyznam-slov",
+     "name": "Význam slov a ustálená spojení",
+     "description": "Synonyma, antonyma, nadřazenost a podřazenost, mnohoznačnost, význam v kontextu, ustálená spojení, přísloví a rčení."
+    },
+    {
+     "id": "c7-spisovnost",
+     "name": "Spisovnost",
+     "description": "Spisovné × nespisovné prostředky, nahrazení nespisovného tvaru spisovným."
+    },
+    {
+     "id": "c7-tvoreni-slov",
+     "name": "Tvoření slov a hlásky",
+     "description": "Stavba slova, slova příbuzná, zdrobněliny, slabikotvorné souhlásky, hláska × písmeno."
+    },
+    {
+     "id": "c7-textova-navaznost",
+     "name": "Textová návaznost",
+     "description": "Seřazení částí textu, doplnění vynechaného místa, pokračování textu."
+    },
+    {
+     "id": "c7-slohove-utvary",
+     "name": "Slohové útvary a komunikace",
+     "description": "E-mail, žádost, životopis, charakteristika, popis, vypravování, zpráva, oznámení, reklama; komunikační funkce výpovědi a interpunkce."
+    },
+    {
+     "id": "c7-literatura",
+     "name": "Literatura",
+     "description": "Lyrika, epika, drama; verš, sloka, rým, přirovnání, personifikace; žánry (bajka, báje, balada, pověst, legenda, povídka, sci-fi, fantasy, ústní lidová slovesnost…)."
+    },
+    {
+     "id": "c7-mix",
+     "name": "Smíšené úlohy a oprava chyb",
+     "description": "Mix úloh z archivu CERMAT/TAU, rozbor chyb z posledního testu nanečisto."
+    },
+    {
+     "id": "c7-strategie-testu",
+     "name": "Strategie testu",
+     "description": "60 minut na 28 úloh, práce s výchozím textem, zápis do záznamového archu, kontrola pravopisu u otevřených odpovědí."
+    }
+   ],
+   "anglictina": [
+    {
+     "id": "en7-slovni-zasoba",
+     "name": "AJ – slovní zásoba a komunikační situace",
+     "description": "Domov, rodina, škola, volný čas, sport, zdraví a tělo, vlastnosti, jídlo, oblečení, nákupy, doprava, kalendář a hodiny, zvířata; pozdravy, omluvy, prosby, souhlas/nesouhlas."
+    },
+    {
+     "id": "en7-present",
+     "name": "AJ – přítomný čas prostý a průběhový",
+     "description": "Present simple × present continuous, 3. osoba -s, do/does, příslovce častosti (always, usually, often, sometimes, never) a jejich místo ve větě."
+    },
+    {
+     "id": "en7-past",
+     "name": "AJ – minulý čas prostý",
+     "description": "Past simple pravidelných a nejčastějších nepravidelných sloves, was/were, did v otázce a záporu, časové výrazy (yesterday, ago, last week)."
+    },
+    {
+     "id": "en7-have-there",
+     "name": "AJ – have got, there is/are, počitatelnost",
+     "description": "have got / has got, there is / there are, some / any, much / many / a lot of, počitatelná a nepočitatelná podstatná jména."
+    },
+    {
+     "id": "en7-comparatives",
+     "name": "AJ – stupňování přídavných jmen",
+     "description": "-er/-est, more/most, nepravidelné good–better–best, bad–worse–worst, as … as, than."
+    },
+    {
+     "id": "en7-prepositions",
+     "name": "AJ – předložky času a místa",
+     "description": "in/on/at (čas i místo), under, behind, next to, between, opposite, in front of; from … to, before/after."
+    },
+    {
+     "id": "en7-questions",
+     "name": "AJ – otázky a tázací slova, dovětky",
+     "description": "Slovosled otázky, pomocná slovesa, who/what/where/when/why/how/whose/which/how much/how many, otázky na podmět, dovětky (isn't it?, don't you?)."
+    },
+    {
+     "id": "en7-nouns",
+     "name": "AJ – členy, množné číslo, přivlastňování, zájmena",
+     "description": "a/an/the/bez členu, nepravidelné množné číslo (children, mice, feet, teeth, roofs), přivlastňovací pád ('s, s'), osobní, přivlastňovací, ukazovací a neurčitá zájmena."
+    },
+    {
+     "id": "en7-modals-future",
+     "name": "AJ – modální slovesa a be going to",
+     "description": "can/can't, must/mustn't, have to, should, could; be going to pro plány, will pro předpověď; rozkazovací způsob."
+    },
+    {
+     "id": "en7-word-formation",
+     "name": "AJ – tvoření slov, frázová slovesa, ustálená spojení",
+     "description": "Tvary slov (swim → swimming, high → height, danger → dangerous), řadové číslovky a data, frázová slovesa (get up, look for, put on…), spojení have/go/play/do."
+    },
+    {
+     "id": "en7-reading",
+     "name": "AJ – čtení s porozuměním",
+     "description": "Krátké texty (e-mail, inzerát, článek, příběh): vyhledání informace, pravda / nepravda / informace není v textu, výběr ze 4 možností."
+    },
+    {
+     "id": "en7-listening",
+     "name": "AJ – poslech s porozuměním",
+     "description": "Krátké nahrávky (v aplikaci čte hlas zařízení): oznámení, rozhovory, vzkazy; vyhledání konkrétní informace (čas, cena, místo)."
+    },
+    {
+     "id": "en7-anglictina",
+     "name": "AJ – mix a strategie školního testu",
+     "description": "Smíšené úlohy jako ve školním testu (45 min, 50 b., min. 20 b.): výběr všech správných řešení, přepis věty se zadaným slovem, doplnění jednoho slova do textu, správný tvar slova, čtení s porozuměním."
+    }
+   ],
+   "skola": []
+  }
+ },
+ "students": [
+  {
+   "id": "g8",
+   "label": "8leté gymnázium (5. třída)",
+   "grade": 5,
+   "schoolType": "8leté gymnázium",
+   "examDates": {
+    "jpz1": "2027-04-14",
+    "jpz2": "2027-04-15",
+    "nahradni1": "2027-04-29",
+    "nahradni2": "2027-04-30",
+    "prihlaskyOd": "2027-02-01",
+    "prihlaskyDo": "2027-02-22",
+    "skolniTestZKK": [
+     "2027-03-31",
+     "2027-04-01"
+    ]
+   },
+   "phases": [
+    "diagnostika",
+    "zaklady",
+    "procvicovani",
+    "ostry-trenink",
+    "finale"
+   ],
+   "dailyTemplate": {
+    "Po": [
+     {
+      "subject": "matematika",
+      "minutes": 25
+     }
+    ],
+    "Út": [
+     {
+      "subject": "cestina",
+      "minutes": 25
+     }
+    ],
+    "St": [
+     {
+      "subject": "matematika",
+      "minutes": 25
+     }
+    ],
+    "Čt": [
+     {
+      "subject": "cestina",
+      "minutes": 25
+     }
+    ],
+    "Pá": [
+     {
+      "subject": "mix",
+      "minutes": 20
+     }
+    ],
+    "So": [
+     {
+      "subject": "opakovani",
+      "minutes": 15
+     }
+    ],
+    "Ne": []
+   },
+   "dailyTemplateNote": "Ve dnech od 4. 1. 2027 přibývá 2× týdně (Pá, So) 15 min základů křesťanské kultury, od 8. 3. 3× týdně (Út, Pá, So).",
+   "weeks": [
+    {
+     "weekNumber": 1,
+     "weekStart": "2026-10-12",
+     "weekEnd": "2026-10-18",
+     "phase": "diagnostika",
+     "matematika": {
+      "topics": [
+       "m5-strategie-testu",
+       "m5-pocetni-operace"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-strategie-testu",
+       "c5-porozumeni-textu"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": "So 17. 10.: vstupní test nanečisto (JPZ 2023, 1. řádný termín). Po–Pá jen seznámení a krátké rozcvičky. Domluvit se školou účast v MO Z5."
+    },
+    {
+     "weekNumber": 2,
+     "weekStart": "2026-10-19",
+     "weekEnd": "2026-10-25",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m5-pocetni-operace",
+       "m5-cisla-do-milionu"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-vyjmenovana-slova",
+       "c5-porozumeni-textu"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "mo-z5"
+      ]
+     },
+     "note": "Rozebrat vstupní test, sepsat seznam slabin. Začít domácí kolo MO Z5."
+    },
+    {
+     "weekNumber": 3,
+     "weekStart": "2026-10-26",
+     "weekEnd": "2026-11-01",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m5-pisemne-algoritmy",
+       "m5-slovni-ulohy"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-vyjmenovana-slova",
+       "c5-slovni-druhy"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "mo-z5"
+      ]
+     },
+     "note": "Podzimní prázdniny 29.–30. 10. – lze lehčí tempo."
+    },
+    {
+     "weekNumber": 4,
+     "weekStart": "2026-11-02",
+     "weekEnd": "2026-11-08",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m5-slovni-ulohy",
+       "m5-nestandardni"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-pravopis-dalsi",
+       "c5-vyznam-slov"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "mo-z5"
+      ]
+     },
+     "note": "MO Z5: dokončit 1. trojici úloh (odevzdání do 13. 11. 2026)."
+    },
+    {
+     "weekNumber": 5,
+     "weekStart": "2026-11-09",
+     "weekEnd": "2026-11-15",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m5-jednotky",
+       "m5-cas"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-koncovky-pj",
+       "c5-porozumeni-textu"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": "So 14. 11.: test nanečisto č. 1 (JPZ 2023, 2. řádný termín)."
+    },
+    {
+     "weekNumber": 6,
+     "weekStart": "2026-11-16",
+     "weekEnd": "2026-11-22",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m5-zlomky",
+       "m5-jednotky"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-koncovky-prid-jm",
+       "c5-mluvnicke-kategorie"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": "Rozbor testu č. 1."
+    },
+    {
+     "weekNumber": 7,
+     "weekStart": "2026-11-23",
+     "weekEnd": "2026-11-29",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m5-zlomky",
+       "m5-geometrie-rysovani"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-shoda-podmetu",
+       "c5-skladebni-dvojice"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": ""
+    },
+    {
+     "weekNumber": 8,
+     "weekStart": "2026-11-30",
+     "weekEnd": "2026-12-06",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m5-geometrie-rysovani",
+       "m5-obvod-obsah"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-shoda-podmetu",
+       "c5-hlavni-myslenka"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": ""
+    },
+    {
+     "weekNumber": 9,
+     "weekStart": "2026-12-07",
+     "weekEnd": "2026-12-13",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m5-obvod-obsah",
+       "m5-telesa-krychlove-stavby"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-stavba-slova",
+       "c5-prislovi"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": "So 12. 12.: test nanečisto č. 2 (JPZ 2024, 1. řádný termín)."
+    },
+    {
+     "weekNumber": 10,
+     "weekStart": "2026-12-14",
+     "weekEnd": "2026-12-20",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m5-telesa-krychlove-stavby",
+       "m5-data-tabulky"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-textova-navaznost",
+       "c5-spisovnost"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": "Rozbor testu č. 2."
+    },
+    {
+     "weekNumber": 11,
+     "weekStart": "2026-12-21",
+     "weekEnd": "2026-12-27",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m5-nestandardni"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-literatura"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "mo-z5"
+      ]
+     },
+     "note": "Vánoce (prázdniny od 23. 12.): jen 2–3× týdně 15 min hlavolamů a čtení knih. MO Z5: 2. trojice úloh do 6. 1. 2027."
+    },
+    {
+     "weekNumber": 12,
+     "weekStart": "2026-12-28",
+     "weekEnd": "2027-01-03",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m5-pocetni-operace",
+       "m5-slovni-ulohy"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-vyjmenovana-slova",
+       "c5-literatura"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": "Svátky: lehké opakování, 3–4 krátké dávky."
+    },
+    {
+     "weekNumber": 13,
+     "weekStart": "2027-01-04",
+     "weekEnd": "2027-01-10",
+     "phase": "procvicovani",
+     "matematika": {
+      "topics": [
+       "m5-desetinna-zaporna",
+       "m5-osova-soumernost"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-carky",
+       "c5-prima-rec"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura"
+      ]
+     },
+     "note": "Ne 10. 1.: test nanečisto č. 3 (JPZ 2024, 2. řádný termín). Od tohoto týdne 2× týdně 15 min ZKK."
+    },
+    {
+     "weekNumber": 14,
+     "weekStart": "2027-01-11",
+     "weekEnd": "2027-01-17",
+     "phase": "procvicovani",
+     "matematika": {
+      "topics": [
+       "m5-slovni-ulohy",
+       "m5-data-tabulky"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-slohove-utvary",
+       "c5-porozumeni-textu"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura"
+      ]
+     },
+     "note": ""
+    },
+    {
+     "weekNumber": 15,
+     "weekStart": "2027-01-18",
+     "weekEnd": "2027-01-24",
+     "phase": "procvicovani",
+     "matematika": {
+      "topics": [
+       "m5-geometrie-rysovani",
+       "m5-nestandardni"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-koncovky-pj",
+       "c5-koncovky-prid-jm"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura"
+      ]
+     },
+     "note": ""
+    },
+    {
+     "weekNumber": 16,
+     "weekStart": "2027-01-25",
+     "weekEnd": "2027-01-31",
+     "phase": "procvicovani",
+     "matematika": {
+      "topics": [
+       "m5-telesa-krychlove-stavby",
+       "m5-zlomky"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-vyznam-slov",
+       "c5-shoda-podmetu"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura",
+       "mo-z5"
+      ]
+     },
+     "note": "Út 26. 1.: okresní kolo MO Z5 (pokud postoupí)."
+    },
+    {
+     "weekNumber": 17,
+     "weekStart": "2027-02-01",
+     "weekEnd": "2027-02-07",
+     "phase": "procvicovani",
+     "matematika": {
+      "topics": [
+       "m5-obvod-obsah",
+       "m5-jednotky"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-hlavni-myslenka",
+       "c5-mluvnicke-kategorie"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura"
+      ]
+     },
+     "note": "So 6. 2.: test nanečisto č. 4 (JPZ 2025, 1. řádný termín). Přihláška přes DiPSy 1.–22. 2."
+    },
+    {
+     "weekNumber": 18,
+     "weekStart": "2027-02-08",
+     "weekEnd": "2027-02-14",
+     "phase": "procvicovani",
+     "matematika": {
+      "topics": [
+       "m5-nestandardni",
+       "m5-cas",
+       "m5-mix"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-textova-navaznost",
+       "c5-pravopis-dalsi",
+       "c5-mix"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura"
+      ]
+     },
+     "note": "Rozbor testu č. 4. Podat přihlášku (nejpozději 22. 2. 2027)."
+    },
+    {
+     "weekNumber": 19,
+     "weekStart": "2027-02-15",
+     "weekEnd": "2027-02-21",
+     "phase": "ostry-trenink",
+     "matematika": {
+      "topics": [
+       "m5-mix",
+       "m5-slovni-ulohy",
+       "m5-geometrie-rysovani"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-mix",
+       "c5-vyjmenovana-slova",
+       "c5-porozumeni-textu"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura"
+      ]
+     },
+     "note": "Ostrý trénink: 1× týdně polovina testu v limitu (MA 35 min / ČJ 30 min)."
+    },
+    {
+     "weekNumber": 20,
+     "weekStart": "2027-02-22",
+     "weekEnd": "2027-02-28",
+     "phase": "ostry-trenink",
+     "matematika": {
+      "topics": [
+       "m5-mix",
+       "m5-telesa-krychlove-stavby"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-mix",
+       "c5-shoda-podmetu"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura"
+      ]
+     },
+     "note": "Jarní prázdniny 22.–28. 2. So 27. 2.: test nanečisto č. 5 (JPZ 2025, 2. řádný termín)."
+    },
+    {
+     "weekNumber": 21,
+     "weekStart": "2027-03-01",
+     "weekEnd": "2027-03-07",
+     "phase": "ostry-trenink",
+     "matematika": {
+      "topics": [
+       "m5-mix",
+       "m5-zlomky",
+       "m5-nestandardni"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-mix",
+       "c5-vyznam-slov",
+       "c5-carky"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura"
+      ]
+     },
+     "note": "Rozbor testu č. 5. Začátek března: škola pošle odkaz na výukové video ZKK."
+    },
+    {
+     "weekNumber": 22,
+     "weekStart": "2027-03-08",
+     "weekEnd": "2027-03-14",
+     "phase": "ostry-trenink",
+     "matematika": {
+      "topics": [
+       "m5-mix",
+       "m5-obvod-obsah"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-mix",
+       "c5-koncovky-pj",
+       "c5-hlavni-myslenka"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura"
+      ]
+     },
+     "note": "ZKK zesílit na 3× týdně; prezenční kurz ZKK v březnu (termín pošle škola e-mailem)."
+    },
+    {
+     "weekNumber": 23,
+     "weekStart": "2027-03-15",
+     "weekEnd": "2027-03-21",
+     "phase": "ostry-trenink",
+     "matematika": {
+      "topics": [
+       "m5-mix",
+       "m5-data-tabulky",
+       "m5-cas"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-mix",
+       "c5-textova-navaznost",
+       "c5-slohove-utvary"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura"
+      ]
+     },
+     "note": "So 20. 3.: test nanečisto č. 6 (JPZ 2026, 1. řádný termín)."
+    },
+    {
+     "weekNumber": 24,
+     "weekStart": "2027-03-22",
+     "weekEnd": "2027-03-28",
+     "phase": "ostry-trenink",
+     "matematika": {
+      "topics": [
+       "m5-mix",
+       "m5-strategie-testu"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-mix",
+       "c5-strategie-testu"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura"
+      ]
+     },
+     "note": "Rozbor testu č. 6. Opakování ZKK – hlavní důraz. Čt 25. 3. velikonoční prázdniny."
+    },
+    {
+     "weekNumber": 25,
+     "weekStart": "2027-03-29",
+     "weekEnd": "2027-04-04",
+     "phase": "finale",
+     "matematika": {
+      "topics": [
+       "m5-mix"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-mix"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "zkk-krestanska-kultura"
+      ]
+     },
+     "note": "St 31. 3. / Čt 1. 4.: školní test ze základů křesťanské kultury (termín 2027). Velikonoční pondělí 29. 3. volno. Jinak jen krátké dávky. So 3. 4.: generálka (JPZ 2026, 2. řádný termín)."
+    },
+    {
+     "weekNumber": 26,
+     "weekStart": "2027-04-05",
+     "weekEnd": "2027-04-11",
+     "phase": "finale",
+     "matematika": {
+      "topics": [
+       "m5-mix",
+       "m5-strategie-testu"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-mix",
+       "c5-strategie-testu"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": "Rozbor generálky, jen udržovat: 15–20 min denně, opakovat vlastní chyby. Připravit pomůcky (propiska, tužka, pravítko, trojúhelník s ryskou, kružítko)."
+    },
+    {
+     "weekNumber": 27,
+     "weekStart": "2027-04-12",
+     "weekEnd": "2027-04-18",
+     "phase": "finale",
+     "matematika": {
+      "topics": [
+       "m5-strategie-testu"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c5-strategie-testu"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": "ZKOUŠKY: St 14. 4. a Čt 15. 4. 2027. Po–Út jen 10 min lehké rozcvičky, brzy spát. Náhradní termín 29./30. 4. jen při omluvě."
+    }
+   ],
+   "mockTests": [
+    {
+     "date": "2026-10-17",
+     "gradeLevel": 5,
+     "label": "Vstupní (diagnostický) test",
+     "note": "Vstupní (diagnostický) test: JPZ 2023, 1. řádný termín (8letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2023,
+     "testTerm": "1. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2026-11-14",
+     "gradeLevel": 5,
+     "label": "Test nanečisto č. 1",
+     "note": "Test nanečisto č. 1: JPZ 2023, 2. řádný termín (8letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2023,
+     "testTerm": "2. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2026-12-12",
+     "gradeLevel": 5,
+     "label": "Test nanečisto č. 2",
+     "note": "Test nanečisto č. 2: JPZ 2024, 1. řádný termín (8letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2024,
+     "testTerm": "1. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2027-01-10",
+     "gradeLevel": 5,
+     "label": "Test nanečisto č. 3",
+     "note": "Test nanečisto č. 3: JPZ 2024, 2. řádný termín (8letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2024,
+     "testTerm": "2. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2027-02-06",
+     "gradeLevel": 5,
+     "label": "Test nanečisto č. 4",
+     "note": "Test nanečisto č. 4: JPZ 2025, 1. řádný termín (8letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2025,
+     "testTerm": "1. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2027-02-27",
+     "gradeLevel": 5,
+     "label": "Test nanečisto č. 5",
+     "note": "Test nanečisto č. 5: JPZ 2025, 2. řádný termín (8letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2025,
+     "testTerm": "2. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2027-03-20",
+     "gradeLevel": 5,
+     "label": "Test nanečisto č. 6",
+     "note": "Test nanečisto č. 6: JPZ 2026, 1. řádný termín (8letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2026,
+     "testTerm": "1. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2027-04-03",
+     "gradeLevel": 5,
+     "label": "Generálka",
+     "note": "Generálka: JPZ 2026, 2. řádný termín (8letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2026,
+     "testTerm": "2. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/osmilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    }
+   ]
+  },
+  {
+   "id": "g6",
+   "label": "6leté gymnázium (7. třída)",
+   "grade": 7,
+   "schoolType": "6leté gymnázium",
+   "examDates": {
+    "jpz1": "2027-04-14",
+    "jpz2": "2027-04-15",
+    "nahradni1": "2027-04-29",
+    "nahradni2": "2027-04-30",
+    "prihlaskyOd": "2027-02-01",
+    "prihlaskyDo": "2027-02-22",
+    "skolniTestAJ": [
+     "2027-03-23",
+     "2027-03-24"
+    ]
+   },
+   "phases": [
+    "diagnostika",
+    "zaklady",
+    "procvicovani",
+    "ostry-trenink",
+    "finale"
+   ],
+   "dailyTemplate": {
+    "Po": [
+     {
+      "subject": "matematika",
+      "minutes": 35
+     }
+    ],
+    "Út": [
+     {
+      "subject": "cestina",
+      "minutes": 35
+     },
+     {
+      "subject": "anglictina",
+      "minutes": 10
+     }
+    ],
+    "St": [
+     {
+      "subject": "matematika",
+      "minutes": 35
+     }
+    ],
+    "Čt": [
+     {
+      "subject": "cestina",
+      "minutes": 35
+     }
+    ],
+    "Pá": [
+     {
+      "subject": "mix",
+      "minutes": 30
+     },
+     {
+      "subject": "anglictina",
+      "minutes": 10
+     }
+    ],
+    "So": [
+     {
+      "subject": "opakovani",
+      "minutes": 25
+     }
+    ],
+    "Ne": []
+   },
+   "dailyTemplateNote": "Angličtina je pravidelná součást plánu: Út a Pá +10 min. V Ostrém tréninku (od 15. 2. 2027) do testu z AJ: Út a Pá +15 min, Čt +10 min, So +15 min (celkem 55 min týdně). Po testu z AJ (předpoklad 23./24. 3. 2027) angličtina končí a čas jde zpět na ČJ a MA.",
+   "englishPlan": {
+    "regular": {
+     "Út": 10,
+     "Pá": 10
+    },
+    "ostry": {
+     "Út": 15,
+     "Čt": 10,
+     "Pá": 15,
+     "So": 15
+    },
+    "ostryFrom": "2027-02-15",
+    "until": "2027-03-24"
+   },
+   "weeks": [
+    {
+     "weekNumber": 1,
+     "weekStart": "2026-10-12",
+     "weekEnd": "2026-10-18",
+     "phase": "diagnostika",
+     "matematika": {
+      "topics": [
+       "m7-strategie-testu",
+       "m7-ciselne-vyrazy"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-strategie-testu",
+       "c7-porozumeni-textu"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-slovni-zasoba",
+       "en7-present"
+      ]
+     },
+     "note": "So 17. 10.: vstupní test nanečisto (JPZ 2023, 1. řádný termín, 6letá gymnázia)."
+    },
+    {
+     "weekNumber": 2,
+     "weekStart": "2026-10-19",
+     "weekEnd": "2026-10-25",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m7-delitelnost",
+       "m7-ciselne-vyrazy"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-lexikalni-pravopis",
+       "c7-porozumeni-textu"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-present",
+       "en7-slovni-zasoba"
+      ]
+     },
+     "note": "Rozbor vstupního testu, seznam slabin."
+    },
+    {
+     "weekNumber": 3,
+     "weekStart": "2026-10-26",
+     "weekEnd": "2026-11-01",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m7-zlomky",
+       "m7-delitelnost"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-lexikalni-pravopis",
+       "c7-slovni-druhy"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-present",
+       "en7-questions"
+      ]
+     },
+     "note": "Podzimní prázdniny 29.–30. 10."
+    },
+    {
+     "weekNumber": 4,
+     "weekStart": "2026-11-02",
+     "weekEnd": "2026-11-08",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m7-zlomky",
+       "m7-desetinna-cisla"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-morfologicky-pravopis",
+       "c7-vyznam-slov"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-have-there",
+       "en7-slovni-zasoba"
+      ]
+     },
+     "note": ""
+    },
+    {
+     "weekNumber": 5,
+     "weekStart": "2026-11-09",
+     "weekEnd": "2026-11-15",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m7-desetinna-cisla",
+       "m7-cela-cisla"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-shoda",
+       "c7-fakta-nazory"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-have-there",
+       "en7-nouns"
+      ]
+     },
+     "note": "So 14. 11.: test nanečisto č. 1 (JPZ 2023, 2. řádný termín)."
+    },
+    {
+     "weekNumber": 6,
+     "weekStart": "2026-11-16",
+     "weekEnd": "2026-11-22",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m7-cela-cisla",
+       "m7-uhly"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-vetne-cleny",
+       "c7-velka-pismena"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-nouns",
+       "en7-prepositions"
+      ]
+     },
+     "note": "Rozbor testu č. 1. Hlídat známky – počítá se průměr 6. ročníku a 1. pololetí 7. ročníku."
+    },
+    {
+     "weekNumber": 7,
+     "weekStart": "2026-11-23",
+     "weekEnd": "2026-11-29",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m7-uhly",
+       "m7-trojuhelniky"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-vetne-cleny",
+       "c7-tvoreni-slov"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-prepositions",
+       "en7-reading"
+      ]
+     },
+     "note": "Veletrh středních škol 27.–28. 11. 2026."
+    },
+    {
+     "weekNumber": 8,
+     "weekStart": "2026-11-30",
+     "weekEnd": "2026-12-06",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m7-trojuhelniky",
+       "m7-konstrukce"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-souveti",
+       "c7-porozumeni-textu"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-past",
+       "en7-slovni-zasoba"
+      ]
+     },
+     "note": ""
+    },
+    {
+     "weekNumber": 9,
+     "weekStart": "2026-12-07",
+     "weekEnd": "2026-12-13",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m7-konstrukce",
+       "m7-procenta"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-souveti",
+       "c7-carky"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-past",
+       "en7-listening"
+      ]
+     },
+     "note": "So 12. 12.: test nanečisto č. 2 (JPZ 2024, 1. řádný termín)."
+    },
+    {
+     "weekNumber": 10,
+     "weekStart": "2026-12-14",
+     "weekEnd": "2026-12-20",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m7-procenta",
+       "m7-ciselne-vyrazy"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-slovesa",
+       "c7-textova-navaznost"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-past",
+       "en7-reading"
+      ]
+     },
+     "note": "Rozbor testu č. 2."
+    },
+    {
+     "weekNumber": 11,
+     "weekStart": "2026-12-21",
+     "weekEnd": "2026-12-27",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m7-nestandardni"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-literatura"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-reading",
+       "en7-slovni-zasoba"
+      ]
+     },
+     "note": "Vánoce (prázdniny od 23. 12.): 2–3× týdně 20 min, čtení knih, hlavolamy."
+    },
+    {
+     "weekNumber": 12,
+     "weekStart": "2026-12-28",
+     "weekEnd": "2027-01-03",
+     "phase": "zaklady",
+     "matematika": {
+      "topics": [
+       "m7-zlomky",
+       "m7-desetinna-cisla"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-lexikalni-pravopis",
+       "c7-shoda"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-listening",
+       "en7-present"
+      ]
+     },
+     "note": "Svátky: lehké opakování, 3–4 krátké dávky."
+    },
+    {
+     "weekNumber": 13,
+     "weekStart": "2027-01-04",
+     "weekEnd": "2027-01-10",
+     "phase": "procvicovani",
+     "matematika": {
+      "topics": [
+       "m7-pomer",
+       "m7-umernost"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-carky",
+       "c7-vystavba-vet"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-comparatives",
+       "en7-questions"
+      ]
+     },
+     "note": "Test nanečisto č. 3 v Ne 10. 1. (JPZ 2024, 2. řádný termín)."
+    },
+    {
+     "weekNumber": 14,
+     "weekStart": "2027-01-11",
+     "weekEnd": "2027-01-17",
+     "phase": "procvicovani",
+     "matematika": {
+      "topics": [
+       "m7-pomer",
+       "m7-ctyruhelniky"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-slohove-utvary",
+       "c7-spisovnost"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-comparatives",
+       "en7-reading"
+      ]
+     },
+     "note": "Rozbor testu č. 3. Pololetní klasifikace se uzavírá – známky 1. pololetí 7. třídy jdou do kritérií školy."
+    },
+    {
+     "weekNumber": 15,
+     "weekStart": "2027-01-18",
+     "weekEnd": "2027-01-24",
+     "phase": "procvicovani",
+     "matematika": {
+      "topics": [
+       "m7-obvod-obsah",
+       "m7-ctyruhelniky"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-vyznam-slov",
+       "c7-morfologicky-pravopis"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-modals-future",
+       "en7-slovni-zasoba"
+      ]
+     },
+     "note": ""
+    },
+    {
+     "weekNumber": 16,
+     "weekStart": "2027-01-25",
+     "weekEnd": "2027-01-31",
+     "phase": "procvicovani",
+     "matematika": {
+      "topics": [
+       "m7-telesa",
+       "m7-obvod-obsah"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-literatura",
+       "c7-fakta-nazory"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-modals-future",
+       "en7-listening"
+      ]
+     },
+     "note": ""
+    },
+    {
+     "weekNumber": 17,
+     "weekStart": "2027-02-01",
+     "weekEnd": "2027-02-07",
+     "phase": "procvicovani",
+     "matematika": {
+      "topics": [
+       "m7-telesa",
+       "m7-soumernost"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-souveti",
+       "c7-slovni-druhy"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-word-formation",
+       "en7-nouns"
+      ]
+     },
+     "note": "So 6. 2.: test nanečisto č. 4 (JPZ 2025, 1. řádný termín). Přihláška přes DiPSy 1.–22. 2. (přiložit výpis vysvědčení)."
+    },
+    {
+     "weekNumber": 18,
+     "weekStart": "2027-02-08",
+     "weekEnd": "2027-02-14",
+     "phase": "procvicovani",
+     "matematika": {
+      "topics": [
+       "m7-data-prumer",
+       "m7-slovni-ulohy",
+       "m7-mix"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-textova-navaznost",
+       "c7-vetne-cleny",
+       "c7-mix"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-word-formation",
+       "en7-reading"
+      ]
+     },
+     "note": "Rozbor testu č. 4. Podat přihlášku (nejpozději 22. 2. 2027)."
+    },
+    {
+     "weekNumber": 19,
+     "weekStart": "2027-02-15",
+     "weekEnd": "2027-02-21",
+     "phase": "ostry-trenink",
+     "matematika": {
+      "topics": [
+       "m7-mix",
+       "m7-zlomky",
+       "m7-konstrukce"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-mix",
+       "c7-lexikalni-pravopis",
+       "c7-porozumeni-textu"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-anglictina",
+       "en7-past",
+       "en7-word-formation"
+      ]
+     },
+     "note": "Ostrý trénink: 1× týdně polovina testu v limitu (MA 35 min / ČJ 30 min)."
+    },
+    {
+     "weekNumber": 20,
+     "weekStart": "2027-02-22",
+     "weekEnd": "2027-02-28",
+     "phase": "ostry-trenink",
+     "matematika": {
+      "topics": [
+       "m7-mix",
+       "m7-procenta",
+       "m7-pomer"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-mix",
+       "c7-souveti"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-anglictina",
+       "en7-questions",
+       "en7-listening"
+      ]
+     },
+     "note": "Jarní prázdniny 22.–28. 2. So 27. 2.: test nanečisto č. 5 (JPZ 2025, 2. řádný termín)."
+    },
+    {
+     "weekNumber": 21,
+     "weekStart": "2027-03-01",
+     "weekEnd": "2027-03-07",
+     "phase": "ostry-trenink",
+     "matematika": {
+      "topics": [
+       "m7-mix",
+       "m7-telesa",
+       "m7-uhly"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-mix",
+       "c7-vyznam-slov",
+       "c7-carky"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-anglictina",
+       "en7-have-there",
+       "en7-reading"
+      ]
+     },
+     "note": "Rozbor testu č. 5."
+    },
+    {
+     "weekNumber": 22,
+     "weekStart": "2027-03-08",
+     "weekEnd": "2027-03-14",
+     "phase": "ostry-trenink",
+     "matematika": {
+      "topics": [
+       "m7-mix",
+       "m7-obvod-obsah",
+       "m7-nestandardni"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-mix",
+       "c7-morfologicky-pravopis",
+       "c7-fakta-nazory"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-anglictina",
+       "en7-comparatives",
+       "en7-prepositions"
+      ]
+     },
+     "note": "Angličtina: ukázkový test školy v limitu 45 min."
+    },
+    {
+     "weekNumber": 23,
+     "weekStart": "2027-03-15",
+     "weekEnd": "2027-03-21",
+     "phase": "ostry-trenink",
+     "matematika": {
+      "topics": [
+       "m7-mix",
+       "m7-data-prumer",
+       "m7-umernost"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-mix",
+       "c7-vystavba-vet",
+       "c7-slohove-utvary"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-anglictina",
+       "en7-present",
+       "en7-reading"
+      ]
+     },
+     "note": "So 20. 3.: test nanečisto č. 6 (JPZ 2026, 1. řádný termín). Další týden školní test z AJ (předpoklad Út 23./St 24. 3. 2027 – ověřit v pozvánce, chodí nejpozději 14 dní předem)."
+    },
+    {
+     "weekNumber": 24,
+     "weekStart": "2027-03-22",
+     "weekEnd": "2027-03-28",
+     "phase": "ostry-trenink",
+     "matematika": {
+      "topics": [
+       "m7-mix",
+       "m7-strategie-testu"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-mix",
+       "c7-strategie-testu"
+      ]
+     },
+     "extra": {
+      "topics": [
+       "en7-anglictina",
+       "en7-listening"
+      ]
+     },
+     "note": "Rozbor testu č. 6. Út 23./St 24. 3.: školní test z AJ (předpoklad) – 45 min, max. 50 b., min. 20 b.; den předem jen 10 min opakování. Čt 25. 3. velikonoční prázdniny."
+    },
+    {
+     "weekNumber": 25,
+     "weekStart": "2027-03-29",
+     "weekEnd": "2027-04-04",
+     "phase": "finale",
+     "matematika": {
+      "topics": [
+       "m7-mix"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-mix"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": "Velikonoční pondělí 29. 3. volno. So 3. 4.: generálka (JPZ 2026, 2. řádný termín)."
+    },
+    {
+     "weekNumber": 26,
+     "weekStart": "2027-04-05",
+     "weekEnd": "2027-04-11",
+     "phase": "finale",
+     "matematika": {
+      "topics": [
+       "m7-mix",
+       "m7-strategie-testu"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-mix",
+       "c7-strategie-testu"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": "Rozbor generálky, jen udržovat: 20 min denně, opakovat vlastní chyby. Připravit pomůcky (propiska, tužka, pravítko, trojúhelník s ryskou, kružítko, úhloměr)."
+    },
+    {
+     "weekNumber": 27,
+     "weekStart": "2027-04-12",
+     "weekEnd": "2027-04-18",
+     "phase": "finale",
+     "matematika": {
+      "topics": [
+       "m7-strategie-testu"
+      ]
+     },
+     "cestina": {
+      "topics": [
+       "c7-strategie-testu"
+      ]
+     },
+     "extra": {
+      "topics": []
+     },
+     "note": "ZKOUŠKY: St 14. 4. a Čt 15. 4. 2027. Po–Út jen 10–15 min lehké rozcvičky, brzy spát. Náhradní termín 29./30. 4. jen při omluvě."
+    }
+   ],
+   "mockTests": [
+    {
+     "date": "2026-10-17",
+     "gradeLevel": 7,
+     "label": "Vstupní (diagnostický) test",
+     "note": "Vstupní (diagnostický) test: JPZ 2023, 1. řádný termín (6letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2023,
+     "testTerm": "1. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2026-11-14",
+     "gradeLevel": 7,
+     "label": "Test nanečisto č. 1",
+     "note": "Test nanečisto č. 1: JPZ 2023, 2. řádný termín (6letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2023,
+     "testTerm": "2. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2026-12-12",
+     "gradeLevel": 7,
+     "label": "Test nanečisto č. 2",
+     "note": "Test nanečisto č. 2: JPZ 2024, 1. řádný termín (6letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2024,
+     "testTerm": "1. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2027-01-10",
+     "gradeLevel": 7,
+     "label": "Test nanečisto č. 3",
+     "note": "Test nanečisto č. 3: JPZ 2024, 2. řádný termín (6letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2024,
+     "testTerm": "2. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2027-02-06",
+     "gradeLevel": 7,
+     "label": "Test nanečisto č. 4",
+     "note": "Test nanečisto č. 4: JPZ 2025, 1. řádný termín (6letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2025,
+     "testTerm": "1. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2027-02-27",
+     "gradeLevel": 7,
+     "label": "Test nanečisto č. 5",
+     "note": "Test nanečisto č. 5: JPZ 2025, 2. řádný termín (6letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2025,
+     "testTerm": "2. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2027-03-20",
+     "gradeLevel": 7,
+     "label": "Test nanečisto č. 6",
+     "note": "Test nanečisto č. 6: JPZ 2026, 1. řádný termín (6letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2026,
+     "testTerm": "1. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    },
+    {
+     "date": "2027-04-03",
+     "gradeLevel": 7,
+     "label": "Generálka",
+     "note": "Generálka: JPZ 2026, 2. řádný termín (6letá gymnázia). Čeština 60 min, přestávka 15–20 min, matematika 70 min. Vytisknout testový sešit + záznamový arch, opravit podle klíče, zapsat body.",
+     "testYear": 2026,
+     "testTerm": "2. řádný termín",
+     "archive": {
+      "cestina": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-cesky-jazyk-a-literatura.html",
+      "matematika": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf/sestilete-obory-matematika.html"
+     },
+     "durations": {
+      "cestina": 60,
+      "matematika": 70
+     }
+    }
+   ]
+  }
+ ]
+}

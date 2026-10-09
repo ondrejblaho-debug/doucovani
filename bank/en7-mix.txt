@@ -1,0 +1,24 @@
+# Angličtina – úlohy ve stylu školního testu (vlastní úlohy)
+
+@passage en-c1 My first camping trip
+Last summer I went camping ___ the first time. My parents put up ___ tent next to a lake. ___ was a beautiful place, but there were a lot of mosquitoes. In the evening we cooked sausages and my dad played ___ guitar.
+@end
+
+@topic en7-anglictina
+@diff 2
+yng | Vyber VŠECHNA správná doplnění (ANO = správně): „There is ___ old castle near our town.“ | an=A; the=N; a=N; (žádný člen)=N | Po „There is“ uvádíme novou věc → neurčitý člen; před samohláskou (old) → an. „The“ se s there is běžně nepoužívá.
+yng | Vyber VŠECHNA správná doplnění: „___ did you get home yesterday?“ | When=A; How=A; Who=N; What time=A | When/How/What time + did you get home – vše dává smysl. „Who did you get home“ nedává smysl.
+yng | Vyber VŠECHNA správná doplnění: „She ___ to the party last night.“ | went=A; didn't go=A; goed=N; doesn't go=N | Last night → minulý čas: went / didn't go.
+yng | Vyber VŠECHNA správná doplnění: „We haven't got ___ eggs.“ | any=A; many=A; much=N; some=N | Počitatelné v záporu: any / many. Much jen s nepočitatelnými.
+text | Přepiš větu tak, aby význam zůstal stejný. Použij slovo v závorce (max. 5 slov).\n„Peter is able to play the guitar.“\nPeter ___ the guitar. (CAN) | can play | Be able to = can: Peter can play the guitar.
+text | Přepiš větu, význam stejný (max. 5 slov).\n„My house has three bedrooms.“\n___ three bedrooms in my house. (ARE) | There are | Has three bedrooms = there are three bedrooms.
+text | Přepiš větu, význam stejný (max. 5 slov).\n„Jana is taller than Eva.“\nEva ___ Jana. (SHORTER) | is shorter than | Pokud je Jana vyšší, je Eva menší: Eva is shorter than Jana.
+text | Přepiš větu, význam stejný (max. 5 slov).\n„This bike belongs to my brother.“\nThis is ___ bike. (BROTHER'S) | my brother's | Přivlastňovací pád: my brother's bike.
+text | Přepiš větu, význam stejný (max. 5 slov).\n„It isn't necessary to wear a uniform.“\nYou ___ wear a uniform. (HAVE) | don't have to; do not have to | Není nutné = don't have to.
+text | Přepiš větu, význam stejný (max. 5 slov).\n„We plan to visit London next year.“\nWe ___ visit London next year. (GOING) | are going to; 're going to | Plán → be going to: We are going to visit …
+text@en-c1 | Doplň JEDNO slovo do 1. mezery: „I went camping ___ the first time.“ | for | Ustálené spojení: for the first time (poprvé).
+text@en-c1 | Doplň JEDNO slovo do 2. mezery: „My parents put up ___ tent next to a lake.“ | the; a; our; their | Před podstatným jménem v jednotném čísle musí být člen nebo zájmeno: the/a/our/their tent.
+text@en-c1 | Doplň JEDNO slovo do 3. mezery: „___ was a beautiful place.“ | It | Podmět musí být vyjádřen: It was a beautiful place.
+text@en-c1 | Doplň JEDNO slovo do 4. mezery: „My dad played ___ guitar.“ | the | Hudební nástroj: play the guitar.
+mc [2] | Ve školním testu z AJ bývá úloha „vyber VŠECHNA správná řešení“. Kdy dostaneš bod? | když označíš aspoň jedno správné; *jen když označíš všechna správná a žádné špatné; vždy, když něco označíš; za každou správnou možnost zvlášť | Podle ukázky školy: chybné nebo neúplné označení = 0 bodů za větu.
+mc [2] | Při přepisu věty se slovem v závorce smíš… | slovo v závorce změnit (např. can → could); *použít nejvýše 5 slov a slovo nezměnit; napsat celou novou větu; vynechat slovo v závorce | Slovo se nemění, max. 5 slov včetně něj, zkratky (isn't) se počítají jako dvě slova.

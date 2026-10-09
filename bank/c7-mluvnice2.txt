@@ -1,0 +1,168 @@
+@topic c7-carky
+@diff 2
+mc | Která věta je napsána správně? | Kniha kterou jsem četl byla napínavá.; *Kniha, kterou jsem četl, byla napínavá.; Kniha, kterou jsem četl byla napínavá.; Kniha kterou, jsem četl, byla napínavá. | Vložená vedlejší věta se odděluje čárkami z obou stran.
+mc | Která věta je napsána správně? | *Karel IV., český král, založil univerzitu.; Karel IV. český král, založil univerzitu.; Karel IV., český král založil univerzitu.; Karel IV. český král založil univerzitu. | Přístavek „český král“ se odděluje čárkami z obou stran.
+mc | Která věta je napsána správně? | Přišel domů a protože byl unavený šel spát.; *Přišel domů, a protože byl unavený, šel spát.; Přišel domů a, protože byl unavený, šel spát.; Přišel domů, a protože byl unavený šel spát. | Vedlejší věta „protože byl unavený“ je vložená – čárky z obou stran; před „a“ je čárka, protože následuje vložená věta.
+yn | Je čárka správně? „Bylo to, jak se zdá, nejlepší řešení.“ | ano | Vsuvka „jak se zdá“ se odděluje čárkami.
+yn | Je čárka správně? „Pavel, i Petr přišli.“ | ne | Před „i“ ve spojení „Pavel i Petr“ čárka nepatří.
+yn | Je čárka správně? „Byl unavený, ale spokojený.“ | ano | Před „ale“ píšeme čárku vždy.
+yn | Je čárka správně? „Jak jsem řekl, zítra nepřijdu.“ | ano | Vedlejší věta na začátku se odděluje čárkou.
+yn | Je čárka správně? „Buď půjdeš se mnou, nebo zůstaneš doma.“ | ano | Ve dvojité spojce „buď – nebo“ píšeme čárku před „nebo“.
+yn | Je čárka správně? „Koupil jsem si chleba, rohlíky, mléko a máslo.“ | ano | Výčet: čárky mezi členy, před posledním „a“ ne.
+mc [2] | Kam chybí čárka? „Jano pojď sem prosím tě.“ | *za „Jano“ a před „prosím tě“; jen za „Jano“; jen za „sem“; nikam | Oslovení i vsuvka se oddělují: „Jano, pojď sem, prosím tě.“
+mc [2] | Ve které větě chybí čárka? | Šli jsme do kina a potom domů.; *Nevěděl kam má jít.; Pes i kočka spali.; Bylo krásné letní ráno. | „Nevěděl, kam má jít.“ – vedlejší věta.
+mc [2] | Ve které větě je čárka chybně? | Myslím, že máš pravdu.; *Děti, si hrály na hřišti.; Až skončí film, půjdeme spát.; Ahoj, Petro! | Mezi podmětem a přísudkem čárku nepíšeme.
+mc [3] | Která věta je správně? | Vlak, který jel do Brna měl zpoždění.; *Vlak, který jel do Brna, měl zpoždění.; Vlak který jel do Brna, měl zpoždění.; Vlak který, jel do Brna měl zpoždění. | Vložená vedlejší věta – čárky na obou stranách.
+mc [2] | Ve které větě je správně několikanásobný přívlastek? | *Byl to krásný, slunečný den.; Byl to krásný slunečný, den.; Byl, to krásný slunečný den.; Byl to, krásný slunečný den. | Souřadné přívlastky (krásný a slunečný) oddělujeme čárkou.
+yn | Je čárka správně? „Než odejdeš, zhasni světlo.“ | ano | Vedlejší věta „Než odejdeš“ se odděluje.
+yn | Je čárka správně? „Nejen v létě, ale i v zimě tu je hodně turistů.“ | ano | Před „ale i“ ve spojení „nejen – ale i“ čárka.
+
+@topic c7-slovni-druhy
+@diff 2
+mc | Jaký slovní druh je „kéž“ ve větě „Kéž by pršelo!“? | spojka; příslovce; *částice; citoslovce | Kéž uvozuje přací větu – částice.
+mc | Jaký slovní druh je „ať“ ve větě „Ať se ti daří!“? | spojka; *částice; předložka; zájmeno | Ať tu uvozuje přání – částice.
+mc | Jaký slovní druh je „jeho“ ve větě „Jeho pes je velký.“? | podstatné jméno; *zájmeno přivlastňovací; zájmeno osobní; číslovka | Čí pes? Jeho – přivlastňovací zájmeno.
+mc | Jaký druh zájmena je „ten“? | osobní; přivlastňovací; *ukazovací; tázací | Ten, ta, to – ukazovací.
+mc | Jaký druh zájmena je „kdo“ ve větě „Kdo to byl?“? | osobní; *tázací; záporné; neurčité | Tážeme se – tázací.
+mc | Jaký druh zájmena je „nikdo“? | *záporné; osobní; vztažné; ukazovací | Nikdo, nic – záporné.
+mc | Jaký druh zájmena je „někdo“? | záporné; *neurčité; tázací; přivlastňovací | Někdo, něco – neurčité.
+mc | Jaký slovní druh je „po“ ve větě „Po obědě jsme šli ven.“? | spojka; *předložka; příslovce; částice | Po stojí před podstatným jménem v 6. pádě – předložka.
+mc | Jaký je 2. stupeň přídavného jména „dobrý“? | dobřejší; *lepší; nejlepší; dobře | Dobrý – lepší – nejlepší.
+mc | Jaký je 3. stupeň příslovce „málo“? | méně; *nejméně; nejmálo; nejmenší | Málo – méně – nejméně.
+mc | Jaký je 2. stupeň přídavného jména „zlý“? | zlejší; *horší; nejhorší; zle | Zlý – horší – nejhorší.
+mc [2] | Ve které větě je slovo „dobře“ příslovce? | Dobrý den.; *Učí se dobře.; Dobrého člověka poznáš.; To je dobrota. | Jak se učí? Dobře – příslovce.
+mc [2] | Které slovo NENÍ číslovka? | trojí; pět; třetí; *trojka | Trojka (známka, tramvaj) je podstatné jméno; ostatní jsou číslovky.
+mc [3] | Jaký slovní druh je „jako“ ve větě „Je silný jako medvěd.“? | předložka; *spojka; částice; příslovce | Jako spojuje přirovnání – spojka.
+match [2] | Přiřaď druh zájmena. | já => osobní; můj => přivlastňovací; tento => ukazovací; který (ve větě vztažné) => vztažné | Druhy zájmen.
+mc [2] | Které slovo NENÍ ohebné? | psát; kniha; *včera; pět | Včera je příslovce – neohebné (nestupňuje se).
+
+@topic c7-slovesa
+@diff 2
+mc | V jakém slovesném rodě je „Dům byl postaven za rok.“? | činném; *trpném | Byl postaven – trpný rod (podmět děj nekoná).
+mc | Převeď do trpného rodu: „Dělníci opravili most.“ | Most opravili dělníci.; *Most byl opraven dělníky.; Most se opravoval.; Dělníci byli opraveni mostem. | Trpný rod: byl opraven.
+mc | V jakém způsobu je „Kdybych měl čas, přišel bych.“ – sloveso „přišel bych“? | oznamovacím; rozkazovacím; *podmiňovacím | Podmiňovací způsob přítomný.
+mc | V jakém čase je „budeme psát“? | minulém; přítomném; *budoucím | Budeme psát – budoucí čas.
+mc | Jaký je vid slovesa „napsat“? | nedokonavý; *dokonavý | Napsat – děj ukončený, dokonavý.
+mc | Jaký je vid slovesa „psát“? | *nedokonavý; dokonavý | Psát – děj probíhající, nedokonavý.
+mc [2] | Které sloveso je v podmiňovacím způsobu minulém? | šel bych; *byl bych šel; jdi; půjdu | Byl bych šel – podmiňovací způsob minulý.
+mc | Urči osobu a číslo slovesa „pracujete“. | 1. os. mn. č.; *2. os. mn. č.; 3. os. mn. č.; 2. os. j. č. | Vy pracujete.
+mc [2] | Ve které větě je chybný tvar slovesa? | Kdybychom věděli, řekli bychom.; *Kdybysme to věděli, řekli bysme.; Byli bychom rádi.; Šli bychom ven. | Spisovně: kdybychom, řekli bychom.
+mc | Rozkazovací způsob slovesa „spát“ (ty) je | spějte; *spi; spíš; spát | Spi!
+mc [2] | Který tvar je spisovný? | *vyndat; vindat; vyndal by jsme; vyndejte by | Vyndat je spisovné (také vyjmout).
+mc [3] | Které spojení je spisovné? | Bysme šli.; *Šli bychom.; Šli bysme.; Šli by jsme. | Spisovně: šli bychom.
+mc [2] | Které sloveso je zvratné? | psát; *smát se; běhat; číst | Smát se – zvratné sloveso (se).
+mc [2] | Přeměň do činného rodu: „Kniha byla napsána autorkou.“ | *Autorka napsala knihu.; Kniha napsala autorku.; Autorka byla napsána.; Kniha se napsala. | Činný rod: podmět děj koná.
+mc | Urči slovesný čas: „Zítra pojedeme k moři.“ | minulý; přítomný; *budoucí | Pojedeme – budoucí čas.
+mc | Které sloveso je v rozkazovacím způsobu? | píšeš; *pište; psal by; psali | Pište! – rozkazovací způsob.
+mc [2] | Ke slovesu „skočit“ najdi vidový protějšek. | *skákat; vyskočit; skočil; skok | Skočit (dokonavé) × skákat (nedokonavé).
+mc [2] | Které slovesné spojení je v trpném rodě? | *byl pochválen; pochválil; chválí; chválil by | Byl pochválen – trpný rod.
+
+@topic c7-vetne-cleny
+@diff 2
+mc | Jaký větný člen je „knihu“ ve větě „Čtu knihu.“? | podmět; *předmět; přívlastek; příslovečné určení | Čtu co? Knihu – předmět.
+mc | Jaký větný člen je „zelený“ ve větě „Zelený strom roste.“? | předmět; *přívlastek shodný; příslovečné určení; přísudek | Jaký strom? Zelený – přívlastek shodný.
+mc | Jaký větný člen je „z dřeva“ ve větě „Stůl z dřeva je těžký.“? | přívlastek shodný; *přívlastek neshodný; předmět; podmět | Jaký stůl? Z dřeva – přívlastek neshodný.
+mc | Jaký větný člen je „ráno“ ve větě „Ráno pršelo.“? | podmět; *příslovečné určení času; předmět; přívlastek | Kdy pršelo? Ráno.
+mc | Jaký větný člen je „v lese“ ve větě „Houby rostou v lese.“? | *příslovečné určení místa; předmět; přívlastek; podmět | Kde rostou? V lese.
+mc | Jaký větný člen je „rychle“ ve větě „Běžel rychle.“? | příslovečné určení času; *příslovečné určení způsobu; předmět; přívlastek | Jak běžel? Rychle.
+mc | Jaký větný člen je „z únavy“ ve větě „Usnul z únavy.“? | PU místa; *příslovečné určení příčiny; předmět; přívlastek neshodný | Proč usnul? Z únavy.
+mc [2] | Které slovo je podmět ve větě „Na zahradě si hrály děti sousedů.“? | zahradě; hrály; *děti; sousedů | Kdo si hrál? Děti.
+mc [2] | Jaký větný člen je „sousedů“ ve větě „Na zahradě si hrály děti sousedů.“? | předmět; *přívlastek neshodný; podmět; PU místa | Čí děti? Sousedů – přívlastek neshodný.
+mc [2] | Ve které větě je několikanásobný předmět? | Petr a Pavel běží.; *Koupil jsem chleba a máslo.; Byl velký a silný.; Šli jsme domů. | Koupil jsem co? Chleba a máslo.
+mc [2] | Které slovo je ve větě „Viděl jsem starého psa.“ přívlastek shodný? | viděl; *starého; psa; jsem | Jakého psa? Starého – shoduje se se slovem psa v rodě, čísle i pádě.
+mc [3] | Jaký větný člen je „lékařem“ ve větě „Otec je lékařem.“? | předmět; *součást jmenného přísudku (se sponou); přívlastek; PU způsobu | Je lékařem – přísudek jmenný se sponou.
+match [2] | Přiřaď větný člen. Věta: „Malý Jakub včera nakreslil obrázek.“ | Malý => přívlastek shodný; Jakub => podmět; včera => příslovečné určení času; obrázek => předmět | Kdo? Jakub. Jaký? Malý. Kdy? Včera. Co? Obrázek.
+mc | Co je přísudek ve větě „Babička bude péct cukroví.“? | babička; *bude péct; cukroví; péct | Přísudek slovesný složený: bude péct.
+mc | Jaký větný člen je „na kole“ ve větě „Jezdím do školy na kole.“? | předmět; *příslovečné určení způsobu; přívlastek; podmět | Jak jezdím? Na kole.
+
+@topic c7-souveti
+@diff 2
+mc | Kolik vět má souvětí „Když jsem přišel, všichni už seděli u stolu a jedli.“? | 2; *3; 4; 1 | Přísudky: přišel, seděli, jedli – tři věty.
+mc | Jaký druh vedlejší věty je „že přijde“ v souvětí „Řekl, že přijde.“? | podmětná; *předmětná; přívlastková; příslovečná místní | Řekl co? Že přijde – předmětná.
+mc | Jaký druh vedlejší věty je „který štěkal“ v souvětí „Pes, který štěkal, utekl.“? | předmětná; *přívlastková; časová; příčinná | Jaký pes? Který štěkal – přívlastková.
+mc | Jaký druh vedlejší věty je „když zazvonilo“ v souvětí „Když zazvonilo, šli jsme domů.“? | *příslovečná časová; příčinná; předmětná; účelová | Kdy jsme šli? Když zazvonilo.
+mc | Jaký druh vedlejší věty je „protože pršelo“? | časová; *příčinná; místní; přívlastková | Proč? Protože pršelo.
+mc | Jaký druh vedlejší věty je „aby stihl vlak“ v souvětí „Běžel, aby stihl vlak.“? | příčinná; *účelová; podmínková; časová | Za jakým účelem běžel? Aby stihl vlak.
+mc | Jaký druh vedlejší věty je „kde bydlí babička“ v souvětí „Jeli jsme tam, kde bydlí babička.“? | *příslovečná místní; přívlastková; předmětná; časová | Kam jsme jeli? Kde bydlí babička.
+mc | Jaký druh vedlejší věty je „jestli bude hezky“ v souvětí „Pojedeme na výlet, jestli bude hezky.“? | časová; *podmínková; příčinná; účelová | Za jaké podmínky? Jestli bude hezky.
+mc [2] | Které souvětí obsahuje vedlejší větu podmětnou? | *Kdo lže, ten krade.; Vím, že lže.; Pes, který štěkal, utekl.; Lhal, protože se bál. | Kdo krade? Kdo lže – podmětná věta.
+mc [2] | Ve kterém souvětí jsou jen věty hlavní? | Vím, že přijde.; *Pršelo a foukal vítr.; Když prší, jsem doma.; Kniha, kterou čtu, je dlouhá. | Dvě hlavní věty spojené „a“ – souvětí souřadné.
+mc [2] | Která spojka uvozuje vedlejší větu? | a; ale; nebo; *protože | Podřadicí spojka „protože“.
+mc [3] | Jaký druh vedlejší věty je „jak se to stalo“ v souvětí „Nikdo neví, jak se to stalo.“? | způsobová; *předmětná; přívlastková; časová | Nikdo neví co? Jak se to stalo – předmětná.
+mc [2] | Kolik je v souvětí vedlejších vět? „Myslím, že až přijde, řekne nám, co se stalo.“ | 1; 2; *3; 4 | že řekne, až přijde, co se stalo – tři vedlejší věty, hlavní je „Myslím“.
+yn | Souvětí „Šel jsem ven, ale bylo chladno.“ je souvětí souřadné. | ano | Dvě hlavní věty spojené „ale“.
+mc [2] | Jaký druh vedlejší věty je „ačkoli byl unavený“? | příčinná; *přípustková; časová; účelová | Ačkoli – přípustka (navzdory).
+
+@topic c7-vystavba-vet
+@diff 2
+mc | Která věta je správně utvořena? | Viděl jsem auto, kterého řídil táta.; *Viděl jsem auto, které řídil táta.; Viděl jsem auto, co ho řídil táta.; Viděl jsem auto, které ho řídil táta. | Vztažné zájmeno „které“ ve 4. pádě.
+mc | Která věta je správně? | Děkuji za pozornost a přeji hezký den, že.; *Děkuji za pozornost a přeji hezký den.; Děkuju za pozornost a přeju hezký den, no.; Děkuji za pozornosti. | Bez nadbytečných slov.
+mc [2] | Která věta je chybná? | Kvůli dešti jsme zůstali doma.; *Díky dešti jsme zmokli a výlet se zrušil.; Díky tvé pomoci jsem to stihl.; Kvůli nemoci jsem chyběl. | „Díky“ se pojí s něčím příznivým; u negativních věcí „kvůli“.
+mc [2] | Ve které větě je chybný slovosled? | *Včera jsem se byl podívat na zápas se.; Včera jsem byl na zápase.; Na zápase jsem byl včera.; Byl jsem včera na zápase. | Zvratné „se“ nemůže stát dvakrát ani na konci věty takto.
+mc [2] | Která věta obsahuje chybu ve vazbě? | Těším se na prázdniny.; *Záleží o tom, co řekneš.; Bojím se tmy.; Zajímám se o hvězdy. | Správně: „Záleží na tom“.
+mc | Převeď do nepřímé řeči: Tom řekl: „Zítra přijdu pozdě.“ | Tom řekl, že zítra přijdu pozdě.; *Tom řekl, že zítra přijde pozdě.; Tom řekl: že přijde pozdě.; Tom řekl, zítra přijde pozdě. | Mění se osoba.
+mc | Převeď do přímé řeči: Učitel se zeptal, kdo chybí. | *Učitel se zeptal: „Kdo chybí?“; Učitel se zeptal, „Kdo chybí?“; Učitel se zeptal: „kdo chybí?“; Učitel se zeptal: Kdo chybí. | Dvojtečka, uvozovky, velké písmeno, otazník uvnitř.
+mc [2] | Která věta s přímou řečí je zapsána správně? | „Pojď sem“, zavolala máma.; *„Pojď sem!“ zavolala máma.; „Pojď sem!“, zavolala máma.; Pojď sem! „zavolala máma“. | Za vykřičníkem v přímé řeči se čárka nepíše.
+mc [3] | Která věta je stylisticky nejlepší? | Šel jsem do obchodu, šel jsem k pokladně a šel jsem domů.; *Došel jsem do obchodu, zaplatil u pokladny a vrátil se domů.; Obchod, pokladna, domů – to jsem šel.; Do obchodu jsem šel, šel, šel. | Bez zbytečného opakování.
+mc [2] | Najdi větu bez chyby. | Přišel jsem s mojí sestrou a jejíma kamarádkama.; *Přišel jsem se svou sestrou a jejími kamarádkami.; Přišel jsem se svojí sestrou a jejíma kamarádkami.; Přišel jsem s mou sestrou a jejími kamarádkama. | Spisovně: se svou sestrou, s jejími kamarádkami.
+mc [2] | Která věta je správně? | Prosím Vás, mohl by jste mi pomoci?; *Prosím Vás, mohl byste mi pomoci?; Prosím Vás, mohli by jste mi pomoct?; Prosím Vás, mohl by ste mi pomoci? | Vykání jedné osobě: „mohl byste“.
+mc [2] | Ve které větě je chyba ve vazbě? | Mám strach ze tmy.; *Bojím se o tmu.; Bojím se tmy.; Tmy se nebojím. | Správně: bát se čeho (bojím se tmy).
+mc [2] | Ve které větě je chybná shoda přísudku s podmětem? | Děti si hrály.; *Ženy a muži přišly.; Psi štěkali.; Auta stála. | Ženy a muži → přišli (je tu rod mužský životný).
+mc [2] | Která věta je správně? | *Byl to nejlepší den mého života.; Byl to nejvíc nejlepší den mého života.; Byl to ten nejvíce lepší den mého života.; Byl to nejlepší den mýho života. | Nejlepší je už 3. stupeň – „nejvíc“ je nadbytečné; „mýho“ je nespisovné.
+mc [2] | Která věta je správně? | *Podle mého názoru je to dobrý nápad.; Dle mě názoru je to dobrý nápad.; Podle mýho názoru je to dobrý nápad.; Podle mého názoru je to dobrej nápad. | Spisovně: podle mého názoru, dobrý.
+
+@topic c7-vyznam-slov
+@diff 2
+mc | Synonymum slova „pokračovat“ je | přestat; *navazovat; začít; zastavit | Navazovat = pokračovat.
+mc | Antonymum slova „optimista“ je | realista; *pesimista; idealista; turista | Optimista × pesimista.
+mc | Co znamená „ustálené spojení“ „mít něco v malíčku“? | mít zraněný prst; *umět to výborně; mít něco schované; něco ztratit | Mít v malíčku = výborně ovládat.
+mc | Co znamená „vzít nohy na ramena“? | dělat gymnastiku; *utéct; nosit někoho; protáhnout se | Vzít nohy na ramena = rychle utéct.
+mc | Co znamená „házet flintu do žita“? | jít na lov; *vzdát to předčasně; sklízet obilí; střílet do obilí | Házet flintu do žita = vzdát se.
+mc [2] | Které slovo je mnohoznačné? | stůl; *oko (na tváři, v síti, na polévce); židle; mrkev | Oko má více významů.
+mc [2] | Slovo nadřazené ke slovům „housle, kytara, klavír“ je | struny; *hudební nástroje; orchestr; muzikant | Housle, kytara, klavír jsou druhy hudebních nástrojů.
+mc [2] | Které slovo je souřadné se slovem „sobota“? | víkend; den; *neděle; týden | Sobota i neděle jsou dny v týdnu – souřadná slova.
+mc | Co znamená přísloví „Kdo nic nedělá, nic nezkazí“? | práce je špatná; *chyby dělá ten, kdo pracuje – nečinnost chrání před chybou, ale nic nepřinese; nedělat nic je nejlepší; zkazit lze jen věci | Přísloví hájí toho, kdo chybuje při práci.
+mc [2] | Co znamená přísloví „Lež má krátké nohy“? | lháři jsou malí; *lež se brzy prozradí; lež je rychlá; nohy lžou | Pravda vyjde najevo.
+mc [2] | Ve které větě má slovo „hlava“ přenesený význam? | Bolí mě hlava.; *Je hlavou rodiny.; Má hlavu jako meloun. ; Pokývala hlavou. | Hlava rodiny = ten, kdo ji vede.
+match [2] | Přiřaď frazém k významu. | mít hroznou trému => mít knedlík v krku; být velmi šťastný => být v sedmém nebi; pracovat velmi pilně => dřít jako mezek; mlčet => držet jazyk za zuby | Frazémy mají ustálený přenesený význam.
+mc [2] | Které slovo je odborný termín? | maminka; *fotosyntéza; hezký; kamarád | Fotosyntéza je odborný (biologický) termín.
+mc [3] | Které slovo má citové zabarvení (hanlivé)? | dítě; *spratek; chlapec; žák | Spratek je hanlivé označení dítěte.
+mc | Synonymum k „nenadálý“ je | očekávaný; *neočekávaný; pomalý; nadšený | Nenadálý = nečekaný.
+
+@topic c7-spisovnost
+@diff 2
+mc | Spisovný tvar „ty dobrý lidi“ je | *ti dobří lidé; ty dobrý lidi; ti dobrý lidé; ty dobří lidi | Spisovně: ti dobří lidé.
+mc | Spisovný tvar „s dobrejma kamarádama“ je | *s dobrými kamarády; s dobrýma kamarádama; s dobrými kamarádama; s dobrejmi kamarády | Spisovně: s dobrými kamarády.
+mc | Spisovný tvar „vodešel“ je | vodešel; *odešel; vodéšel; odéšel | Protetické v- je nespisovné.
+mc | Spisovný tvar „dělaj“ je | dělajou; *dělají; dělaj; dělajó | Oni dělají.
+mc | Spisovný tvar „mlejn“ je | *mlýn; mlejn; mlín; mlým | Spisovně mlýn.
+mc [2] | Ve které větě jsou všechna slova spisovná? | Von tam nebyl, viď.; *Nevěděl jsem, kde bydlí.; Tak to sem nevěděl.; Byl to fakt dobrej film. | Ostatní obsahují nespisovné tvary.
+mc [2] | Které slovo je hovorové nebo nespisovné? | večeře; *kámoš; kuchyně; okno | „Kámoš“ je nespisovné, spisovně kamarád.
+mc [2] | Spisovný tvar „s těma dětma“ je | *s těmi dětmi; s těma dětmi; s těmi dětma; s těmi děckama | Spisovně: s těmi dětmi.
+yn | Tvar „bysme“ (my bysme) je spisovný. | ne | Spisovně: bychom.
+yn | Tvar „kdybychom“ je spisovný. | ano | Kdybychom je spisovný tvar.
+mc | Spisovně „Mám velkou žízeň, dej mi napít z tý flašky.“ zní | *Mám velkou žízeň, dej mi napít z té láhve.; Mám velkou žízeň, dej mi napít z tý láhve.; Mám velkou žízeň, dej mi napít z té flašky.; Mám velkou žízeň, dej mi napít z tamtý flašky. | Spisovně: z té láhve.
+mc [3] | Ve které větě je nespisovný tvar? | Přijdu brzy.; Napíšu ti.; *Ten film byl hroznej.; Zítra budu doma. | Spisovně „hrozný“.
+mc [2] | Spisovný tvar slova „vokurka“ je | *okurka; ókurka; vokurka; okurek | Okurka.
+mc [2] | Spisovný tvar „ňákej“ je | *nějaký; ňáký; nějakej; ňejaký | Spisovně nějaký.
+mc | Spisovný tvar „pěknej den“ je | *pěkný den; pěknej den; pěkné den; pěknéj den | Pěkný den.
+
+@topic c7-tvoreni-slov
+@diff 2
+mc | Jaký je kořen slova „vyučování“? | vy-; *uč; -ování; vyuč | Kořen uč- (učit, učitel).
+mc | Které slovo je odvozené příponou? | *zahradník; podzemí; odejít; přijet | Zahrad-ník – přípona -ník.
+mc | Které slovo je odvozené předponou? | učitel; *předpověď; zahrádka; malíř | Před-pověď – předpona před-.
+mc | Které slovo je složené? | *zeměpis; zemák; zemský; pozemek | Zeměpis = země + psát.
+mc | Které slovo je zkratkové (vzniklo ze začátků více slov)? | dům; *Čedok; strom; kniha | Čedok vznikl z názvu Česká dopravní kancelář.
+mc | Ve kterém slově je slabikotvorné „r“? | *krk; kras; rak; brána | V krk je r jedinou samohláskou slabiky – slabikotvorné.
+mc | Ve kterém slově je slabikotvorné „l“? | lev; *vlk; lak; plot | Vlk – l je slabikotvorné.
+mc | Kolik hlásek má slovo „dítě“? | 3; *4; 5; 6 | d-í-ť-e: skupina „tě“ se vyslovuje jako ť + e, proto 4 hlásky.
+mc | Zdrobnělina ke slovu „klíč“ je | klíčník; *klíček; klíčovat; klíčový | Klíček.
+mc [2] | Které slovo NENÍ příbuzné se slovem „voda“? | vodník; vodnatý; *vodit; zavodnit | Vodit souvisí se slovem vést, ne s vodou.
+mc [2] | Jakou předponu má slovo „nejsilnější“? | ne-; *nej-; -ší; síl- | Nej- je předpona 3. stupně.
+mc [2] | Které slovo je příbuzné se slovem „mýt“? | myš; *umyvadlo; hmyz; mýto | Umyvadlo – myje se v něm.
+mc [3] | Které slovo vzniklo skládáním? | rybník; *vodovod; vodník; vodička | Vodovod = voda + vodit.
+mc | Zdrobnělina ke slovu „pes“ je | psisko; *pejsek; psí; psina | Pejsek.
+mc | Které slovo je odvozené od slova „les“? | *lesník; leskot; lest; lesk | Lesník – ten, kdo pečuje o les. Lesk a leskot souvisí s „lesknout se“.
+mc [2] | Kolik předpon má slovo „nepředvídatelný“? | 1; *2; 3; 0 | ne- + před- + vídatelný.
+mc | Které slovo je ženským protějškem (přechýleným tvarem) slova „učitel“? | *učitelka; učitelna; učitelský; učitelování | Učitel → učitelka.

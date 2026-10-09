@@ -1,0 +1,152 @@
+# ČEŠTINA 5 – mluvnice a slovní zásoba
+@topic c5-slovni-druhy
+@diff 1
+mc | Jaký slovní druh je slovo „pes“? | *podstatné jméno; přídavné jméno; sloveso; příslovce | Pes pojmenovává živočicha – podstatné jméno.
+mc | Jaký slovní druh je slovo „běhat“? | podstatné jméno; *sloveso; příslovce; spojka | Běhat vyjadřuje činnost – sloveso.
+mc | Jaký slovní druh je slovo „zelený“? | podstatné jméno; *přídavné jméno; zájmeno; číslovka | Zelený vyjadřuje vlastnost – přídavné jméno.
+mc | Jaký slovní druh je slovo „rychle“? | přídavné jméno; *příslovce; sloveso; předložka | Rychle vyjadřuje, jak se něco děje – příslovce.
+mc | Jaký slovní druh je slovo „pět“? | *číslovka; zájmeno; příslovce; podstatné jméno | Pět vyjadřuje počet – číslovka.
+mc | Jaký slovní druh je slovo „my“? | podstatné jméno; *zájmeno; spojka; citoslovce | My zastupuje jména osob – zájmeno.
+mc | Jaký slovní druh je slovo „na“ ve spojení „na stole“? | spojka; *předložka; příslovce; částice | Na stojí před podstatným jménem – předložka.
+mc | Jaký slovní druh je slovo „a“ ve větě „Petr a Jana“? | předložka; *spojka; zájmeno; citoslovce | A spojuje dvě slova – spojka.
+mc | Jaký slovní druh je slovo „haf“? | podstatné jméno; sloveso; *citoslovce; příslovce | Haf napodobuje zvuk – citoslovce.
+mc | Kolik je v češtině slovních druhů? | 8; *10; 12; 6 | Podstatná jména, přídavná jména, zájmena, číslovky, slovesa, příslovce, předložky, spojky, částice, citoslovce.
+mc [2] | Které slovo je ve větě „Dnes svítilo slunce.“ příslovce? | slunce; svítilo; *dnes; žádné | „Dnes“ odpovídá na otázku kdy? – je to příslovce.
+mc [2] | Ve které větě je slovo „zpívání“ podstatné jméno? | *Zpívání mě baví.; Ráda zpívám.; Zpívala hlasitě.; Zpívej! | Zpívání je název činnosti – podstatné jméno.
+mc [2] | Ve které řadě jsou jen ohebné slovní druhy? | pes, a, na; *kniha, velký, my; rychle, ale, ach; v, i, hop | Ohebné jsou podstatná a přídavná jména, zájmena, číslovky a slovesa.
+match | Přiřaď ke slovu jeho slovní druh. | stůl => podstatné jméno; modrý => přídavné jméno; psát => sloveso; ale => spojka | Stůl – věc, modrý – vlastnost, psát – činnost, ale – spojuje věty.
+match [2] | Přiřaď ke slovu jeho slovní druh. | oni => zájmeno; třetí => číslovka; pod => předložka; vesele => příslovce | Oni zastupuje osoby, třetí je pořadí, pod stojí před jménem, vesele vyjadřuje jak.
+yng | Rozhodni, zda je slovo sloveso. | čte=A; čtení=N; četla=A; čtenář=N | Slovesa vyjadřují děj: čte, četla. Čtení a čtenář jsou podstatná jména.
+mc | Které slovo je přídavné jméno? | rychle; *rychlý; rychlost; zrychlit | Rychlý = jaký? – přídavné jméno.
+
+@topic c5-mluvnicke-kategorie
+@diff 1
+mc | V jakém pádě je slovo „psovi“ ve větě „Dal jsem psovi kost.“? | 1. pád; 2. pád; *3. pád; 4. pád | Komu? čemu? – psovi, 3. pád.
+mc | V jakém pádě je slovo „školy“ ve větě „Jdu do školy.“? | 1. pád; *2. pád; 4. pád; 6. pád | Do koho? čeho? – do školy, 2. pád.
+mc | V jakém pádě je slovo „mámo“ ve větě „Mámo, pojď sem!“? | 1. pád; 4. pád; *5. pád; 7. pád | Oslovujeme – 5. pád.
+mc | V jakém pádě je slovo „autem“ ve větě „Jeli jsme autem.“? | 3. pád; 6. pád; *7. pád; 2. pád | S kým? čím? – autem, 7. pád.
+mc | V jakém pádě je slovo „stole“ ve větě „Kniha leží na stole.“? | 3. pád; 4. pád; *6. pád; 7. pád | O kom? o čem? / na kom? na čem? – na stole, 6. pád.
+mc | Jaký rod má slovo „židle“? | mužský; *ženský; střední | Ta židle – rod ženský.
+mc | Jaké číslo má slovo „kočky“ ve větě „Kočky spí.“? | jednotné; *množné | Více koček – množné číslo.
+mc | V jaké osobě je sloveso „píšeš“? | 1. osoba; *2. osoba; 3. osoba | Ty píšeš – 2. osoba jednotného čísla.
+mc | V jakém čase je sloveso „poběžíme“? | minulém; přítomném; *budoucím | Poběžíme – teprve se stane, čas budoucí.
+mc | V jakém čase je sloveso „zpívala“? | *minulém; přítomném; budoucím | Zpívala – už se stalo, čas minulý.
+mc | V jakém způsobu je sloveso „přines“? | oznamovacím; *rozkazovacím; podmiňovacím | Přines! – rozkaz, způsob rozkazovací.
+mc | V jakém způsobu je sloveso „šel bych“? | oznamovacím; rozkazovacím; *podmiňovacím | Šel bych – podmínka/přání, způsob podmiňovací.
+mc [2] | Které sloveso je v 1. osobě množného čísla? | čtou; čteš; *čteme; čtete | My čteme – 1. osoba množného čísla.
+mc [2] | Určete mluvnické kategorie slovesa „kreslili“. | 3. os. j. č., čas přítomný; *3. os. mn. č., čas minulý; 1. os. mn. č., čas budoucí; 2. os. mn. č., čas minulý | Oni kreslili – 3. osoba množného čísla, čas minulý, způsob oznamovací.
+mc [2] | Které podstatné jméno je rodu středního? | stůl; lampa; *kolo; dům | To kolo – rod střední.
+mc | Který tvar je spisovný? „Přišli jsme s ______.“ | *kamarády; kamarádama; kamarádami; kamarádi | Spisovně: s kamarády (vzor pán: s pány).
+mc [2] | Ve které větě je sloveso v čase přítomném? | Zítra půjdu ven.; Včera pršelo.; *Teď si čtu.; Budu malovat. | Teď si čtu – děje se právě teď.
+
+@topic c5-skladebni-dvojice
+@diff 1
+mc | Který je podmět ve větě „Malý pes hlasitě štěká.“? | malý; *pes; štěká; hlasitě | Kdo štěká? Pes – podmět.
+mc | Který je přísudek ve větě „Babička peče koláč.“? | babička; *peče; koláč; babička peče koláč | Co babička dělá? Peče – přísudek.
+mc | Který je podmět ve větě „Na stromě zpívají ptáci.“? | strom; zpívají; *ptáci; na stromě | Kdo zpívá? Ptáci – podmět.
+mc | Jaký je podmět ve větě „Šli jsme do kina.“? | vyjádřený; *nevyjádřený; několikanásobný | Podmět „my“ ve větě chybí – je nevyjádřený.
+mc | Jaký je podmět ve větě „Petr a Jana šli ven.“? | nevyjádřený; *několikanásobný; žádný | Dva podměty spojené spojkou – podmět několikanásobný.
+mc | Která je základní skladební dvojice ve větě „Ráno svítilo slunce.“? | ráno – svítilo; *slunce – svítilo; ráno – slunce; svítilo – ráno | Podmět slunce + přísudek svítilo.
+mc [2] | Která je základní skladební dvojice ve větě „Do třídy vešla nová paní učitelka.“? | třída – vešla; nová – učitelka; *učitelka – vešla; paní – nová | Kdo vešel? Učitelka (paní učitelka) – vešla.
+mc | Kolik vět obsahuje souvětí „Když jsem přišel domů, máma vařila a táta četl noviny.“? | 1; 2; *3; 4 | Tři přísudky (přišel, vařila, četl) = tři věty.
+yn | „Na zahradě kvetou růže.“ je věta jednoduchá. | ano | Má jeden přísudek (kvetou).
+yn | „Pršelo, a proto jsme zůstali doma.“ je věta jednoduchá. | ne | Má dva přísudky (pršelo, zůstali) – je to souvětí.
+mc | Který je přísudek ve větě „Děti si hrály a zpívaly.“? | děti; jen hrály; jen zpívaly; *hrály a zpívaly (přísudek několikanásobný) | Děti dělaly dvě činnosti – přísudek je několikanásobný.
+mc [2] | Ve které větě je podmět nevyjádřený? | Pes spí.; *Zítra pojedeme k moři.; Slunce svítí.; Maminka vaří. | Kdo pojede? My – podmět není ve větě napsán.
+mc [2] | Ve které větě je podmět několikanásobný? | Kluci hráli fotbal.; *Psi a kočky spali.; Hráli jsme si.; Kočka spí. | Psi a kočky – dva podměty.
+mc | Co je spojovací výraz v souvětí „Nevím, kde bydlí.“? | nevím; *kde; bydlí; žádný | Spojovacím výrazem je slovo „kde“.
+mc | Která věta je souvětí? | Kočka spí na gauči.; *Kočka spí, protože je unavená.; Kočka a pes.; Malá kočka. | Souvětí má alespoň dva přísudky: spí, je.
+mc | Kolik vět je v souvětí „Myslím, že zítra přijde.“? | 1; *2; 3 | Myslím + přijde = dvě věty.
+
+@topic c5-vyznam-slov
+@diff 1
+mc | Které slovo je synonymum (slovo souznačné) ke slovu „veselý“? | smutný; *radostný; tichý; rychlý | Veselý a radostný znamenají přibližně totéž.
+mc | Které slovo je antonymum (slovo protikladné) ke slovu „vysoký“? | velký; dlouhý; *nízký; široký | Vysoký × nízký.
+mc | Které slovo je antonymum ke slovu „začátek“? | počátek; *konec; střed; úvod | Začátek × konec.
+mc | Které slovo je nadřazené slovům „růže, tulipán, kopretina“? | strom; *květina; listí; zahrada | Všechny jsou druhy květin. 
+mc | Které slovo je podřazené slovu „nábytek“? | dům; *skříň; kuchyně; dřevo | Skříň je druh nábytku.
+mc | Které slovo je zdrobnělina? | dům; *domeček; domov; domácí | Domeček je zdrobnělina od dům.
+mc | Které slovo je mnohoznačné? | stůl; *koruna; pes; okno | Koruna je na stromě, na hlavě krále i peníz.
+mc | Ve které větě znamená slovo „koruna“ peníz? | *Do pokladničky jsem vhodil korunu.; Král si nasadil korunu.; Koruna stromu byla hustá.; Na koruně hráze stál rybář. | Do pokladničky se vhazují peníze.
+mc | Které slovo je citově zabarvené (vyjadřuje vztah, něhu)? | pes; *pejsánek; zvíře; savec | Pejsánek vyjadřuje něhu.
+mc | Najdi synonymum ke slovu „hovořit“. | mlčet; *mluvit; poslouchat; zívat | Hovořit = mluvit.
+mc [2] | Ve které dvojici NEJSOU slova antonyma? | den × noc; teplý × studený; *malý × drobný; otevřít × zavřít | Malý a drobný mají podobný význam – jsou to synonyma.
+mc [2] | Které slovo je souřadné ke slovu „jablko“? | ovoce; *hruška; strom; jádro | Jablko a hruška jsou druhy ovoce na stejné úrovni – souřadná slova.
+match | Přiřaď k slovu jeho antonymum. | den => noc; rychlý => pomalý; vpředu => vzadu; smát se => plakat | Antonyma mají opačný význam.
+match | Přiřaď k slovu jeho synonymum. | prosit => žádat; krásný => hezký; běžet => utíkat; rychle => hbitě | Synonyma mají podobný význam.
+mc [2] | Co znamená slovo „list“ ve větě „Dopsala jsem celý list.“? | list stromu; *list papíru; seznam; dopis | Dopsat lze list papíru.
+yn | Slova „hrad“ a „zámek“ mají v každé větě úplně stejný význam. | ne | Zámek může být i zámek u dveří; hrad a zámek nejsou totéž.
+
+@topic c5-prislovi
+@diff 1
+mc | Doplň přísloví: „Bez práce nejsou …“ | peníze; *koláče; sladkosti; prázdniny | Bez práce nejsou koláče – když nic neuděláš, nic nezískáš.
+mc | Doplň přísloví: „Kdo jinému jámu kopá, …“ | ten má lopatu; *sám do ní padá; má práci; je zahradník | Kdo chce ublížit jinému, často ublíží sám sobě.
+mc | Co znamená přísloví „Ranní ptáče dál doskáče“? | ptáci létají ráno; *kdo začne včas, dosáhne víc; ráno je zima; ptáčata skáčou | Kdo vstane brzy a začne včas, víc stihne.
+mc | Doplň přísloví: „Lepší vrabec v hrsti …“ | než sýkora v lese; *než holub na střeše; než dva v kleci; než kos na stromě | Lepší jistá malá věc než nejistá velká.
+mc | Co znamená rčení „mít máslo na hlavě“? | mít mastné vlasy; *mít něco provedeného, cítit se provinile; být kuchař; mít hlad | Kdo má máslo na hlavě, ví, že něco provedl.
+mc | Co znamená rčení „chodit kolem horké kaše“? | spálit se; *mluvit o něčem oklikou, nejít přímo k věci; vařit; mít hlad | Kdo chodí kolem horké kaše, nechce věc říct přímo.
+mc | Doplň přísloví: „Darovanému koni …“ | se nedívá na kopyta; *na zuby nehleď; se nehladí hříva; dej oves | Darovanému koni na zuby nehleď – dar nekritizujeme.
+mc | Co znamená přísloví „Opakování je matka moudrosti“? | maminky jsou moudré; *kdo opakuje, naučí se; nemáme nic opakovat; moudrost je stará | Opakováním si látku upevníš.
+mc | Doplň pranostiku: „Na svatého Martina …“ | prší z komína; *kouří se z komína; je léto; kvetou růže | Na svatého Martina kouří se z komína – v listopadu se už topí.
+mc [2] | Co znamená rčení „házet hrách na stěnu“? | stavět zeď; *marně někomu něco vysvětlovat; vařit polévku; malovat | Když hrách házíš na stěnu, odpadne – rada nemá žádný účinek.
+mc | Doplň přísloví: „Kdo se moc ptá, …“ | nic neví; *moc se dozví; je zvědavý; nemá kamarády | Kdo se moc ptá, moc se dozví.
+mc [2] | Které přísloví se hodí k situaci: Tom se celý rok neučil a před testem se snažil všechno dohnat za jeden večer. | Ranní ptáče dál doskáče.; *Co se v mládí naučíš, ve stáří jako když najdeš.; Kdo jinému jámu kopá, sám do ní padá.; Darovanému koni na zuby nehleď. | Hodí se nejvíc přísloví o tom, že učení se vyplatí včas. (Ostatní se k situaci nehodí.)
+mc | Co znamená rčení „mít oči na stopkách“? | mít velké oči; *dávat dobrý pozor; být ospalý; nosit brýle | Kdo má oči na stopkách, bedlivě sleduje okolí.
+mc | Doplň přísloví: „Jablko nepadá …“ | ze stromu; *daleko od stromu; do trávy; samo | Děti bývají podobné rodičům.
+match [2] | Přiřaď k rčení jeho význam. | mít hlavu v oblacích => být zasněný; být jako ryba ve vodě => cítit se dobře; mít zaječí úmysly => chtít utéct; dělat z komára velblouda => přehánět | Rčení mají přenesený význam.
+
+@topic c5-spisovnost
+@diff 1
+mc | Které slovo je spisovné? | dobrej; *dobrý | Spisovně: dobrý (nespisovně dobrej).
+mc | Které slovo je spisovné? | mlíko; *mléko; mlýko; mlejko | Spisovně: mléko.
+mc | Nahraď nespisovný tvar: „Viděl jsem velkýho psa.“ | *velkého psa; velkýho psa; velkej psa; velkém psa | Spisovně „velkého psa“.
+mc | Která věta je celá spisovně? | Mám novej mobil.; *Mám nový mobil.; Mám novou mobil.; Mam novej mobil. | Spisovně: nový.
+mc | Spisovný tvar slova „vokno“ je | *okno; vokénko; voko; vokno | Protetické v- je nespisovné: vokno → okno.
+mc | Spisovný tvar slova „bysme“ je | *bychom; bysem; bysme; bychme | Spisovně: „udělali bychom“.
+mc [2] | Ve které větě je nespisovný tvar? | Šli jsme s kamarády.; *Šli jsme s kamarádama.; Viděli jsme psy.; Hráli jsme si s dětmi. | Spisovně „s kamarády“.
+mc [2] | Ve které větě je nespisovné slovo? | Babička peče chléb.; Babička je hodná.; *Babičko, kup mi tu malou zmrzku.; Babička zalévá květiny. | „Zmrzka“ je nespisovné, spisovně zmrzlina.
+yn | Slovo „dělaj“ (oni dělaj) je spisovné. | ne | Spisovně: oni dělají.
+yn | Slovo „řekla“ je spisovné. | ano | Řekla je spisovný tvar.
+mc | Nahraď spisovným tvarem: „Dej mi ty modrý boty.“ | ty modrý boty; *ty modré boty; ty modrej boty; ty modrá bota | Spisovně „modré boty“.
+mc | Které slovo je nespisovné? | výborný; *vejborný; krásný; hodný | Vej- místo vý- je nespisovné.
+mc | Spisovný tvar spojení „malej kluk“ je | *malý kluk; malé kluk; malej kluk; maly kluk | Spisovně malý kluk.
+mc [2] | Ve které větě jsou všechna slova spisovná? | Von tam nebyl.; Mám rád zmrzku.; *Zítra pojedeme k babičce.; To je dobrý, ne jo? | Jen věta „Zítra pojedeme k babičce.“ je celá spisovná.
+mc | Spisovný tvar „s dětma“ je | *s dětmi; s dětama; s děckama; s dětmama | Spisovně s dětmi.
+mc | Spisovný tvar „pudu“ je | *půjdu; pujdu; pudu; pújdu | Spisovně: půjdu.
+
+@topic c5-stavba-slova
+@diff 1
+mc | Jaký je kořen slova „lesník“? | -ník; *les; lesn; lesní | Kořen je společná část příbuzných slov: les, lesní, lesník.
+mc | Jakou předponu má slovo „podzemí“? | zem; *pod-; -í; podz- | Pod- je předpona, kořen -zem-.
+mc | Jakou příponu má slovo „učitel“? | uč-; *-itel; -el; učit | Uč-itel: přípona -itel označuje osobu.
+mc | Které slovo je příbuzné se slovem „voda“? | vůz; *vodník; vonět; vodit | Vodník – kořen vod-.
+mc | Které slovo NENÍ příbuzné se slovem „rybník“? | ryba; rybář; *rychlý; rybička | Rychlý nemá kořen ryb-.
+mc | Kolik slabik má slovo „čokoláda“? | 3; *4; 5; 8 | Čo-ko-lá-da – 4 slabiky.
+mc | Kolik hlásek má slovo „chata“? | 5; *4; 3; 6 | ch-a-t-a – „ch“ je jedna hláska, tedy 4 hlásky.
+mc | Které písmeno označuje dvojhlásku? | ie; *ou; aa; ea | V češtině jsou dvojhlásky ou, au, eu.
+mc | Kolik samohlásek je ve slově „kamarád“? | 2; *3; 4; 7 | k-a-m-a-r-á-d: a, a, á – tři samohlásky.
+mc [2] | Ve kterém slově je předpona vy-? | výška; *vypít; vydra; vysoký | Vy-pít – předpona; ve slovech výška, vydra a vysoký „vy“ patří ke kořeni.
+mc [2] | Které slovo má stejný kořen jako „malovat“? | malý; *malíř; mlýn; mávat | Malíř – maluje; malý má jiný význam.
+mc | Které slovo je složené ze dvou slov? | stolek; *vodopád; vodník; vodní | Vodopád = voda + padat.
+mc | Kolik slabik má slovo „vlk“? | 0; *1; 2; 3 | Vlk – jedna slabika, slabikotvorné je „l“.
+match | Přiřaď ke slovu jeho předponu. | přestoupit => pře-; nadzemní => nad-; odejít => od-; zabalit => za- | Předpona stojí před kořenem.
+yn | Slova „hora“, „horský“ a „pohoří“ jsou příbuzná. | ano | Mají společný kořen hor-.
+mc | Kolik hlásek má slovo „chleba“? | 6; *5; 4; 7 | ch-l-e-b-a: „ch“ je jedna hláska, proto 5 hlásek.
+
+@topic c5-mix
+@diff 2
+mc | Ve které větě je chyba? | Děti se smály.; *Na poli se pásli ovce.; Kluci hráli hokej.; Holky skákaly přes švihadlo. | Ovce – rod ženský → pásly.
+mc | Které slovo je napsáno CHYBNĚ? | býk; myš; *pýsek; sýr | Správně „písek“.
+mc | Které slovo je antonymum ke slovu „levný“? | laciný; *drahý; malý; nový | Levný × drahý.
+mc | Jaký slovní druh je „protože“? | předložka; *spojka; příslovce; zájmeno | Protože spojuje věty – spojka.
+yn | Ve větě „Malá Eva čte knihu.“ je podmětem slovo „Eva“. | ano | Kdo čte? Eva.
+mc | Ve které větě jsou správně čárky? | Myslím že, přijde.; *Myslím, že přijde.; Myslím, že, přijde.; Myslím že přijde. | Čárka patří před „že“.
+mc | Které slovo je spisovné? | brejle; *brýle; brýlé; brejlé | Spisovně: brýle.
+mc | V jakém pádě je „babičce“ ve větě „Napsala jsem babičce dopis.“? | 2. pád; *3. pád; 4. pád; 6. pád | Komu? Babičce – 3. pád.
+gap | Doplň i/y. | Na střeše seděl netop{ý|í}r. | =netopýr
+gap | Doplň. | Kočky lovil{y|i} myši. | Kočky – rod ženský → -y.
+mc | Kolik slabik má slovo „zmrzlina“? | 2; *3; 4; 5 | Zmrz-li-na – 3 slabiky (r je slabikotvorné).
+mc | Co znamená rčení „mít nos“ na něco? | mít velký nos; *mít dobrý odhad, tušení; být nachlazený; čichat | Mít na něco nos = umět dobře odhadnout.
+gap | Doplň. | Zítra pojedeme do {P|p}rahy. | Názvy měst – velké písmeno.
+mc | Které slovo má předponu? | stůl; *odjezd; kniha; mapa | Od-jezd – předpona od-.
+mc | Přímá řeč je správně zapsána ve větě: | Táta řekl: „jdeme.“; *Táta řekl: „Jdeme.“; Táta řekl „Jdeme.“; Táta řekl: Jdeme. | Dvojtečka, uvozovky, velké písmeno.

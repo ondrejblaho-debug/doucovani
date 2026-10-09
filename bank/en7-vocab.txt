@@ -1,0 +1,53 @@
+# Angličtina – slovní zásoba, tvoření slov (vlastní úlohy)
+
+@topic en7-slovni-zasoba
+@diff 1
+mc | Your mother's brother is your | cousin; *uncle; nephew; grandfather | Bratr mámy nebo táty = uncle (strýc). Cousin = bratranec/sestřenice.
+mc | Where do you buy bread? | at the chemist's; *at the baker's; at the butcher's; at the post office | Baker's = pekařství. Butcher's = řeznictví, chemist's = drogerie/lékárna.
+mc | Which word is NOT a piece of clothing? | jacket; trousers; *kitchen; scarf | Kitchen = kuchyně. Ostatní jsou oblečení.
+mc | The opposite of „cheap“ is | *expensive; small; easy; poor | Cheap = levný × expensive = drahý.
+mc | The opposite of „noisy“ is | loud; *quiet; busy; slow | Noisy = hlučný × quiet = tichý.
+mc | You use it to cut bread. | spoon; fork; *knife; plate | Knife = nůž, spoon = lžíce, fork = vidlička, plate = talíř.
+mc | Which month comes after June? | May; *July; August; March | June (červen) → July (červenec).
+mc | „Středa“ in English is | Thursday; *Wednesday; Tuesday; Friday | Wednesday = středa, Thursday = čtvrtek, Tuesday = úterý.
+mc | What's the time? 7:45 | quarter past seven; *quarter to eight; half past seven; seven to forty-five | 7:45 = čtvrt na osm → quarter to eight.
+mc | What's the time? 3:30 | half to three; *half past three; thirty to three; quarter past three | 3:30 = half past three (půl čtvrté). Pozor: anglicky „půl PO třetí“.
+mc | I've got a headache. Which part of my body hurts? | stomach; *head; tooth; back | Headache = bolest hlavy.
+mc | A person who is never on time is | punctual; *always late; friendly; lazy | Never on time = nikdy nechodí včas = always late.
+mc | Someone who doesn't like working is | *lazy; clever; brave; shy | Lazy = líný, clever = chytrý, brave = statečný, shy = stydlivý.
+mc | „Sorry, I'm late.“ – The best reply is | You're welcome.; *That's OK. Come in.; Nice to meet you.; Yes, please. | Na omluvu reagujeme: That's OK / No problem. „You're welcome“ je odpověď na poděkování.
+mc | „Thank you for your help!“ – The best reply is | *You're welcome.; Excuse me.; Me too.; Bless you. | Na poděkování: You're welcome / No problem.
+mc | „Would you like some tea?“ – Polite answer: | Yes, I would like.; *Yes, please.; Yes, I like.; Yes, I do. | Zdvořilé přijetí nabídky: Yes, please. / No, thank you.
+mc | „Nice to meet you.“ – Reply: | *Nice to meet you, too.; I'm fine, thanks.; See you.; Goodbye. | Při seznámení odpovídáme: Nice to meet you, too.
+mc | Which animal is a farm animal? | tiger; *cow; dolphin; eagle | Cow (kráva) žije na farmě.
+mc | You go there when you are ill. | *the doctor's; the library; the bank; the stadium | Když jsi nemocný, jdeš k doktorovi.
+match | Spoj anglická slova s českými. | ceiling => strop; floor => podlaha; stairs => schody; roof => střecha; wall => zeď | Části domu: ceiling, floor, stairs, roof, wall.
+match | Spoj dopravní prostředek s vhodnou větou. | plane => You fly in it.; ship => It sails on the sea.; underground => It goes under the city.; bike => It has two wheels and no engine. | Plane – letadlo, ship – loď, underground – metro, bike – kolo.
+text | Napiš anglicky „podzim“ (roční období). Stačí jedna varianta. | autumn; fall | Autumn (britsky) = fall (americky).
+text | Napiš anglicky „jahoda“. | strawberry | Strawberry, množné číslo strawberries.
+mc [2] | „Can I try it on?“ – Where are you? | at the dentist's; *in a clothes shop; at a bus stop; in a restaurant | Try on = vyzkoušet si (oblečení) → obchod s oblečením.
+
+@topic en7-word-formation
+@diff 2
+text | Doplň správný tvar slova v závorce: „My favourite hobby is ___.“ (SWIM) | swimming | Po „hobby is“ → -ing tvar: swim → swimming (zdvojení m).
+text | Doplň správný tvar: „There are two ___ in the kitchen.“ (MOUSE) | mice | Nepravidelné množné číslo: mouse → mice.
+text | Doplň správný tvar: „What is the ___ of this tower?“ (HIGH) | height | High (vysoký) → height (výška).
+text | Doplň správný tvar: „Be careful! The river is very ___.“ (DANGER) | dangerous | Danger (nebezpečí) → dangerous (nebezpečný).
+text | Doplň správný tvar: „She is a very good ___.“ (SING) | singer | Sing → singer (zpěvák/zpěvačka). Podobně teach → teacher, play → player.
+text | Doplň správný tvar: „The film was really ___. I almost fell asleep.“ (BORE) | boring | -ing = jaká věc je (boring = nudný), -ed = jak se cítím (bored = znuděný).
+text | Doplň správný tvar: „I was very ___ when I heard the news.“ (SURPRISE) | surprised | Jak jsem se cítil → -ed: surprised (překvapený).
+text | Doplň správný tvar: „Thanks for your ___.“ (HELP) – podstatné jméno | help | Help je i podstatné jméno (pomoc). Přídavné jméno by bylo helpful.
+text | Doplň správný tvar: „The ___ of the Czech Republic is Prague.“ (CAPITAL) – stejné slovo | capital | Capital = hlavní město.
+text | Doplň správný tvar: „Our cat is very ___. It plays all day.“ (FRIEND) | friendly | Friend → friendly (přátelský).
+text | Napiš řadovou číslovku: 3 → 3rd = ___ | third | first, second, third, fourth, fifth…
+text | Napiš řadovou číslovku: 12 → 12th = ___ | twelfth | twelve → twelfth (pozor na -f-).
+text | Doplň správný tvar: „Mount Snezka is ___ than Mount Radhost.“ (HIGH) | higher | Srovnání → 2. stupeň: higher than.
+mc | „Please ___ your coat. It's cold.“ | put off; *put on; take off; look on | Put on = obléknout si. Take off = svléknout.
+mc | „I can't find my glasses. Can you help me ___ them?“ | look at; *look for; look after; look up | Look for = hledat. Look after = starat se o.
+mc | „What time do you ___ in the morning?“ | get on; *get up; get off; get in | Get up = vstávat.
+mc | „___ the light, please. I want to sleep.“ | *Turn off; Turn on; Turn up; Turn into | Turn off = zhasnout/vypnout.
+mc [2] | Which is correct? | do football; *play football; go football; make football | Míčové hry → play: play football, play tennis.
+mc [2] | Which is correct? | play skiing; do skiing; *go skiing; make skiing | Sporty s -ing → go: go skiing, go swimming, go skating.
+mc [2] | Which is correct? | play karate; *do karate; go karate; have karate | Bojová umění a gymnastika → do: do karate, do judo, do yoga.
+mc [2] | Which is correct? | make a shower; do a shower; *have a shower; take a showering | Have + jídlo/činnost: have a shower, have breakfast, have a chat, have fun.
+mc [2] | Choose: „I play ___ violin.“ | a; *the; –; an | Hudební nástroje se členem the: play the violin, play the piano.

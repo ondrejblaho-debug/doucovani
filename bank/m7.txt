@@ -1,0 +1,125 @@
+# MATEMATIKA 7 – statické úlohy
+@topic m7-trojuhelniky
+@diff 2
+mc | Jaký je součet vnitřních úhlů trojúhelníku? | 90°; *180°; 270°; 360° | Vždy 180°.
+mc | Trojúhelník má úhly 50° a 60°. Jaký je třetí úhel? | 60°; *70°; 80°; 90° | 180° − 50° − 60° = 70°.
+mc | Trojúhelník, který má všechny strany stejně dlouhé, je | různostranný; *rovnostranný; pravoúhlý; tupoúhlý | Rovnostranný – všechny strany shodné, úhly 60°.
+mc | Trojúhelník s jedním úhlem 90° je | ostroúhlý; *pravoúhlý; tupoúhlý; rovnostranný | Pravoúhlý trojúhelník.
+mc | Trojúhelník s úhly 30°, 40° a 110° je | ostroúhlý; pravoúhlý; *tupoúhlý; rovnostranný | Úhel 110° je tupý.
+mc [2] | Lze sestrojit trojúhelník se stranami 3 cm, 4 cm a 8 cm? | ano; *ne | Trojúhelníková nerovnost: 3 + 4 = 7 < 8 – nelze.
+mc [2] | Lze sestrojit trojúhelník se stranami 5 cm, 6 cm a 10 cm? | *ano; ne | 5 + 6 = 11 > 10, ostatní součty také vyhovují.
+mc [2] | Lze sestrojit trojúhelník se stranami 4 cm, 4 cm a 8 cm? | ano; *ne | 4 + 4 = 8 – součet musí být VĚTŠÍ než třetí strana.
+mc | Co je těžnice trojúhelníku? | kolmice z vrcholu na stranu; *úsečka spojující vrchol se středem protější strany; osa úhlu; osa strany | Těžnice spojuje vrchol se středem protější strany.
+mc | Co je výška trojúhelníku? | *kolmice vedená vrcholem k protější straně (úsečka); spojnice středů stran; nejdelší strana; osa úhlu | Výška je kolmá na stranu (nebo její prodloužení).
+mc | Ve kterém bodě se protínají těžnice? | v ortocentru; *v těžišti; ve středu kružnice opsané; v žádném | Průsečík těžnic je těžiště.
+mc [2] | Rovnoramenný trojúhelník má úhel při hlavním vrcholu 40°. Jak velké jsou úhly při základně? | 40°; *70°; 140°; 50° | (180° − 40°) : 2 = 70°.
+mc [2] | Rovnoramenný trojúhelník má úhel při základně 35°. Jaký je úhel při hlavním vrcholu? | 35°; 70°; *110°; 145° | 180° − 2 · 35° = 110°.
+mc [2] | Která trojice údajů NEZARUČUJE shodnost dvou trojúhelníků? | sss; sus; usu; *uuu | Tři shodné úhly nezaručují shodnost – trojúhelníky mohou být různě velké.
+yn | Dva trojúhelníky, které mají shodné všechny tři úhly, jsou vždy shodné. | ne | Mohou být různě velké (podobné, ne shodné).
+mc [2] | Pravoúhlý trojúhelník má jeden ostrý úhel 35°. Jaký je druhý ostrý úhel? | 35°; 45°; *55°; 65° | 90° − 35° = 55°.
+mc [3] | Vnější úhel trojúhelníku u vrcholu C je 120°. Úhel u vrcholu A je 50°. Jaký je úhel u vrcholu B? | 50°; *70°; 60°; 10° | Vnější úhel = součet dvou vnitřních nesousedních: 120° − 50° = 70°.
+
+@topic m7-ctyruhelniky
+@diff 2
+mc | Jaký je součet vnitřních úhlů čtyřúhelníku? | 180°; 270°; *360°; 540° | Čtyřúhelník lze rozdělit na 2 trojúhelníky: 2 · 180° = 360°.
+mc | Který rovnoběžník má všechny strany shodné, ale úhly nejsou pravé? | čtverec; obdélník; *kosočtverec; kosodélník | Kosočtverec.
+mc | Který čtyřúhelník má jen jednu dvojici rovnoběžných stran? | rovnoběžník; *lichoběžník; kosočtverec; obdélník | Lichoběžník má právě jednu dvojici rovnoběžných stran (základny).
+mc | Úhlopříčky čtverce jsou | různě dlouhé a kolmé; *shodné a navzájem kolmé; shodné, ale nekolmé; rovnoběžné | Úhlopříčky čtverce jsou stejně dlouhé, kolmé a půlí se.
+mc | Úhlopříčky kosočtverce jsou | shodné; *navzájem kolmé a půlí se; rovnoběžné; vždy stejně dlouhé jako strany | Kolmé a půlí se (obecně nejsou shodné).
+mc | Úhlopříčky obdélníku | jsou kolmé; *jsou shodné a půlí se; jsou rovnoběžné; neexistují | Shodné a půlí se.
+mc [2] | V rovnoběžníku je jeden úhel 70°. Jak velký je úhel sousední? | 70°; *110°; 290°; 20° | Sousední úhly v rovnoběžníku dávají 180°.
+mc [2] | V rovnoběžníku je jeden úhel 70°. Jak velký je úhel protější? | *70°; 110°; 140°; 20° | Protější úhly jsou shodné.
+mc [2] | Čtyřúhelník má úhly 90°, 90°, 100°. Jaký je čtvrtý? | 90°; *80°; 70°; 100° | 360° − 280° = 80°.
+mc | Kolik stran má pravidelný šestiúhelník? | 5; *6; 8; 12 | Šest shodných stran.
+mc [2] | Jak velký je vnitřní úhel pravidelného šestiúhelníku? | 60°; 108°; *120°; 135° | Součet úhlů 720°, 720° : 6 = 120°.
+mc [3] | Jaký je součet vnitřních úhlů pětiúhelníku? | 360°; *540°; 720°; 450° | (5 − 2) · 180° = 540°.
+yn | Každý čtverec je obdélník. | ano | Čtverec má všechny vlastnosti obdélníku (pravé úhly, rovnoběžné strany).
+yn | Každý obdélník je čtverec. | ne | Obdélník nemusí mít všechny strany shodné.
+yn | Každý kosočtverec je rovnoběžník. | ano | Má dvě dvojice rovnoběžných stran.
+mc [2] | Pravidelný šestiúhelník o straně 5 cm se dá rozdělit na 6 rovnostranných trojúhelníků. Jaký je obvod šestiúhelníku? | 25 cm; *30 cm; 60 cm; 15 cm | 6 · 5 = 30 cm.
+
+@topic m7-konstrukce
+@diff 2
+mc | Jak sestrojíš úhel 60° bez úhloměru? | kolmicí; *pomocí rovnostranného trojúhelníku (kružítkem); dvěma kružnicemi o různém poloměru; nelze | Vnitřní úhel rovnostranného trojúhelníku je 60°.
+mc | Jak sestrojíš úhel 45°? | rozpůlením 60°; *rozpůlením pravého úhlu (osa úhlu 90°); zdvojením 30°; nelze | 90° : 2 = 45°.
+mc | Jak sestrojíš úhel 30°? | *rozpůlením úhlu 60°; rozpůlením 45°; zdvojením 15° bez kružítka; nelze | 60° : 2 = 30°.
+mc | Co je osa úsečky? | polovina úsečky; *přímka kolmá k úsečce procházející jejím středem; kružnice; prodloužení úsečky | Body osy mají stejnou vzdálenost od krajních bodů úsečky.
+mc | Co je osa úhlu? | přímka kolmá na rameno; *polopřímka, která dělí úhel na dva shodné úhly; rameno úhlu; vrchol | Osa úhlu ho půlí.
+mc [2] | Trojúhelník je dán stranami a = 5 cm, b = 4 cm, c = 6 cm. Podle které věty ho sestrojíš? | sus; usu; *sss; uuu | Jsou dány tři strany.
+mc [2] | Trojúhelník je dán: c = 6 cm, α = 50°, β = 60°. Podle které věty ho sestrojíš? | sss; sus; *usu; Ssu | Strana a dva úhly k ní přilehlé.
+mc [2] | Trojúhelník je dán: b = 4 cm, c = 5 cm, α = 70°. Podle které věty? | sss; *sus; usu; uuu | Dvě strany a úhel jimi sevřený.
+mc | Co je „rozbor“ konstrukční úlohy? | výpočet obvodu; *náčrt s vyznačením známých údajů a úvaha o postupu; obtažení propiskou; měření úhloměrem | Rozbor = náčrt a plán konstrukce.
+mc [2] | Bod, který má stejnou vzdálenost od bodů A a B, leží | na úsečce AB vždy; *na ose úsečky AB; na kružnici se středem A; nikde | Osa úsečky je množina bodů stejně vzdálených od A i B.
+mc [2] | Kde leží střed kružnice opsané trojúhelníku? | v průsečíku těžnic; *v průsečíku os stran; v průsečíku výšek; v průsečíku os úhlů | Střed opsané kružnice je stejně vzdálený od všech vrcholů – průsečík os stran.
+mc [2] | Kde leží střed kružnice vepsané trojúhelníku? | v průsečíku os stran; *v průsečíku os vnitřních úhlů; v těžišti; v průsečíku výšek | Stejně vzdálený od všech stran – průsečík os úhlů.
+yn | Při konstrukci u přijímaček je nutné obtáhnout výsledek propiskou. | ano | Konstrukce tužkou se po naskenování nemusí hodnotit.
+mc [2] | Kolik řešení může mít konstrukční úloha? | vždy jedno; *žádné, jedno nebo více; vždy dvě; nekonečně mnoho vždy | Počet řešení je třeba ověřit a zmínit.
+mc [3] | Sestrojujeme trojúhelník ABC: |AB| = 6 cm, |BC| = 4 cm, |AC| = 3 cm. Kolik řešení má úloha v jedné polorovině určené AB? | 0; *1; 2; nekonečně mnoho | Trojúhelníková nerovnost platí (3 + 4 > 6), v jedné polorovině je právě jedno řešení.
+
+@topic m7-soumernost
+@diff 2
+mc | Ve středové souměrnosti se střed S zobrazí | na přímku; *sám na sebe; na kružnici; nikam | Střed souměrnosti je samodružný bod.
+mc | Které písmeno je středově souměrné? | A; *S; E; T | S, N, Z, H, I, O, X jsou středově souměrná.
+mc | Které písmeno je středově souměrné? | B; C; *N; K | N otočené o 180° je stále N.
+mc | Kolik os souměrnosti má rovnoramenný trojúhelník (není rovnostranný)? | 0; *1; 2; 3 | Jedna osa – výška na základnu.
+mc | Je kosočtverec středově souměrný? | *ano; ne | Každý rovnoběžník je středově souměrný podle průsečíku úhlopříček.
+mc | Je lichoběžník (obecný) středově souměrný? | ano; *ne | Obecný lichoběžník není středově souměrný.
+mc [2] | V osové souměrnosti s osou o se bod A zobrazí na A′. Jaký je vztah úsečky AA′ a osy o? | rovnoběžné; *osa je kolmá na AA′ a prochází jejím středem; osa prochází bodem A; nesouvisí | Osa je osou úsečky AA′.
+mc [2] | Ve středové souměrnosti se středem S je bod S vždy středem úsečky | *AA′; AS; A′S; žádné | S půlí úsečku AA′.
+mc [2] | Bod A[2; 3] zobrazíme ve středové souměrnosti se středem v počátku O[0; 0]. Jaký je obraz? | [2\; −3]; [−2\; 3]; *[−2\; −3]; [3\; 2] | Obě souřadnice změní znaménko.
+mc [2] | Bod A[2; 3] zobrazíme v osové souměrnosti podle osy x. Jaký je obraz? | *[2\; −3]; [−2\; 3]; [−2\; −3]; [3\; 2] | Podle osy x se mění znaménko y.
+mc [2] | Bod A[−4; 1] zobrazíme v osové souměrnosti podle osy y. Jaký je obraz? | [−4\; −1]; *[4\; 1]; [4\; −1]; [1\; −4] | Podle osy y se mění znaménko x.
+yn | Kružnice je osově i středově souměrná. | ano | Středem souměrnosti je střed kružnice, osou každá přímka středem.
+yn | Obraz úsečky ve středové souměrnosti je s ní rovnoběžný (nebo leží na téže přímce) a stejně dlouhý. | ano | Středová souměrnost zachovává délky a směr (otočí o 180°).
+mc | Kolik os souměrnosti má kosočtverec (který není čtverec)? | 0; 1; *2; 4 | Osy jsou jeho úhlopříčky.
+mc [3] | Kolik os souměrnosti má rovnoramenný lichoběžník? | 0; *1; 2; 4 | Jedna – kolmice spojující středy základen.
+
+@topic m7-nestandardni
+@diff 2
+num | Doplň další číslo řady: 3, 6, 12, 24, … | 48 | Násobíme dvěma.
+num | Doplň další číslo řady: 81, 27, 9, 3, … | 1 | Dělíme třemi.
+num | Doplň další číslo řady: 2, 3, 5, 7, 11, 13, … | 17 | Prvočísla.
+num [2] | Doplň další číslo řady: 1, 3, 7, 15, 31, … | 63 | Každé další = 2 · předchozí + 1.
+num [2] | Kolik je všech trojciferných čísel z číslic 1, 2, 3, 4, pokud se číslice neopakují? | 24 | 4 · 3 · 2 = 24.
+num [2] | Kolik různých dvojic lze vybrat z 5 hráčů? | 10 | 5 · 4 : 2 = 10.
+num [2] | Kolika způsoby lze obléct 3 trička a 2 kraťasy (vždy jedno tričko a jedny kraťasy)? | 6 | 3 · 2 = 6.
+num [3] | Hodiny ukazují 3.00. Jaký úhel svírají ručičky? (ve stupních) | 90 | Čtvrt obratu = 90°.
+num [3] | Hodiny ukazují 4.00. Jaký menší úhel svírají ručičky? (ve stupních) | 120 | Mezi čísly je 30°, 4 · 30° = 120°.
+num [2] | V turnaji hraje 6 týmů každý s každým jednou. Kolik zápasů se odehraje? | 15 | 6 · 5 : 2 = 15.
+num [3] | Součet věků otce a syna je 50 let. Před 5 lety byl otec 4krát starší než syn. Kolik let je synovi? | 13 | Před 5 lety: syn x, otec 4x, součet 5x = 40 → x = 8, dnes 13.
+num [2] | Ze 2 litrů šťávy naplníme 8 sklenic. Kolik sklenic naplníme z 5 litrů? | 20 | 1 litr = 4 sklenice, 5 litrů = 20.
+num [3] | Na ostrově žijí rytíři (vždy mluví pravdu) a lháři (vždy lžou). A říká: „B je lhář.“ B říká: „Oba jsme rytíři.“ Kolik z nich je rytířů? | 1 | Kdyby B byl rytíř, oba by byli rytíři – ale pak A lže, spor. B je lhář, takže A mluví pravdu → 1 rytíř.
+num [2] | Ve třídě je 28 žáků. 15 hraje fotbal, 12 hraje florbal a 4 hrají obojí. Kolik žáků nehraje ani jedno? | 5 | 15 + 12 − 4 = 23 hraje aspoň jeden sport, 28 − 23 = 5.
+num [3] | Kolik nul je na konci čísla 1 · 2 · 3 · … · 10? | 2 | Páry 2·5 a 10 dávají dvě desítky → 2 nuly (3 628 800).
+num [2] | Jaká je poslední číslice čísla 2 na desátou (2^10)? | 4 | 2^10 = 1 024.
+
+@topic m7-strategie-testu
+@diff 1
+mc | Kolik minut trvá test z matematiky pro 6letá gymnázia? | 60; *70; 80; 90 | 70 minut.
+mc | Kolik úloh mívá test z matematiky pro 7. třídu? | 14; *16; 28; 30 | Zhruba 16 úloh.
+mc | U úlohy „uveďte celý postup řešení“ | stačí výsledek; *musí být napsán postup, jinak nedostaneš plné body; stačí obrázek; nic | Postup je podmínkou bodů.
+mc | Smíš při testu použít kalkulačku? | ano; *ne; jen na geometrii; jen 5 minut | Ne.
+mc | Co s úlohami s výběrem odpovědí A–E, když nevíš? | nechat prázdné; *vyloučit nesmyslné možnosti a tipnout; zaškrtnout dvě; zaškrtnout všechny | Body se neodečítají, tip se vyplatí.
+mc | Jak zapíšeš zlomek ve výsledku? | v libovolném tvaru; *v základním tvaru (zkrácený), pokud to zadání vyžaduje; jako desetinné číslo vždy; jako procento | Nezkrácený zlomek může stát bod.
+mc [2] | Máš 70 minut na 16 úloh. Kolik minut zhruba na jednu úlohu? | 2; *4 až 5; 8; 10 | 70 : 16 ≈ 4,4 minuty.
+yn | Je rozumné začít úlohami, které umím jistě, a těžké nechat na konec? | ano | Tak získáš jisté body a nezasekneš se.
+yn | Konstrukční úlohy stačí narýsovat tužkou. | ne | Je nutné je obtáhnout propiskou.
+mc | Co je zkouška správnosti? | přepsání úlohy; *dosazení výsledku zpět do zadání; vymazání postupu; odhad bez výpočtu | Dosazením ověříš výsledek.
+mc [2] | Výsledek úlohy o rychlosti chůze vyšel 85 km/h. Co uděláš? | napíšu ho; *zkontroluji výpočet – výsledek nedává smysl; zaokrouhlím; vynásobím 10 | Člověk tak rychle nechodí – chyba ve výpočtu nebo jednotkách.
+mc | Kam patří odpovědi u JPZ? | do testového sešitu; *do záznamového archu; na pomocný papír; nikam | Do záznamového archu.
+mc | Jak se hodnotí úloha ANO/NE se třemi tvrzeními? | každé tvrzení zvlášť 1 bod; *body se udělují podle počtu správných odpovědí (např. 3 = plné body, 2 = část, 1 = 0); jen vše nebo nic; nehodnotí se | Viz klíč – plné body jen za všechny správně.
+mc | Co si připravíš večer před testem? | nic; *propisky, tužku, gumu, pravítko, trojúhelník s ryskou, kružítko, úhloměr, pozvánku; kalkulačku; tabulky | Rýsovací potřeby a doklady.
+mc [2] | Úloha má podúlohy 4.1 a 4.2. Výsledek 4.2 závisí na 4.1. Co když 4.1 nevíš? | vynechám obě; *zkusím aspoň odhad 4.1 a pokračuji, protože postup může mít body; napíšu nesmysl; počkám | I částečné řešení může získat body.
+
+@topic m7-uhly
+@diff 2
+mc | Jak se nazývá úhel menší než 90°? | tupý; *ostrý; přímý; plný | Ostrý úhel.
+mc | Jak se nazývá úhel 180°? | plný; *přímý; tupý; pravý | Přímý úhel.
+mc | Vedlejší úhly mají součet | 90°; *180°; 360°; 270° | Vedlejší úhly dávají přímý úhel.
+mc | Vrcholové úhly jsou | doplňkové; *shodné; vedlejší; vždy pravé | Vrcholové úhly jsou shodné.
+mc [2] | Úhel α = 35°. Jaký je k němu úhel vedlejší? | 55°; *145°; 35°; 325° | 180° − 35° = 145°.
+mc [2] | Úhel α = 72°. Jaký je k němu úhel vrcholový? | 108°; *72°; 18°; 288° | Vrcholové úhly jsou shodné.
+mc [2] | Kolik minut je 1 stupeň? | 100; *60; 360; 10 | 1° = 60′.
+mc [2] | Kolik je 2,5° ve stupních a minutách? | 2° 5′; *2° 30′; 2° 50′; 25′ | 0,5° = 30′.
+mc [2] | Dvě rovnoběžky protíná příčka. Úhly souhlasné jsou | doplňkové; *shodné; vedlejší; vždy 90° | Souhlasné i střídavé úhly jsou shodné.
+mc [3] | Součet dvou úhlů je 90° a jeden je o 20° větší než druhý. Jak velký je menší? | 25°; *35°; 45°; 55° | (90° − 20°) : 2 = 35°.

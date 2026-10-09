@@ -1,0 +1,140 @@
+# ČEŠTINA 5 – porozumění textu, hlavní myšlenka, textová návaznost, sloh, literatura
+@passage c5p1 Ježek v zahradě
+Ježek obecný patří k nejužitečnějším obyvatelům našich zahrad. Přes den většinou spí ve hromadě listí nebo pod kůlnou a na lov vyráží až za soumraku. Živí se hlavně hmyzem, žížalami a slimáky, a proto ho zahrádkáři rádi vidí. Mléko mu nikdy nedávejte – ježci ho špatně tráví a může jim způsobit vážné zažívací potíže. Mnohem lepší je mělká miska s čistou vodou.
+Na podzim si ježek vytváří zásoby tuku. Když teploty klesnou, uloží se k zimnímu spánku, který trvá zhruba od listopadu do března. Během spánku se jeho srdce zpomalí a tělesná teplota výrazně klesne. Pokud ježka probudíme, spotřebuje mnoho energie, kterou pak nemusí stihnout doplnit.
+@end
+@passage c5p2 Plakát školní knihovny
+ŠKOLNÍ KNIHOVNA ZVE NA NOC S ANDERSENEM
+Kdy: pátek 3. dubna od 18.00 do soboty 8.00
+Kde: knihovna ve 2. patře
+S sebou: spacák, karimatku, baterku, přezůvky a oblíbenou knihu
+Program: čtení pohádek, noční stezka po škole, výroba záložek
+Přihlášky: do středy 1. dubna u paní učitelky Novotné (nejvýše 20 dětí, rozhoduje pořadí přihlášek)
+Akce je určena žákům 3.–5. tříd. Večeři zajistí škola, snídani si přineste vlastní.
+@end
+@passage c5p3 Jak Martin vyhrál
+Martin se na závod v plavání těšil celý měsíc. Každé ráno vstával o hodinu dřív a chodil trénovat do městského bazénu. Když se konečně postavil na startovní blok, kolena se mu třásla. Po startovním výstřelu skočil do vody a plaval, jako by ho někdo honil. V polovině trati ucítil, že mu dochází dech, ale vzpomněl si na trenérova slova: „Poslední bazén se plave hlavou, ne rukama.“ Zabral ze všech sil a dohmátl na stěnu jako druhý. Zlatou medaili sice nezískal, přesto byl na sebe pyšný – zaplaval svůj nejlepší čas v životě.
+@end
+@passage c5p4 Vlaky a autobusy
+Tabulka ukazuje, kolik minut trvá cesta z Lipové do Javorníku.
+Vlak: 35 minut, jízdné 40 Kč, jezdí každou hodinu
+Autobus: 50 minut, jízdné 28 Kč, jezdí každé dvě hodiny
+Kolo: asi 80 minut, zdarma
+@end
+@passage c5p5 Včelí pastva
+Včely potřebují ke svému životu květy, ze kterých sbírají nektar a pyl. V mnoha městech proto vznikají takzvané včelí pastvy – kousky trávníku, které se neposekají dohola, ale nechají se rozkvést. Rostou na nich jetel, kopretiny, chrpy nebo vlčí máky. Někteří lidé si myslí, že takové plochy vypadají neupraveně. Odborníci však upozorňují, že bez opylovačů by na zahradách i polích bylo mnohem méně ovoce a zeleniny.
+@end
+
+@topic c5-porozumeni-textu
+@diff 1
+mc@c5p1 | Kdy vyráží ježek nejčastěji na lov? | ráno; v poledne; *za soumraku; kdykoli během dne | V textu stojí: „na lov vyráží až za soumraku“.
+mc@c5p1 | Čím je podle textu nejlepší ježka v zahradě pohostit? | mlékem; *mělkou miskou s čistou vodou; slimáky z obchodu; chlebem | Text výslovně radí mělkou misku s čistou vodou; mléko ježkům škodí.
+yn@c5p1 | Z textu vyplývá, že ježek spí v zimě zhruba od listopadu do března. | ano | Přesně tak to v textu stojí.
+yn@c5p1 | Z textu vyplývá, že ježek se v zimě živí žížalami. | ne | V zimě ježek spí a nežere; o potravě v zimě text nic neříká.
+yng@c5p1 | Rozhodni o každém tvrzení, zda odpovídá textu. | Ježek je užitečný, protože požírá slimáky.=A; Mléko je pro ježka zdravé.=N; Při zimním spánku se ježkovi zpomalí srdce.=A; Probuzení ježkovi v zimě neuškodí.=N | Pozor na poslední větu: probuzený ježek spotřebuje mnoho energie, to mu škodí.
+mc@c5p1 [2] | Proč bychom neměli ježka v zimě budit? | protože kouše; *protože spotřebuje mnoho energie; protože se bojí světla; protože pak nemůže pít | Text říká, že probuzený ježek „spotřebuje mnoho energie, kterou pak nemusí stihnout doplnit“.
+mc@c5p2 | Do kdy je nutné se na Noc s Andersenem přihlásit? | do pátku 3. dubna; *do středy 1. dubna; do soboty; přihláška není nutná | Na plakátu: „Přihlášky: do středy 1. dubna“.
+yn@c5p2 | Na akci se může přihlásit žák 6. třídy. | ne | Akce je určena žákům 3.–5. tříd.
+yn@c5p2 | Snídani zajistí škola. | ne | Škola zajistí večeři, snídani si děti nesou vlastní.
+mc@c5p2 [2] | Co z plakátu NEVYPLÝVÁ? | akce končí v sobotu ráno; *na akci může přijít kdokoli bez přihlášky; děti si mají vzít baterku; kapacita je 20 dětí | Přihláška je nutná a míst je nejvýše 20, takže „kdokoli bez přihlášky“ neplatí.
+yng@c5p2 [2] | Rozhodni, zda tvrzení odpovídá plakátu. | Akce trvá déle než 12 hodin.=A; Knihovna je v přízemí.=N; Pokud se přihlásí 25 dětí, nemohou jet všechny.=A; Program zahrnuje výrobu záložek.=A | Od 18.00 do 8.00 je to 14 hodin. Knihovna je ve 2. patře.
+mc@c5p3 | Jak dopadl Martin v závodě? | vyhrál; *byl druhý; byl poslední; závod nedoplaval | „Dohmátl na stěnu jako druhý.“
+mc@c5p3 | Co znamenají trenérova slova „Poslední bazén se plave hlavou, ne rukama“? | v posledním bazénu se plave jen nohama; *na konci závodu rozhoduje vůle a soustředění; hlavou se má dotknout stěny; v posledním bazénu se má plavat pomalu | Trenér myslí, že když už ruce nemohou, pomůže pevná vůle.
+yn@c5p3 | Martin byl po závodě zklamaný. | ne | Byl na sebe pyšný, protože zaplaval nejlepší čas.
+mc@c5p4 | Kterým způsobem se dostanu z Lipové do Javorníku nejrychleji? | autobusem; *vlakem; na kole; všechny trvají stejně | Vlak jede 35 minut, což je nejméně.
+num@c5p4 [2] | O kolik korun je jízdné vlakem dražší než autobusem? | 12 | 40 − 28 = 12 Kč. | Kč
+mc@c5p4 [2] | Eva má na cestu jen 30 Kč a nesmí jet na kole. Jak pojede? | vlakem; *autobusem; nemůže jet vůbec; pěšky | Vlak stojí 40 Kč, na ten nemá. Autobus za 28 Kč si dovolit může.
+yn@c5p5 | Podle textu se na včelích pastvách tráva seká dohola. | ne | Naopak – tráva se neposeká dohola, ale nechá se rozkvést.
+mc@c5p5 | Proč podle odborníků potřebujeme opylovače? | aby louky voněly; *aby bylo dost ovoce a zeleniny; aby trávníky byly upravené; aby bylo méně hmyzu | Text: bez opylovačů by bylo „mnohem méně ovoce a zeleniny“.
+
+@topic c5-hlavni-myslenka
+@diff 1
+mc@c5p1 | Který nadpis nejlépe vystihuje celý text o ježkovi? | Jak chytit ježka; *Ježek – užitečný soused v zahradě; Proč ježci pijí mléko; Zimní sporty v zahradě | Text celý popisuje, jak ježek žije v zahradě a jak se k němu chovat.
+mc@c5p5 | Co je hlavní myšlenkou textu o včelích pastvách? | Kopretiny jsou hezčí než chrpy.; *Neposekané kvetoucí plochy pomáhají včelám a tím i úrodě.; Města by měla zakázat trávníky.; Včely jsou nebezpečné. | Text vysvětluje smysl včelích pastev – pomáhají opylovačům.
+mc@c5p3 | Která věta nejlépe vystihuje příběh o Martinovi? | Martin nerad plave.; *Poctivá příprava se vyplatí, i když člověk nevyhraje.; Trenér plaval místo Martina.; Závod byl zrušen. | Martin nevyhrál, ale díky tréninku zaplaval nejlepší čas.
+mc@c5p5 [2] | Která věta z textu o včelích pastvách vyjadřuje NÁZOR, ne fakt? | Včely sbírají nektar a pyl.; *Takové plochy vypadají neupraveně.; Na pastvách roste jetel.; V mnoha městech vznikají včelí pastvy. | Že něco „vypadá neupraveně“, je hodnocení – názor některých lidí.
+yn | Věta „Brno je druhé největší město v Česku.“ je fakt, který lze ověřit. | ano | Počet obyvatel lze ověřit v tabulkách, je to fakt.
+yn | Věta „Brno je nejkrásnější město na světě.“ je fakt. | ne | Jde o názor (hodnocení) – každý to může vidět jinak.
+mc | Které slovo nejlépe shrnuje slova: jablko, hruška, švestka, třešeň? | zelenina; *ovoce; strom; jídlo | Všechna slova pojmenovávají druhy ovoce. „Jídlo“ je moc obecné.
+mc | Text vypráví o tom, jak si děti postavily ve škole ptačí budky a pozorovaly, jak do nich sýkorky nosí potravu mláďatům. Který nadpis se hodí nejvíc? | Zima ve městě; *Sýkorky v našich budkách; Jak se staví dům; Výlet do ZOO | Nadpis má vystihnout hlavní téma – budky a sýkorky.
+mc [2] | Které tvrzení je domněnka (dohad), ne fakt? | Voda vře při 100 °C.; *Zítra asi bude pršet, protože mě bolí koleno.; Týden má sedm dní.; Praha je hlavní město ČR. | Bolest kolena nic jistě nedokazuje – je to jen dohad.
+mc | Co jsou klíčová slova textu? | nejdelší slova v textu; *slova, která nesou hlavní obsah textu; slova na začátku věty; slova v uvozovkách | Klíčová slova vystihují, o čem text je.
+mc [2] | Ve dvou zprávách o výletu se liší počet účastníků: v jedné stojí 24 dětí, v druhé 26 dětí. Co je nejrozumnější udělat? | věřit první zprávě; věřit delší zprávě; *ověřit údaj u třetího zdroje, např. v seznamu účastníků; údaj ignorovat | Když se zdroje liší, ověříme údaj jinde.
+yn | Nadpis „Neuvěřitelné! Tohle musíte vidět!“ vypovídá o obsahu textu velmi přesně. | ne | Takový nadpis láká, ale neříká, o čem text je.
+mc | Která informace je v textu o pozvánce na koncert PODSTATNÁ? | jakou barvu má plakát; *kdy a kde koncert začíná; kolik stojí lepidlo; jak se jmenuje tiskárna | U pozvánky je nejdůležitější kdy, kde a co.
+mc [2] | Text: „Nejprve si umyjte ruce. Pak nalijte do misky mléko, přidejte vejce a mouku a vše dobře promíchejte.“ O jaký text jde? | pozvánka; *návod; omluvenka; inzerát | Text radí, jak postupovat – je to návod (recept).
+yng | Rozhodni, zda jde o fakt (A), nebo o názor (N). | Sněžka je nejvyšší hora Česka.=A; Matematika je nejzábavnější předmět.=N; Pes je savec.=A; Zelená je nejhezčí barva.=N | Fakta lze ověřit, názory vyjadřují hodnocení.
+
+@topic c5-textova-navaznost
+@diff 2
+order | Seřaď věty tak, aby vznikl smysluplný text. | Ráno jsme vyrazili na výlet do Moravského krasu.; Nejdřív jsme navštívili Punkevní jeskyně.; Potom jsme se lodičkou plavili po podzemní říčce.; Nakonec jsme se lanovkou vyvezli k Macoše. | Text má časový sled: ráno – nejdřív – potom – nakonec.
+order | Seřaď části návodu na pěstování řeřichy. | Na talířek polož vatu.; Vatu navlhči vodou.; Rovnoměrně na ni nasyp semínka.; Postav talířek na světlé místo a každý den vatu zalévej. | Postup jde logicky za sebou: podklad – voda – semínka – péče.
+order | Seřaď části pohádky. | Byl jednou jeden chudý mlynář, který měl tři syny.; Když mlynář zemřel, synové si rozdělili dědictví.; Nejmladšímu zůstal jen kocour.; Chytrý kocour však svému pánovi pomohl k bohatství. | Pohádka začíná úvodem („Byl jednou…“), následuje zápletka a rozuzlení.
+mc | Doplň vynechané místo: „Venku pršelo, ______ jsme si vzali deštníky.“ | ale; *proto; protože; nebo | Déšť je příčina, deštníky důsledek – hodí se „proto“.
+mc | Doplň: „Chtěl jsem jet na kole, ______ mělo prázdnou duši.“ | proto; *ale; a tak; aby | Věty si odporují (chtěl jsem × nešlo to) – spojka „ale“.
+mc | Doplň: „Ema se učila celý večer, ______ dostala z diktátu jedničku.“ | ale; *a tak; protože; i když | Učení je příčina, jednička důsledek.
+mc [2] | Který text je nejpravděpodobnějším pokračováním? „Petr otevřel dveře a zarazil se. Na podlaze ležela rozbitá váza a vedle ní seděl provinile vypadající pes.“ | Petr si šel zaplavat do moře.; *„Tak to jsi byl ty, Alíku?“ povzdechl si Petr.; Váza byla nová a celá.; Pes byl ve škole. | Pokračování musí navazovat na situaci s rozbitou vázou a psem.
+mc | Které slovo v textu nahrazuje podstatné jméno? „Babička upekla koláč. Byl vynikající.“ Na co odkazuje slovo „byl“? | na babičku; *na koláč; na kuchyň; na troubu | Vynikající byl koláč – sloveso „byl“ je v rodu mužském jako koláč.
+mc | Doplň: „Nejdřív si udělej úkoly, ______ můžeš jít ven.“ | protože; *potom; ale; nebo | Časová návaznost: nejdřív … potom.
+order [2] | Seřaď věty o tom, jak roste žába. | Žába naklade do vody vajíčka – žabí kuličky.; Z vajíček se vylíhnou pulci.; Pulcům postupně narostou nohy a zmizí ocásek.; Z pulce se stane malá žabka a vyleze na souš. | Vývoj žáby jde od vajíčka přes pulce k žabce.
+mc | Která věta se do textu NEHODÍ? „Kočka domácí je šelma. Má ostré drápy, které umí zatáhnout. Velmi dobře vidí i v šeru. Autobus jede do Brna. Ráda spí na teplém místě.“ | Kočka domácí je šelma.; Velmi dobře vidí i v šeru.; *Autobus jede do Brna.; Ráda spí na teplém místě. | Věta o autobusu nesouvisí s tématem kočky.
+mc | Doplň: „Tom nepřišel do školy, ______ byl nemocný.“ | proto; ale; *protože; a tak | Nemoc je příčina – spojka „protože“.
+order | Seřaď části dopisu. | Milá babičko,; děkuji Ti za krásný dárek k narozeninám.; Kniha o koních se mi moc líbí a už jsem ji přečetla.; Těším se na prázdniny u Tebe.; Pusu posílá Ema | Dopis: oslovení – poděkování – podrobnosti – závěr – podpis.
+mc [2] | Doplň slovo, aby text dával smysl: „Lev je velká kočkovitá šelma. ______ žije hlavně v afrických savanách.“ | Ona; *Tento živočich; Tamta; Které | Slovo „Tento živočich“ odkazuje na lva a text plynule navazuje.
+mc | Doplň: „Byla zima, ______ rybník zamrzl.“ | ale; *takže; protože; aby | Zima je příčina, zamrzlý rybník důsledek – „takže“.
+
+@topic c5-slohove-utvary
+@diff 1
+mc | Text: „Prodám zachovalé kolo pro dítě 8–10 let. Cena 1 500 Kč. Tel. 777 123 456.“ Jaký je to útvar? | pozvánka; *inzerát; omluvenka; vypravování | Někdo nabízí věc k prodeji a uvádí kontakt – inzerát.
+mc | Ve kterém útvaru najdeme oslovení, text, pozdrav a podpis? | v inzerátu; *v dopise; v návodu; v jízdním řádu | Typické části dopisu: oslovení, vlastní text, pozdrav, podpis.
+mc | Co MUSÍ obsahovat pozvánka? | adresu prodejce; *co se koná, kdy a kde; cenu výrobku; seznam ingrediencí | Pozvaný musí vědět, na co, kdy a kam má přijít.
+mc | Jaké znaménko patří na konec věty „Kolik je hodin“? | tečka; *otazník; vykřičník; čárka | Je to otázka, proto otazník.
+mc | Jaké znaménko patří na konec věty „Pozor, hoří“? | tečka; otazník; *vykřičník; dvojtečka | Varování a zvolání končí vykřičníkem.
+mc | Věta „Zavři prosím okno.“ je | oznamovací; tázací; *rozkazovací (žádací); přací | Vyzýváme někoho, aby něco udělal – věta rozkazovací (žádací).
+mc | Věta „Kéž by už byly prázdniny!“ je | oznamovací; tázací; rozkazovací; *přací | Vyjadřuje přání – věta přací.
+mc | Ve kterém útvaru popisujeme, jak něco vypadá? | ve vypravování; *v popisu; v inzerátu; v oznámení | Popis zachycuje vzhled a vlastnosti věci, osoby nebo místa.
+mc | Co je typické pro vypravování? | seznam věcí; *děj, který má úvod, zápletku a závěr; jen čísla a tabulky; jen otázky | Vypravování vypráví příběh s dějem.
+mc | Kam nejlépe napíšeš mamince, že jsi odešla k Janě a vrátíš se v 6? | do inzerátu; *do vzkazu; do pozvánky; do omluvenky | Krátká zpráva pro někoho, kdo zrovna není doma, je vzkaz.
+mc [2] | Ve kterém textu je chyba v pořadí částí dopisu? | Ahoj Petře, … Měj se. Tvůj Jan; *Tvůj Jan, … Ahoj Petře. Měj se.; Milá paní učitelko, … S pozdravem Klára; Drahý dědečku, … Pusu, Ema | Podpis patří na konec, oslovení na začátek.
+yn | Oznámení informuje o nějaké události, např. „Ve středu odpadá kroužek keramiky.“ | ano | Oznámení sděluje, co se stalo nebo stane.
+mc [2] | Jaký je hlavní účel návodu? | pobavit čtenáře; *poradit, jak něco udělat krok za krokem; prodat věc; pozvat na oslavu | Návod popisuje postup.
+mc | Na konec věty „Dnes je pondělí“ patří | *tečka; otazník; vykřičník; čárka | Je to oznamovací věta – tečka.
+mc | Která věta je tázací? | Jdeme domů.; *Půjdeš se mnou ven?; Pojď sem!; Kéž by svítilo slunce! | Tázací věta se ptá a končí otazníkem.
+mc [2] | Co do pozvánky na narozeninovou oslavu NEPATŘÍ? | datum a čas; místo konání; jméno oslavence; *podrobný životopis prababičky | Pozvánka má být stručná a obsahovat jen to důležité.
+
+@topic c5-literatura
+@diff 1
+mc | Jak se nazývá jeden řádek básně? | sloka; *verš; rým; odstavec | Verš je jeden řádek básně, sloka je skupina veršů.
+mc | Co je rým? | nadpis básně; *zvuková shoda konců veršů; první verš básně; jméno autora | Například „les – pes“ se rýmuje.
+mc | Který útvar je psán ve verších? | pohádka O Smolíčkovi; *báseň; recept; jízdní řád | Báseň je poezie, má verše.
+mc | Krátký příběh, ve kterém zvířata jednají jako lidé a na konci je ponaučení, je | pověst; *bajka; komiks; povídka | Typická bajka: Liška a čáp, Vrána a liška…
+mc | Příběh, který vychází z místa nebo události a má pravdivé jádro (např. o Blaníku), je | bajka; *pověst; recept; návod | Pověst se váže k určitému místu či postavě.
+mc | Co je typické pro pohádku? | přesné údaje o čase; *kouzla a boj dobra se zlem; jen fakta; tabulky | V pohádce dobro vítězí nad zlem a objevují se kouzla.
+mc | Text, ve kterém postavy hlavně mluví a je určen k hraní na jevišti, je | báseň; *divadelní hra (drama); pověst; bajka | Drama se hraje v divadle.
+mc | Co je přirovnání? | slovo s opačným významem; *spojení „jako něco“, např. hladový jako vlk; rým na konci verše; nadpis | Přirovnání srovnává dvě věci: „rudý jako rak“.
+mc | Příběh vyprávěný v obrázcích s bublinami je | bajka; *komiks; pověst; báseň | Komiks kombinuje obrázky a text v bublinách.
+yn | Encyklopedie o planetách je umělecký text. | ne | Encyklopedie podává fakta – je to text neumělecký (odborný).
+yn | Pohádka „Dlouhý, Široký a Bystrozraký“ je umělecký text. | ano | Pohádka je výmysl autora/lidu, je to umělecký text.
+mc | Který z textů je próza? | *pohádka vyprávěná v souvislém textu; báseň se slokami; písnička; říkanka | Próza je souvislý text bez veršů.
+mc [2] | Které dvojice slov se rýmují? | les – lov; *kočka – očka; dům – strom; voda – led | Kočka – očka mají shodné zakončení „-očka“.
+mc [2] | Ve verši „Vítr fouká, hvízdá, piští“ je vítr popsán jako by byl živý. Nejlépe sem patří pojem | rým; *zosobnění; sloka; bajka | Když věc dělá něco, co umí člověk či zvíře (hvízdá, piští), mluvíme o zosobnění (personifikaci).
+mc | Autor, který píše básně, je | prozaik; *básník; dramatik; ilustrátor | Básník píše poezii.
+mc | Kdo nakreslí obrázky do knihy? | autor; *ilustrátor; vydavatel; čtenář | Ilustrátor kreslí ilustrace.
+
+@topic c5-strategie-testu
+@diff 1
+mc | Kolik minut trvá test z češtiny u přijímací zkoušky? | 45 minut; *60 minut; 70 minut; 90 minut | Čeština 60 minut, matematika 70 minut.
+mc | Kolik bodů lze získat v testu z češtiny? | 28; *50; 60; 100 | Každý test JPZ má maximum 50 bodů.
+mc | Čím se v testu píše? | tužkou; gumovací propiskou; *modře nebo černě píšící propiskou; fixou | Do záznamového archu se píše propiskou, ne tužkou.
+mc | Co uděláš, když nevíš odpověď na úlohu? | zůstanu u ní, dokud ji nevyřeším; *přeskočím ji a vrátím se k ní na konci; odevzdám test; odpověď nevyplním nikdy | Nejdřív sbírej jisté body, k těžkým úlohám se vrať.
+mc | Kam se zapisují odpovědi, aby se počítaly? | do testového sešitu; *do záznamového archu; na lavici; na papírek | Hodnotí se jen to, co je v záznamovém archu.
+mc | Co je dobré udělat u úloh s výchozím textem? | nečíst text, rovnou odpovídat; *nejdřív si pozorně přečíst text a pak otázky; číst jen nadpis; text přeskočit | Odpovědi hledej v textu – musíš ho znát.
+yn | Je rozumné na konci testu zkontrolovat pravopis v odpovědích, které jsem psala sama? | ano | Za pravopisnou chybu v otevřené odpovědi můžeš přijít o body.
+yn | U uzavřené úlohy s nabídkou A–D je dobré, když nevím, raději nechat odpověď prázdnou. | ne | Za špatnou odpověď se body neodečítají, takže tipnout se vyplatí.
+mc | Kolik úloh mívá test z češtiny pro 5. třídu? | 14; *asi 28; 50; 100 | Test mívá kolem 28 úloh (počet se může mírně lišit).
+mc | Jak dlouho máš průměrně na jednu úlohu z češtiny? | 30 sekund; *zhruba 2 minuty; 10 minut; 20 minut | 60 minut : 28 úloh ≈ 2 minuty.
+mc | Co uděláš, když se v záznamovém archu spleteš? | gumuji; *chybnou odpověď zřetelně přeškrtnu a napíšu správnou podle pokynů; nechám obě; vytrhnu list | Pokyny na archu říkají, jak opravit odpověď – přeškrtnutím.
+mc [2] | Úloha zní: „Které z následujících slov NENÍ napsáno správně?“ Na co si dát pozor? | na nic; *na slovo NENÍ – hledám chybu, ne správné slovo; na barvu písma; na číslo úlohy | Zápor v zadání úplně mění otázku.
+yn | Je dobré se den před zkouškou dobře vyspat. | ano | Odpočatý mozek pracuje rychleji a dělá méně chyb.
+mc | Co si vezmeš k testu z češtiny? | kalkulačku; *propisku (a jednu náhradní); slovník; mobil | Pomůcky: modře nebo černě píšící propiska. Slovník ani mobil se nesmí.
+mc [2] | Máš 10 minut do konce a 3 nevyplněné uzavřené úlohy. Co uděláš? | nic, už to nestihnu; *rychle si je přečtu a zkusím odpovědět; začnu znovu od první úlohy; odejdu | Každý bod se počítá – i rychlý tip je lepší než prázdné pole.

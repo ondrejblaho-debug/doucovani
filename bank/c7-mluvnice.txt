@@ -1,0 +1,120 @@
+# ČEŠTINA 7 – pravopis a mluvnice
+@topic c7-lexikalni-pravopis
+@gapprompt Doplň správně.
+@diff 2
+gap | Na větvi seděl v{ý|í}r a houkal. | =výr (sova)
+gap | Lodička se zatočila ve v{í|ý}ru. | Vír (vodní) není vyjmenované slovo – píšeme í.
+gap | Ml{y|i}nář nesl pytel mouky. | =mlýn
+gap | Housenka l{ý|í}kožrout ničí smrky. | =lýko
+gap | Ta pl{y|i}šová hračka je měkká. | =plyš
+gap | Kocour se l{í|ý}sal k babičce. | Lísat se není příbuzné s „lysý“ – í.
+gap | Dědeček byl úplně l{y|i}sý. | =lysý
+gap | Kůň má kop{y|i}ta. | =kopyto
+gap | Netop{ý|í}ři vylétají v noci. | =netopýr
+gap | Venku bylo s{y|i}chravo. | =sychravý
+gap | Rostliny bez vody us{y|i}chají. | =usychat
+gap | Kamarád se na mě obo{ř|r}il. | Obořit se – píšeme ř.
+gap | Babička se ob{ě|je}tavě starala o vnoučata. | Obětavý – od oběť: ob + ě (bez j).
+gap | Vojáci ob{je|ě}li město. | Ob- + jeli: objeli.
+gap | Na {v|w}ýstavě byly obrazy. | Výstava – v.
+gap | Musíš {s|z}hasnout světlo. | Zhasnout – změna stavu: z-.
+gap | Lyžaři {s|z}jeli z kopce. | Sjet = shora dolů: s-.
+gap | Rodiče se {s|z}hodli na výletě. | Shodnout se = dohromady: s-.
+gap | Ptáci {vz|z|s}létli k nebi. | Vzhůru: vz-.
+gap | Dítě se {z|s}dravě rozvíjí. | Zdravý – kořen zdrav-: z.
+gap | Ra{nn|n}í rosa se třpytila. | Ráno + -ní: ranní.
+gap | Tento prsten je ce{nn|n}ý. | Cena + -ný: cenný.
+gap | Žáci se zú{č|c}astnili soutěže. | Zúčastnit se – od slova účast.
+gap | Ve stáji byli dva k{o|ů}ně. | Koně – 1. pád množného čísla: koně.
+gap | Lékař předepsal {ú|ů}činný lék. | Na začátku kořene ú.
+gap | Šli jsme pr{ů|ú}chodem. | Průchod – ů uvnitř slova (průchod, chodba – o se mění v ů).
+gap | Při nehodě se nikdo nezra{n|nn}il. | Zranit – kořen ran-: jedno n.
+gap | Nalezli jsme {s|z}tracenou peněženku. | Ztratit – změna stavu: z-.
+gap | Kniha je ro{z|zz}trhaná. | Roz- + trhat: roztrhaná.
+gap | Chci {vy|vi}jet na kole. | Předpona vy-: vyjet.
+gap | Na hřišti stál {f|v}otbalový míč. | Fotbal – f.
+gap | V {d|t}ílně ševce bylo nářadí. | Dílna – d.
+mc [2] | Ve které řadě jsou všechna slova napsána správně? | *výr, lýko, netopýr; vír (sova), lýko, netopýr; výr, líko, netopír; výr, lýko, netopír | Výr (sova), lýko, netopýr – vyjmenovaná slova.
+mc [2] | Ve které větě je pravopisná chyba? | Kocour se lísal.; Děda je lysý.; *Na zahradě rostlo bilí.; Mlynář mele mouku. | Býlí (plevel) je vyjmenované slovo – správně býlí.
+mc [2] | Které slovo je napsáno CHYBNĚ? | objem; oběd; *objetavý; objasnit | Správně obětavý (oběť).
+mc [2] | Které slovo je napsáno CHYBNĚ? | zapomněl; *zapoměla; pomník; připomněl | Správně zapomněla – v kořeni je „pomn-“.
+mc [3] | Ve které větě je chyba? | Sjeli jsme z kopce.; Zhasl světlo.; *Zpadl ze stromu.; Shrnul výsledky. | Spadnout = pohyb shora dolů, předpona s-: spadl.
+yn | Slovo „vzpomínka“ má předponu vz-. | ano | Vz-pomínka.
+yn | Slovo „sbírka“ se píše se z. | ne | Sbírka – sbírat dohromady: s-.
+
+@topic c7-morfologicky-pravopis
+@diff 2
+@gapprompt Doplň správný tvar.
+gap | Navštívili jsme {otcovy|otcovi} přátele. | Přivlastňovací přídavné jméno otcův: otcovy přátele (4. pád mn. č., koho? co?).
+gap | Mluvil jsem s {otcovými|otcovýmy} přáteli. | 7. pád mn. č.: otcovými.
+gap | {Otcovi|Otcovy} kamarádi přišli. | 1. pád mn. č. rodu mužského životného: otcovi kamarádi.
+gap | To jsou {Petrovy|Petrovi} boty. | Boty – rod ženský: Petrovy boty.
+gap | Dej to {jí|ji}, ona to potřebuje. | Komu? Jí (3. pád) – dlouhé í.
+gap | Viděl jsem {ji|jí} včera. | Koho? Ji (4. pád) – krátké i.
+gap | Bez {ní|ni} nikam nepůjdu. | Bez koho? Bez ní (2. pád).
+gap | Pozdravuj {ji|jí} ode mě. | Koho? Ji – 4. pád.
+gap | Přišli jsme ke {dvěma|dvoum} kamarádům. | Číslovka dva ve 3. pádě: dvěma.
+gap | Nemám ani {dvě|dva} koruny. | Koruny – rod ženský: dvě koruny.
+gap | Šli jsme se {třemi|třema} dětmi. | Spisovně: se třemi.
+gap | Vyprávěl {mně|mě} pohádku. | Komu? Mně – 3. pád.
+gap | Pozvala {mě|mně} na oslavu. | Koho? Mě – 4. pád.
+gap | Přijďte k {nám|nam} na návštěvu. | Ke komu? K nám.
+gap | Děti si hrály s {kočkami|kočkamy}. | Vzor žena – 7. pád mn. č.: ženami → kočkami.
+gap | Stála u {kamen|kamnech}. | U čeho? U kamen (2. pád, pomnožné).
+gap | Pod {okny|oknama} rostly květiny. | Spisovně: pod okny (7. pád mn. č., vzor město).
+gap | Ptali se na cestu {kolemjdoucích|kolemjdoucí}. | Koho? Kolemjdoucích (2. pád mn. č.) – ptát se koho na co.
+gap | Na stromech zpívali ptác{i|y}. | Pták – vzor pán: ptáci.
+gap | Udělala kompot ze {dvou|dvouch} jablek. | 2. pád číslovky dva: ze dvou.
+gap | Před {deseti|desíti} lety tu stál mlýn. | Spisovně: před deseti lety.
+mc [2] | Ve které větě je chyba? | Dědovy hodinky jsou staré.; *Dědovi hodinky se zastavily.; Dědovi kamarádi přišli.; Bratrovy knihy leží na stole. | Hodinky – rod ženský: dědovy hodinky.
+mc [2] | Které spojení je správně? | *s oběma rukama; s obouma rukama; s oběmi rukami; s oběma rukami | Ruce jsou výjimka – s oběma rukama (dvojné číslo).
+mc [3] | Ve které větě je chybný tvar zájmena? | Daruj jí kytici.; Viděl jsem ji ve škole.; *Bez ji to nepůjde.; Mluvili jsme o ní. | Bez koho? Bez ní.
+mc [2] | Ve které větě je správný tvar číslovky? | Přišel se dvouma kamarády.; *Přišel se dvěma kamarády.; Přišel s dvěmi kamarády.; Přišel se dvoumi kamarády. | Spisovně: se dvěma kamarády.
+
+@topic c7-shoda
+@diff 2
+@gapprompt Doplň správnou koncovku.
+gap | Děti si hrál{y|i} na zahradě. | Děti – v množném čísle rod ženský → -y.
+gap | Na poli se pásl{y|i} krávy. | Krávy – rod ženský → -y.
+gap | Kuřata a kachňata pobíhal{a|y} po dvoře. | Oba podměty rodu středního → -a.
+gap | Muži a ženy diskutoval{i|y}. | Je tu mužský životný → -i.
+gap | Stromy a keře se zazelenal{y|i}. | Mužský neživotný a mužský neživotný → -y.
+gap | Města a vesnice byl{y|a} zaplaveny. | Střední + ženský → -y.
+gap | My jsme se s Janou vrátil{y|i} pozdě. (Mluví holka.) | Podmět „my“ = dvě dívky → -y.
+gap | Rodiče s dětmi odjel{i|y} k moři. | Podmět je „rodiče“ (mužský životný); „s dětmi“ je přívlastek/předmět → -i.
+gap | Pes s kočkou {spal|spali} na gauči. | Podmět je jen „pes“ (s kočkou není součástí podmětu) → spal.
+gap | Ty jsi to udělal{a|y}, Evo? | Oslovujeme jednu dívku → udělala.
+gap | Davy lidí zaplnil{y|i} náměstí. | Davy – rod mužský neživotný → -y.
+gap | Oči ji pálil{y|i}. | Oči – rod ženský → -y.
+gap | Hejno vrabců vzlétl{o|i}. | Podmět „hejno“ – rod střední, jednotné číslo → vzlétlo.
+gap | Většina žáků přišl{a|i} včas. | Podmět „většina“ – rod ženský, jednotné číslo → přišla.
+gap | Holubi a vrány se slétl{i|y} ke krmítku. | Holubi – mužský životný → -i.
+gap | Učitelé i žákyně zpíval{i|y}. | Mužský životný (učitelé) → -i.
+gap | Tužky, pera a pravítka ležel{y|a} na stole. | Ženský + střední + střední → -y.
+gap | Zdi se otřásal{y|i}. | Zdi – rod ženský → -y.
+mc [3] | Ve které větě je chyba ve shodě? | Děvčata zpívala.; Kluci hráli hokej.; *Myši se schovávali v díře.; Vlaky přijížděly. | Myši – rod ženský → schovávaly.
+mc [3] | Ve které větě je chyba? | Lidé se smáli.; *Hory se tyčili nad údolím.; Psi štěkali.; Stěny byly bílé. | Hory – rod ženský → tyčily.
+
+@topic c7-velka-pismena
+@diff 2
+@gapprompt Vyber správný zápis.
+gap | Pojedeme do {Vysokých Tater|vysokých Tater|Vysokých tater}. | Vysoké Tatry – víceslovný zeměpisný název, obě slova velká.
+gap | Bydlíme v {Ústí nad Labem|ústí nad Labem|Ústí Nad Labem}. | Předložka uvnitř názvu malá, Labe velké.
+gap | Byli jsme v {Národním divadle|národním divadle|Národním Divadle}. | Název instituce – velké jen první slovo (a vlastní jména).
+gap | Slavíme {Štědrý den|štědrý den|Štědrý Den}. | Štědrý den – velké jen první slovo.
+gap | Přečetl jsem knihu {Staré pověsti české|Staré Pověsti České|staré pověsti české}. | Název díla – velké jen první slovo.
+gap | Řeka {Morava|morava} teče na jih. | Vlastní jméno řeky – velké písmeno.
+gap | V {Atlantském oceánu|atlantském oceánu|Atlantském Oceánu} plavou velryby. | Atlantský oceán – velké jen první slovo.
+gap | Moje sestra studuje na {Masarykově univerzitě|masarykově univerzitě|Masarykově Univerzitě}. | Název instituce – velké první slovo (Masarykova).
+gap | Jeli jsme na {Moravu|moravu}. | Morava (země) – vlastní jméno.
+gap | Mluvím {česky|Česky}. | Příslovce „česky“ píšeme s malým písmenem.
+gap | Na mistrovství přijeli {Češi|češi} a Slováci. | Jména národů a obyvatel píšeme s velkým písmenem: Češi.
+gap | Na {Velikonoce|velikonoce} malujeme vajíčka. | Svátek – velké písmeno.
+gap | Rozhlédli jsme se z {Petřína|petřína}. | Vrch Petřín – vlastní jméno.
+gap | Žijeme ve {Spojených státech amerických|spojených státech amerických|Spojených Státech Amerických}. | Název státu: Spojené státy americké – velké jen první slovo.
+gap | Cestou jsme minuli {Brněnskou přehradu|brněnskou přehradu|Brněnskou Přehradu}. | Vlastní název – velké první slovo.
+gap | Viděli jsme {pražský hrad|Pražský hrad|Pražský Hrad}. Vyber zápis pro název objektu. | Pražský hrad – název: velké jen první slovo.
+mc [2] | Ve které větě je chyba ve velkých písmenech? | Byli jsme v Krkonoších.; *Pojedeme k Baltskému Moři.; Navštívili jsme Prahu.; Na Vánoce bude sníh. | Baltské moře – druhé slovo malé.
+mc [2] | Ve které větě je chyba? | Mluvíme anglicky.; *Bydlíme na Nové Ulici.; Řeka Vltava je dlouhá.; Narodil se v Brně. | Ulice: Nová ulice – „ulice“ malá.
+mc [3] | Který zápis je správný? | Ministerstvo Školství; *Ministerstvo školství, mládeže a tělovýchovy; ministerstvo Školství; Ministerstvo Školství, Mládeže A Tělovýchovy | Název instituce – velké jen první slovo.
+mc [2] | Které slovo píšeme s malým písmenem? | Pražan; Brňan; *pražský; Čech | Přídavné jméno „pražský“ píšeme malým písmenem.

@@ -1,0 +1,118 @@
+# MATEMATIKA 5 – statické úlohy (doplňují generátory)
+@topic m5-geometrie-rysovani
+@diff 1
+mc | Jak se nazývá čára, která má začátek i konec? | přímka; *úsečka; polopřímka; kružnice | Úsečka má dva krajní body.
+mc | Jak se nazývá čára, která má začátek, ale nemá konec? | úsečka; přímka; *polopřímka; oblouk | Polopřímka začíná v bodě a pokračuje nekonečně.
+mc | Kolik přímek prochází dvěma různými body? | žádná; *právě jedna; dvě; nekonečně mnoho | Dvěma body vede právě jedna přímka.
+mc | Dvě přímky, které se nikdy neprotnou (v rovině), jsou | kolmé; *rovnoběžné; různoběžné; shodné | Rovnoběžky se neprotínají.
+mc | Dvě přímky, které svírají pravý úhel, jsou | rovnoběžné; *kolmé; totožné; zakřivené | Kolmice svírají úhel 90°.
+mc | Čím narýsuješ kružnici? | pravítkem; *kružítkem; úhloměrem; trojúhelníkem | Kružnice se rýsuje kružítkem.
+mc | Kružnice má poloměr 4 cm. Jaký je její průměr? | 2 cm; 4 cm; *8 cm; 16 cm | Průměr = 2 × poloměr = 8 cm.
+mc | Kružnice má průměr 10 cm. Jaký je její poloměr? | 20 cm; 10 cm; *5 cm; 2 cm | Poloměr = průměr : 2 = 5 cm.
+mc | Kolik stran má obdélník? | 3; *4; 5; 6 | Obdélník je čtyřúhelník.
+mc | Jakou vlastnost má čtverec? | má tři strany; *všechny strany jsou stejně dlouhé a úhly pravé; má jen dvě strany stejně dlouhé; nemá pravé úhly | Čtverec má 4 shodné strany a 4 pravé úhly.
+mc | Kolik vrcholů má trojúhelník? | 2; *3; 4; 6 | Trojúhelník má 3 vrcholy.
+mc | Čím se nejlépe rýsuje kolmice? | kružítkem; *trojúhelníkem s ryskou; úhloměrem; gumou | Trojúhelník s ryskou má pravý úhel.
+yn | Úsečka AB a úsečka BA jsou stejně dlouhé. | ano | Je to tatáž úsečka.
+yn | Přímka má dva krajní body. | ne | Přímka je nekonečná – nemá krajní body.
+mc [2] | Body A, B, C leží na jedné přímce v tomto pořadí, |AB| = 3 cm, |BC| = 5 cm. Jak dlouhá je úsečka AC? | 2 cm; *8 cm; 15 cm; 5 cm | Body leží za sebou, délky se sčítají: 3 + 5 = 8 cm.
+mc [2] | Kolik různých úseček určují 3 body, které neleží na jedné přímce? | 2; *3; 4; 6 | AB, BC, AC – 3 úsečky.
+mc [2] | Kolik různých úseček určují 4 body, z nichž žádné tři neleží na přímce? | 4; 5; *6; 8 | AB, AC, AD, BC, BD, CD – 6 úseček.
+mc | Jakou propiskou po narýsování obtáhneš konstrukci u přijímaček? | červenou; *modrou nebo černou; zelenou; žádnou | Konstrukci tužkou je nutné obtáhnout modře/černě píšící propiskou.
+
+@topic m5-osova-soumernost
+@diff 1
+mc | Které písmeno má svislou osu souměrnosti? | F; *A; R; G | A je souměrné podle svislé osy.
+mc | Které písmeno má vodorovnou osu souměrnosti? | A; *B; F; P | B je souměrné podle vodorovné osy.
+mc | Kolik os souměrnosti má čtverec? | 1; 2; *4; nekonečně mnoho | Dvě úhlopříčky a dvě osy stran – celkem 4.
+mc | Kolik os souměrnosti má obdélník (který není čtverec)? | 1; *2; 4; 0 | Dvě osy procházející středy protějších stran.
+mc | Kolik os souměrnosti má kružnice? | 1; 2; 4; *nekonečně mnoho | Každá přímka procházející středem je osou.
+mc | Kolik os souměrnosti má rovnostranný trojúhelník? | 1; 2; *3; 0 | Tři osy – každá vede vrcholem a středem protější strany.
+mc | Které písmeno NEMÁ žádnou osu souměrnosti? | H; O; *F; X | F nemá žádnou osu souměrnosti.
+mc | Které písmeno má dvě osy souměrnosti? | A; *H; T; E | H má svislou i vodorovnou osu.
+yn | Obraz bodu v osové souměrnosti leží na opačné straně osy ve stejné vzdálenosti od ní. | ano | Tak je osová souměrnost definována.
+yn | Bod, který leží na ose souměrnosti, se zobrazí sám na sebe. | ano | Body osy jsou samodružné.
+mc [2] | Ve čtvercové síti je osa svislá. Bod A je 3 čtverečky vlevo od osy. Kde je jeho obraz? | 3 čtverečky vlevo od osy; *3 čtverečky vpravo od osy; na ose; 6 čtverečků vpravo od osy | Obraz je ve stejné vzdálenosti na druhé straně.
+mc [2] | Které číslo zapsané číslicemi (jako na digitálních hodinách) je souměrné podle vodorovné osy? | 2; 7; *3; 4 | Číslice 3 (i 8, 0, 1) je souměrná podle vodorovné osy.
+mc | Které slovo psané velkými tiskacími písmeny má svislou osu souměrnosti? | KOLO; *TOT; PES; KRÁVA | Slovo TOT (T-O-T) je souměrné podle svislé osy uprostřed.
+mc [2] | Kolik os souměrnosti má pravidelný šestiúhelník? | 3; *6; 12; 2 | 3 osy vrcholy a 3 osy středy stran – 6.
+mc | Které geometrické útvary jsou vždy osově souměrné? | každý trojúhelník; *každá kružnice; každý čtyřúhelník; každá lomená čára | Kružnice je souměrná podle každého průměru.
+yn | Obrázek motýla s rozevřenými křídly bývá osově souměrný. | ano | Křídla jsou zrcadlová podle těla.
+
+@topic m5-telesa-krychlove-stavby
+@diff 1
+mc | Kolik stěn má krychle? | 4; *6; 8; 12 | Krychle má 6 čtvercových stěn.
+mc | Kolik vrcholů má krychle? | 6; *8; 10; 12 | Krychle má 8 vrcholů.
+mc | Kolik hran má krychle? | 6; 8; *12; 16 | Krychle má 12 hran.
+mc | Které těleso nemá žádnou hranu ani vrchol? | krychle; jehlan; *koule; kvádr | Koule je oblá.
+mc | Které těleso má jednu podstavu tvaru kruhu a jeden vrchol? | válec; *kužel; koule; jehlan | Kužel má kruhovou podstavu a vrchol.
+mc | Které těleso má dvě kruhové podstavy? | kužel; *válec; koule; kvádr | Válec – například plechovka.
+mc | Jaký tvar mají stěny kvádru? | trojúhelníky; *obdélníky (nebo čtverce); kruhy; šestiúhelníky | Stěny kvádru jsou obdélníky.
+mc | Jakému tělesu se podobá míč? | válci; *kouli; krychli; kuželu | Míč má tvar koule.
+mc [2] | Stavba se skládá ze 2 vrstev. Spodní vrstva má 3 × 3 krychle, horní vrstva 2 × 2 krychle. Kolik krychlí je ve stavbě? | 9; 12; *13; 18 | 9 + 4 = 13.
+mc [2] | Kolik malých krychliček o hraně 1 cm potřebuješ na krychli o hraně 3 cm? | 9; 18; *27; 12 | 3 × 3 × 3 = 27.
+mc [2] | Velkou krychli 3 × 3 × 3 z bílých krychliček natřeme zvenku červeně. Kolik krychliček má natřené právě 3 stěny? | 4; 6; *8; 12 | Tři natřené stěny mají jen rohové krychličky – 8.
+mc [3] | Velkou krychli 3 × 3 × 3 natřeme zvenku. Kolik krychliček nemá natřenou žádnou stěnu? | 0; *1; 6; 8 | Jen prostřední krychlička uvnitř.
+mc [2] | Kolik stěn má jehlan se čtvercovou podstavou? | 4; *5; 6; 8 | Podstava + 4 trojúhelníkové stěny.
+mc | Která síť (rozložení) patří krychli? | 6 čtverců v řadě; *kříž ze 6 čtverců (4 v řadě, po jednom nahoře a dole); 5 čtverců do L; 4 čtverce do čtverce | „Kříž“ 1-4-1 je síť krychle; 6 čtverců v řadě ne.
+yn | Na hrací kostce je součet teček na protilehlých stěnách vždy 7. | ano | 1–6, 2–5, 3–4.
+mc [2] | Na hrací kostce je nahoře 2. Kolik teček je dole? | 2; 4; *5; 6 | Protilehlé stěny dávají součet 7: 7 − 2 = 5.
+mc [3] | Stavbu z krychlí vidíme shora jako čtverec 2 × 2 a na každém poli jsou napsaná čísla výšek 1, 2, 3 a 1. Kolik krychlí stavba obsahuje? | 4; 6; *7; 8 | Sečteme výšky: 1 + 2 + 3 + 1 = 7.
+
+@topic m5-nestandardni
+@diff 2
+num | Doplň další číslo v řadě: 2, 4, 6, 8, … | 10 | Přičítáme vždy 2.
+num | Doplň další číslo v řadě: 1, 2, 4, 8, … | 16 | Každé číslo je dvojnásobkem předchozího.
+num | Doplň další číslo v řadě: 1, 4, 9, 16, … | 25 | Jsou to čtverce: 1·1, 2·2, 3·3, 4·4, 5·5 = 25.
+num | Doplň další číslo v řadě: 1, 1, 2, 3, 5, 8, … | 13 | Každé číslo je součet dvou předchozích: 5 + 8 = 13.
+num | Doplň další číslo v řadě: 50, 45, 40, 35, … | 30 | Odečítáme 5.
+num [3] | Doplň další číslo v řadě: 3, 4, 6, 9, 13, … | 18 | Přičítáme 1, 2, 3, 4, 5 → 13 + 5 = 18.
+num [2] | Kolik je všech dvojciferných čísel, která lze zapsat číslicemi 1, 2, 3, pokud se číslice nesmí opakovat? | 6 | 12, 13, 21, 23, 31, 32 – 6 čísel.
+num [2] | Kolika způsoby se mohou 3 děti postavit do řady? | 6 | ABC, ACB, BAC, BCA, CAB, CBA – 6.
+num [2] | Na oslavě si 4 kamarádi podali ruce každý s každým. Kolik bylo podání rukou? | 6 | 3 + 2 + 1 = 6.
+num [3] | Jana je starší než Eva. Eva je starší než Pavla. Pavla je starší než Lucie. Kolikátá nejstarší je Eva? | 2 | Pořadí podle věku: Jana, Eva, Pavla, Lucie – Eva je druhá.
+mc [2] | Tři kamarádi: Adam, Bára a Cyril. Jeden má psa, druhý kočku, třetí rybičky. Adam nemá zvíře se srstí. Bára nemá psa. Kdo má psa? | Adam; Bára; *Cyril; nedá se určit | Adam má rybičky (nemá srst), Bára tedy kočku, Cyril psa.
+num [2] | V košíku jsou jablka. Když je rozdělím po 2, zbude 1. Když po 3, zbude 1. Když po 5, nezbude nic. Jablek je méně než 30. Kolik jich je? | 25 | Hledáme násobek 5, který dává zbytek 1 při dělení 2 i 3: 25 (25 = 2·12 + 1 = 3·8 + 1).
+num [2] | Šnek leze po 10 m vysoké zdi. Ve dne vyleze 3 m, v noci sklouzne o 2 m. Kolikátý den vyleze nahoru? | 8 | Po 7 dnech a nocích je ve výšce 7 m, 8. den vyleze o 3 m na 10 m.
+num [2] | Kolik trojúhelníků vidíš na obrázku, kde je trojúhelník rozdělený jednou čarou z vrcholu na protější stranu? | 3 | Dva malé a jeden velký – 3.
+num [2] | Kolik čtverců je na šachovnici 2 × 2? | 5 | 4 malé + 1 velký = 5.
+num [3] | Kolik čtverců je na mřížce 3 × 3? | 14 | 9 malých + 4 čtverce 2 × 2 + 1 velký = 14.
+num | Myslím si číslo. Když k němu přičtu 7, dostanu 20. Jaké je to číslo? | 13 | 20 − 7 = 13.
+num [2] | Myslím si číslo. Vynásobím ho třemi a přičtu 4, dostanu 25. Jaké je číslo? | 7 | (25 − 4) : 3 = 7.
+
+@topic m5-strategie-testu
+@diff 1
+mc | Kolik minut trvá test z matematiky u přijímací zkoušky? | 60; *70; 45; 90 | Matematika 70 minut.
+mc | Smíš u testu z matematiky používat kalkulačku? | ano; *ne; jen na konci; jen u geometrie | Kalkulačka ani tabulky povoleny nejsou.
+mc | Čím se rýsují konstrukce? | jen propiskou; *tužkou, a pak se obtáhnou propiskou; fixou; nerýsují se | Rýsuje se tužkou, výsledek se obtáhne modrou/černou propiskou.
+mc | Kolik úloh má zhruba test z matematiky pro 5. třídu? | 28; *14; 50; 5 | Kolem 14 úloh (některé s podúlohami).
+mc | Co uděláš, když se zasekneš u úlohy? | počítám ji dokola 20 minut; *přejdu k další a vrátím se později; odevzdám; přestanu psát | Nejdřív seber jisté body.
+mc | Co je dobré udělat po vyřešení slovní úlohy? | nic; *zkontrolovat, zda výsledek dává smysl (zkouška); smazat výpočty; rychle odejít | Zkouška odhalí chyby.
+yn | Do záznamového archu u otevřených úloh stačí napsat jen výsledek, pokud zadání nechce postup. | ano | Pokud je u úlohy požadován postup, je nutné ho uvést – jinak stačí výsledek.
+yn | U uzavřených úloh (A–E) se za chybnou odpověď odečítají body. | ne | Neodečítají, proto vždy něco zaškrtni.
+mc | Jaké pomůcky si vezmeš k testu z matematiky? | kalkulačku a mobil; *propisku, tužku, pravítko, kružítko, trojúhelník; jen pero; tabulky | Rýsovací potřeby a psací potřeby.
+mc [2] | Máš 70 minut a 14 úloh. Kolik je to průměrně minut na úlohu? | 3; *5; 7; 10 | 70 : 14 = 5 minut.
+mc | Výsledek úlohy je 3 500 Kč. Jak ho zapíšeš? | 3 500; *3 500 Kč (s jednotkou, pokud ji úloha chce); 35; 3,5 | Uvádíme i jednotku, je-li v zadání.
+mc | Proč si u slovní úlohy psát zápis (co vím, co hledám)? | aby byl test delší; *abych neztratila přehled a neudělala chybu; je to povinné u všech; nevím | Zápis zpřehlední úlohu.
+mc [2] | Odhadem, kolik je 498 + 302? | asi 600; *asi 800; asi 1 000; asi 700 | 500 + 300 = 800 – odhad pomůže zkontrolovat výsledek.
+mc | Co uděláš 5 minut před koncem testu? | začnu novou těžkou úlohu; *zkontroluji, že mám vše přepsané v záznamovém archu; nic; začnu gumovat | Hodnotí se jen záznamový arch.
+mc | Je správné obtáhnout konstrukci propiskou? | ne, stačí tužka; *ano, tužka se při hodnocení nemusí zobrazit; jen čáry kružítka; jen popisky | U JPZ se konstrukce obtahují propiskou.
+
+@topic mo-z5
+@diff 3
+num | Součet tří po sobě jdoucích čísel je 48. Jaké je největší z nich? | 17 | Prostřední číslo je 48 : 3 = 16, čísla jsou 15, 16, 17.
+num | Kolik je všech trojciferných čísel s ciferným součtem 3? | 6 | 102, 111, 120, 201, 210, 300 – celkem 6.
+num | Petr má dvakrát víc kuliček než Jirka. Dohromady mají 36 kuliček. Kolik má Petr? | 24 | Jirka 1 díl, Petr 2 díly, celkem 3 díly = 36, 1 díl = 12, Petr 24.
+num | Za 3 roky bude Aničce dvakrát tolik let, kolik jí bylo před 3 lety. Kolik je jí let? | 9 | Za 3 roky 12, před 3 lety 6 – 12 = 2 · 6.
+num | Kolik je čtverečků (i složených) v pásu 1 × 4 čtverečky? (Počítej jen čtverce.) | 4 | V pásu výšky 1 jsou jen čtverce 1 × 1 – čtyři.
+num | Kolik obdélníků (včetně čtverců) je v pásu 1 × 3 čtverečky? | 6 | Délky 1 (3×), 2 (2×), 3 (1×) – celkem 6.
+num | Na stole leží 10 mincí – koruny a dvoukoruny. Dohromady mají hodnotu 16 Kč. Kolik je dvoukorun? | 6 | Kdyby byly všechny koruny, bylo by 10 Kč; každá dvoukoruna přidá 1 Kč, chybí 6 Kč → 6 dvoukorun.
+num | Na farmě jsou slepice a králíci, celkem 10 hlav a 28 nohou. Kolik je králíků? | 4 | Kdyby byly jen slepice: 20 nohou. Každý králík přidá 2 nohy: (28 − 20) : 2 = 4.
+num | Kolik je dvojciferných čísel, která jsou dělitelná 9? | 10 | 18, 27, …, 99 → 10 čísel (9 je jednociferné).
+num | Které nejmenší přirozené číslo je dělitelné 2, 3, 4 i 5? | 60 | Nejmenší společný násobek 2, 3, 4, 5 je 60.
+num | Kolik minut uplyne od 8.45 do 11.10? | 145 | Od 8.45 do 10.45 je 120 min, do 11.10 dalších 25 min → 145 min.
+num | Sešit stojí o 12 Kč víc než tužka. Dohromady stojí 30 Kč. Kolik stojí tužka? | 9 | (30 − 12) : 2 = 9 Kč.
+num | Číslo zvětšené o svou polovinu je 45. Jaké je to číslo? | 30 | Číslo + polovina = 3 poloviny = 45, polovina = 15, číslo = 30.
+num | Kolik je hodin za 100 hodin, je-li nyní 9.00? (Odpověz jen hodinu 0–23.) | 13 | 100 h = 4 dny a 4 hodiny, 9 + 4 = 13.
+num | Kolik dní mají dohromady měsíce červenec a srpen? | 62 | 31 + 31 = 62.
+num | V řadě stojí děti. Tomáš je pátý zleva a sedmý zprava. Kolik je dětí v řadě? | 11 | 5 + 7 − 1 = 11.
