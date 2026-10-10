@@ -16,6 +16,7 @@ export function Today({ id, go }: { id: ProfileId; go: (tab: string) => void }) 
   const plan = dayPlan(id, date, g);
   const meta = profileMeta(id);
   const [active, setActive] = useState<string | null>(null);
+  useEffect(() => { window.scrollTo(0, 0); }, [active]);
   const st = student(id);
   const ex = examDays(id);
   const lesson = p!.lessons[date];
@@ -87,7 +88,7 @@ function LessonRunner({ id, lkey, onExit }: { id: ProfileId; lkey: string; onExi
   const meta = profileMeta(id);
   const [cardIdx, setCardIdx] = useState(l.idx === 0 && l.answers.length === 0 ? 0 : l.cards.length);
   const t0 = useRef(Date.now());
-  useEffect(() => { t0.current = Date.now(); }, [l.idx, cardIdx]);
+  useEffect(() => { t0.current = Date.now(); window.scrollTo(0, 0); }, [l.idx, cardIdx]);
   const date = todayKey();
 
   if (cardIdx < l.cards.length) {

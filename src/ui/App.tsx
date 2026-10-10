@@ -31,6 +31,7 @@ export function App() {
     document.documentElement.style.setProperty('--pcolor', meta?.color || 'var(--accent)');
   }, [profile]);
   useEffect(() => { if (tab !== 'rodic') setUnlocked(false); }, [tab]);
+  useEffect(() => { window.scrollTo(0, 0); }, [tab, profile, adding]);
 
   const { g } = useStore();
   const valid = profile && g.profiles.some((x) => x.id === profile);
