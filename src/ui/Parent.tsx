@@ -7,13 +7,16 @@ import { updateGlobal, updateProfile, emptyProfile, loadProfile, removeProfileDa
 import { makeBackup, shareCode, parseImport, applyBackup } from '../lib/share';
 import { addDays, today as todayKey } from '../lib/dates';
 import { useStore, pct } from './common';
-import { lessonSec } from './Today';
-import { Trend } from './Tests';
+import { Dashboard } from './Dashboard';
+import { ShareReportButton } from './ShareReport';
+import { buildSnapshot } from '../lib/stats';
+import { hasReports } from './Reports';
 
 export function Parent({ unlocked, unlock }: { unlocked: boolean; unlock: () => void }) {
   const { g } = useStore();
   const [pin, setPin] = useState('');
   const [err, setErr] = useState(false);
+  const [sel, setSel] = useState<string>(() => g.lastProfile || g.profiles[0]?.id || '');
   if (!unlocked) {
     const press = (d: string) => {
       const n = (pin + d).slice(0, 4); setPin(n); setErr(false);
@@ -32,7 +35,9 @@ export function Parent({ unlocked, unlock }: { unlocked: boolean; unlock: () => 
   return (
     <div class="screen">
       {g.profiles.length === 0 && <div class="card"><p>Zatím tu není žádný profil.</p></div>}
-      {g.profiles.map((pm) => <Overview id={pm.id} />)}
+      <div class="ptitle"><h1>Přehled</h1>{hasReports() > 0 && <a class="link" href="#prehledy"><Icon name="chart" size={16} /> Přijaté přehledy ({hasReports()})</a>}</div>
+      {g.profiles.length > 1 && <div class="seg" role="tablist">{g.profiles.map((pm) => <button role="tab" class={sel === pm.id ? 'on' : ''} onClick={() => setSel(pm.id)}>{pm.name}</button>)}</div>}
+      {g.profiles.filter((pm) => pm.id === sel || (!g.profiles.some((x) => x.id === sel) && pm === g.profiles[0])).map((pm) => <Overview id={pm.id} />)}
       <Settings />
       <Backup />
     </div>
@@ -41,36 +46,23 @@ export function Parent({ unlocked, unlock }: { unlocked: boolean; unlock: () => 
 
 function Overview({ id }: { id: ProfileId }) {
   const { p, g } = useStore(id);
-  const t = todayKey();
-  const st = student(id);
   const pm = profileMeta(id);
   const [edit, setEdit] = useState(false);
   if (edit) return <ProfileForm title={`Upravit profil – ${pm.name}`} initial={pm} onCancel={() => setEdit(false)} onSave={(np) => { updateGlobal((x) => { const i = x.profiles.findIndex((q) => q.id === id); if (i >= 0) x.profiles[i] = np; }); setEdit(false); }} />;
-  const last7 = Array.from({ length: 7 }, (_, i) => addDays(t, i - 6));
-  const ls = (d: string) => Object.entries(p!.lessons).filter(([k]) => k === d || k.startsWith(d + '#')).map(([, l]) => l);
-  const min7 = Math.round(last7.reduce((s, d) => s + ls(d).reduce((a, l) => a + lessonSec(l), 0), 0) / 60);
-  const ans7 = last7.flatMap((d) => ls(d).flatMap((l) => l.answers));
-  const weak = Object.entries(p!.topics).filter(([, s]) => s.seen >= 3).sort((a, b) => a[1].ema - b[1].ema).slice(0, 4);
-  const srs = Object.keys(p!.srs).length;
+  const snap = buildSnapshot(id, p!, g, todayKey());
   return (
-    <div class="card overview">
-      <h3 class="ovh"><Avatar emoji={pm.emoji} color={pm.color} size={30} /> <span>{pm.name}<small class="muted"> · {st.grade}. třída → {st.schoolType}</small></span></h3>
-      <p class="small">{[pm.school, pm.track === 'g6' ? (pm.english ? 'angličtina zapnutá' : 'angličtina vypnutá') : (pm.zkk ? 'test z křesťanské kultury zapnutý' : '')].filter(Boolean).join(' · ')}</p>
-      <div class="row3">
-        <div class="stat"><b>{streak(id, t, p!, g)}</b><small>série</small></div>
-        <div class="stat"><b>{min7}</b><small>min / 7 dní</small></div>
-        <div class="stat"><b>{pct(ans7.filter((a) => a.ok).length, ans7.length)} %</b><small>správně / 7 dní</small></div>
-        <div class="stat"><b>{srs}</b><small>k opakování</small></div>
-      </div>
-      <div class="week7">{last7.map((d) => { const a = ls(d).flatMap((l) => l.answers); const done = ls(d).some((l) => l.finishedAt); return <div class={done ? 'd done' : a.length ? 'd part' : 'd'} title={d}><small>{d.slice(8)}.</small></div>; })}</div>
-      {weak.length > 0 && <p class="small">Nejslabší témata: {weak.map(([tid, s]) => `${topicDef(tid)?.name} (${Math.round(s.ema * 100)} %)`).join(', ')}</p>}
-      <Trend results={p!.mocks} />
-      <p class="small">Do přijímaček zbývá {daysTo(t, examDays(id)[0])} dní.</p>
-      <div class="row2">
-        <button class="secondary" onClick={() => setEdit(true)}><Icon name="edit" size={18} /> Upravit profil a moduly</button>
-        <button class="link danger" onClick={() => { if (confirm(`Opravdu smazat veškerý pokrok – ${pm.name}? (Nejdřív si udělej zálohu.)`)) updateProfile(id, (d) => Object.assign(d, emptyProfile())); }}>Smazat pokrok</button>
-        <button class="link danger" onClick={() => { if (confirm(`Smazat celý profil ${pm.name} z tohoto zařízení?`)) { removeProfileData(id); updateGlobal((x) => { x.profiles = x.profiles.filter((q) => q.id !== id); delete x.minutes[id]; if (x.lastProfile === id) delete x.lastProfile; }); } }}>Smazat profil</button>
-      </div>
+    <div class="overview">
+      <Dashboard s={snap} actions={<>
+        <p class="small muted">{[pm.school, pm.track === 'g6' ? (pm.english ? 'angličtina zapnutá' : 'angličtina vypnutá') : (pm.zkk ? 'test z křesťanské kultury zapnutý' : '')].filter(Boolean).join(' · ')}</p>
+        <ShareReportButton id={id} />
+        <div class="row2">
+          <button class="secondary" onClick={() => setEdit(true)}><Icon name="edit" size={18} /> Upravit profil a moduly</button>
+        </div>
+        <div class="row2">
+          <button class="link danger" onClick={() => { if (confirm(`Opravdu smazat veškerý pokrok – ${pm.name}? (Nejdřív si udělej zálohu.)`)) updateProfile(id, (d) => Object.assign(d, emptyProfile())); }}>Smazat pokrok</button>
+          <button class="link danger" onClick={() => { if (confirm(`Smazat celý profil ${pm.name} z tohoto zařízení?`)) { removeProfileData(id); updateGlobal((x) => { x.profiles = x.profiles.filter((q) => q.id !== id); delete x.minutes[id]; if (x.lastProfile === id) delete x.lastProfile; }); } }}>Smazat profil</button>
+        </div>
+      </>} />
     </div>
   );
 }

@@ -7,6 +7,8 @@ import { resolveTask } from '../lib/tasks';
 import { updateProfile, LessonState } from '../lib/store';
 import { fmtLong, fmtShort, today as todayKey } from '../lib/dates';
 import { CARDS } from '../content/cards';
+import { activity } from '../lib/activity';
+import { ReportReminder, ShareReportButton, reportSentThisWeek } from './ShareReport';
 import { TaskView } from './TaskView';
 import { useStore, Ring, pct, useFocusMode, ActionBar } from './common';
 
@@ -49,6 +51,7 @@ export function Today({ id, go }: { id: ProfileId; go: (tab: string) => void }) 
       </header>
 
       {plan.kind === 'before' && <div class="card info"><h2>Plán začíná v pondělí {fmtShort(planStart(id))}</h2><p>Do té doby si můžeš zkusit krátkou rozcvičku z prvního týdne.</p></div>}
+      <ReportReminder id={id} />
       {plan.kind === 'free' && <div class="card info"><h2>Dnes je volno</h2><p>Neděle je na odpočinek. Jestli chceš, můžeš si dobrovolně procvičovat.</p></div>}
       {plan.schoolTest && <div class="card info"><h2><Icon name="flag" /> Možná dnes: {plan.schoolTest}</h2><p>Termín je odhadnutý podle loňska – ověř si ho v pozvánce ze školy. Dnešní lekce je jen krátká.</p></div>}
       {plan.kind === 'exam' && <div class="card exam"><h2><Icon name="cap" /> {plan.examLabel}</h2><p>Hodně štěstí! Vyspi se, nasnídej se a vezmi si propisku (na matiku i rýsovací potřeby). Věříme ti!</p></div>}
@@ -81,16 +84,31 @@ export function Today({ id, go }: { id: ProfileId; go: (tab: string) => void }) 
 }
 
 export const lessonSec = (l: LessonState) => l.cardSec + l.answers.reduce((s, a) => s + a.sec, 0);
+/** Adds active seconds to the per-day and current-session counters. */
+function addTime(L: LessonState, s: number, day: string) {
+  if (!(s > 0)) return;
+  const ds = (L.daySec ||= {}); ds[day] = Math.round(((ds[day] || 0) + s) * 10) / 10;
+  const ss = L.sessions?.[L.sessions.length - 1]; if (ss) ss.sec = Math.round((ss.sec + s) * 10) / 10;
+}
 
 function LessonRunner({ id, lkey, onExit }: { id: ProfileId; lkey: string; onExit: () => void }) {
   const { p } = useStore(id);
   const l = p!.lessons[lkey];
   const meta = profileMeta(id);
-  const [cardIdx, setCardIdx] = useState(l.idx === 0 && l.answers.length === 0 ? 0 : l.cards.length);
-  const t0 = useRef(Date.now());
-  useEffect(() => { t0.current = Date.now(); window.scrollTo(0, 0); }, [l.idx, cardIdx]);
+  const [cardIdx, setCardIdx] = useState(l.idx === 0 && l.answers.length === 0 ? Math.min(l.cardsDone || 0, l.cards.length) : l.cards.length);
+  useEffect(() => { window.scrollTo(0, 0); }, [l.idx, cardIdx]);
   const date = todayKey();
   useFocusMode(true);
+  // active time: counted only while visible, idle gaps capped; pending time is saved when the app is hidden/closed
+  useEffect(() => {
+    activity.start();
+    updateProfile(id, (d) => { const L = d.lessons[lkey]; if (L) (L.sessions ||= []).push({ start: Date.now(), sec: 0 }); });
+    const persist = () => { const s = activity.take(); if (s > 0.5) updateProfile(id, (d) => { const L = d.lessons[lkey]; if (L && !L.finishedAt) { L.pendingSec = (L.pendingSec || 0) + s; addTime(L, s, todayKey()); } }); };
+    const off = activity.onHidden(persist);
+    return () => { off(); persist(); activity.stop(); };
+  }, [id, lkey]);
+  /** Takes the active seconds spent on the current item (incl. time saved while the app was closed). */
+  const takeSec = (L: LessonState) => { const s = activity.take(); addTime(L, s, todayKey()); const tot = s + (L.pendingSec || 0); L.pendingSec = 0; return tot; };
 
   if (cardIdx < l.cards.length) {
     const tid = l.cards[cardIdx]; const c = CARDS[tid];
@@ -103,7 +121,7 @@ function LessonRunner({ id, lkey, onExit }: { id: ProfileId; lkey: string; onExi
           <ul>{c.points.map((x) => <li>{x}</li>)}</ul>
           {c.example && <p class="example"><b>Příklad:</b> {c.example}</p>}
           {c.tip && <p class="tip"><Icon name="bulb" size={16} /> {c.tip}</p>}
-          <ActionBar><button class="primary big" onClick={() => { const sec = Math.min(180, (Date.now() - t0.current) / 1000); updateProfile(id, (d) => { d.lessons[lkey].cardSec += sec; }); setCardIdx(cardIdx + 1); }}>{cardIdx + 1 < l.cards.length ? 'Další téma' : 'Jdeme na úlohy'}</button></ActionBar>
+          <ActionBar><button class="primary big" onClick={() => { updateProfile(id, (d) => { const L = d.lessons[lkey]; const sec = Math.min(600, takeSec(L)); L.cardSec += sec; const ct = (L.cardTopicSec ||= {}); ct[tid] = (ct[tid] || 0) + sec; L.cardsDone = cardIdx + 1; }); setCardIdx(cardIdx + 1); }}>{cardIdx + 1 < l.cards.length ? 'Další téma' : 'Jdeme na úlohy'}</button></ActionBar>
         </div>
       </div>
     );
@@ -119,6 +137,7 @@ function LessonRunner({ id, lkey, onExit }: { id: ProfileId; lkey: string; onExi
           <Ring value={ok / Math.max(1, l.answers.length)} color="var(--accent)" size={110} />
           <p>{ok} z {l.answers.length} správně · {Math.max(1, Math.round(lessonSec(l) / 60))} min</p>
           {l.answers.some((a) => !a.ok) && <p class="small">Chyby se uložily do opakování – objeví se v dalších dnech.</p>}
+          {!reportSentThisWeek(id) && <div class="finshare"><ShareReportButton id={id} variant="link" label="Poslat týdenní přehled rodičům" /></div>}
           <ActionBar><button class="primary big" onClick={onExit}>Zpět na Dnes</button></ActionBar>
         </div>
       </div>
@@ -127,10 +146,11 @@ function LessonRunner({ id, lkey, onExit }: { id: ProfileId; lkey: string; onExi
   const ref = l.tasks[l.idx];
   const task = resolveTask(ref.id)!;
   const done = (ok: boolean) => {
-    const sec = Math.min(240, Math.max(3, (Date.now() - t0.current) / 1000));
     updateProfile(id, (d) => {
       const L = d.lessons[lkey];
-      L.answers.push({ id: ref.id, topic: task.topic, subject: task.subject, ok, sec: Math.round(sec), review: ref.review });
+      const sec = Math.min(600, Math.max(1, takeSec(L)));
+      const day = todayKey();
+      L.answers.push({ id: ref.id, topic: task.topic, subject: task.subject, ok, sec: Math.round(sec), review: ref.review, ...(day !== L.date ? { day } : {}) });
       recordAnswer(d, ref.id, task.topic, ok, date, !!ref.review);
       L.idx++;
       if (L.idx >= L.tasks.length) L.finishedAt = Date.now();

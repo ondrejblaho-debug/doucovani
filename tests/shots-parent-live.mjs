@@ -1,0 +1,55 @@
+// Parent-dashboard screenshots of the deployed site with DEMO data (seeded only in the test browser).
+import { webkit, devices } from 'playwright';
+import { demoPair, seedDemo, DEMO_TODAY } from './demo-seed.mjs';
+const URL_ = process.env.LIVE; if (!URL_) { console.error('set LIVE'); process.exit(2); }
+const SHOTS = new URL('../screenshots/', import.meta.url).pathname;
+const dev = { ...devices['iPhone 13'], locale: 'cs-CZ', timezoneId: 'Europe/Prague', colorScheme: 'light' };
+const b = await webkit.launch();
+const [A, B] = demoPair();
+const ctx = await b.newContext(dev);
+await ctx.addInitScript(() => { navigator.share = async (d) => { window.__shared = d; }; });
+const page = await ctx.newPage();
+await page.goto(URL_);
+await seedDemo(page, [A, B], DEMO_TODAY);
+await page.reload();
+await page.locator('.pbtn', { hasText: 'Ema' }).click();
+await page.getByText('Pošli rodičům týdenní přehled').waitFor();
+await page.screenshot({ path: SHOTS + 'parent-04-reminder-dnes.png' });
+await page.locator('.tabs button', { hasText: 'Rodič' }).click();
+for (const d of '1234') await page.getByRole('button', { name: d, exact: true }).click();
+await page.locator('.dash').waitFor();
+await page.screenshot({ path: SHOTS + 'parent-01-dashboard.png' });
+await page.locator('.kpis').scrollIntoViewIfNeeded(); await page.evaluate(() => scrollBy(0, -70));
+await page.screenshot({ path: SHOTS + 'parent-01b-dashboard-kpi.png' });
+await page.locator('.tlist.strong').scrollIntoViewIfNeeded(); await page.evaluate(() => scrollBy(0, -130));
+await page.screenshot({ path: SHOTS + 'parent-01c-dashboard-temata.png' });
+await page.evaluate(() => scrollTo(0, 0));
+await page.getByRole('button', { name: /Poslat přehled rodičům/ }).click();
+await page.waitForFunction(() => window.__shared);
+const urlA = await page.evaluate(() => window.__shared.url);
+await page.locator('.seg button', { hasText: 'Klára' }).click();
+await page.evaluate(() => { window.__shared = null; });
+await page.getByRole('button', { name: /Poslat přehled rodičům/ }).click();
+await page.waitForFunction(() => window.__shared);
+const urlB = await page.evaluate(() => window.__shared.url);
+await ctx.close();
+console.log('links', urlA.length, urlB.length, urlA.slice(0, 60) + '…');
+// parent's phone
+const pc = await b.newContext(dev);
+const pp = await pc.newPage();
+await pp.goto(urlA);
+await pp.locator('.dash').waitFor();
+await pp.screenshot({ path: SHOTS + 'parent-02-report.png' });
+await pp.goto(urlB);
+await pp.locator('.compare').waitFor();
+await pp.screenshot({ path: SHOTS + 'parent-03-side-by-side.png' });
+await pc.close();
+// side-by-side on a larger screen (iPad landscape)
+const wc = await b.newContext({ viewport: { width: 1180, height: 820 }, deviceScaleFactor: 2, locale: 'cs-CZ', timezoneId: 'Europe/Prague' });
+const wp = await wc.newPage();
+await wp.goto(urlA); await wp.locator('.dash').waitFor();
+await wp.goto(urlB); await wp.locator('.compare').waitFor();
+await wp.locator('.dashgrid').scrollIntoViewIfNeeded(); await wp.evaluate(() => scrollBy(0, -60));
+await wp.screenshot({ path: SHOTS + 'parent-03b-side-by-side-ipad.png' });
+await b.close();
+console.log('✓ parent shots');

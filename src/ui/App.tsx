@@ -11,6 +11,7 @@ import { useStore } from './common';
 import { streak } from '../lib/plan';
 import { today } from '../lib/dates';
 import { loadProfile } from '../lib/store';
+import { Reports, hasReports } from './Reports';
 
 type Tab = 'dnes' | 'kalendar' | 'test' | 'rodic';
 const TABS: { id: Tab; label: string; icon: string }[] = [
@@ -25,6 +26,8 @@ export function App() {
   const [adding, setAdding] = useState(false);
   const [tab, setTab] = useState<Tab>('dnes');
   const [unlocked, setUnlocked] = useState(false);
+  const [hash, setHash] = useState(location.hash);
+  useEffect(() => { const f = () => setHash(location.hash); window.addEventListener('hashchange', f); return () => window.removeEventListener('hashchange', f); }, []);
   useEffect(() => {
     // profile colour is only a subtle accent (avatar ring); the UI accent stays neutral
     const meta = profile ? profileMeta(profile) : null;
@@ -34,8 +37,11 @@ export function App() {
   useEffect(() => { window.scrollTo(0, 0); }, [tab, profile, adding]);
 
   const { g } = useStore();
+  if (hash.startsWith('#r=') || hash === '#prehledy') {
+    return <Reports code={hash.startsWith('#r=') ? hash.slice(3) : undefined} leave={() => { history.replaceState(null, '', location.pathname + location.search); setHash(''); }} />;
+  }
   const valid = profile && g.profiles.some((x) => x.id === profile);
-  if (!g.profiles.length || adding) return <Setup first={!g.profiles.length} cancel={g.profiles.length ? () => setAdding(false) : undefined} done={(id) => { setAdding(false); setProfile(id); setTab('dnes'); }} />;
+  if (!g.profiles.length || adding) return <Setup reports={hasReports() ? () => { location.hash = '#prehledy'; } : undefined} first={!g.profiles.length} cancel={g.profiles.length ? () => setAdding(false) : undefined} done={(id) => { setAdding(false); setProfile(id); setTab('dnes'); }} />;
   if (!valid) return <Picker add={() => setAdding(true)} pick={(id) => { updateGlobal((x) => { x.lastProfile = id; }); setProfile(id); setTab('dnes'); }} />;
   return (
     <div class="app">
@@ -67,6 +73,7 @@ function Picker({ pick, add }: { pick: (id: ProfileId) => void; add: () => void 
       ))}
         <button class="pbtn add" onClick={add} aria-label="Přidat profil"><span class="avatar plus"><Icon name="plus" size={22} /></span><b>Přidat profil</b></button>
       </div>
+      {hasReports() > 0 && <a class="link" href="#prehledy"><Icon name="chart" size={16} /> Přehledy od dětí ({hasReports()})</a>}
       <p class="small muted">Přípravka na přijímačky CERMAT 2027 · funguje i offline</p>
     </div>
   );

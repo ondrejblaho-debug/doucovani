@@ -1,7 +1,7 @@
 // localStorage persistence: one key per profile + one global key (PIN, settings).
 import type { ProfileId, Profile } from './data';
 
-export interface AnswerLog { id: string; topic: string; subject: string; ok: boolean; sec: number; review?: boolean }
+export interface AnswerLog { id: string; topic: string; subject: string; ok: boolean; sec: number; review?: boolean; day?: string /* date answered, if different from the lesson date */ }
 export interface LessonState {
   date: string;
   kind: 'daily' | 'extra';
@@ -11,6 +11,12 @@ export interface LessonState {
   answers: AnswerLog[];
   cardSec: number;
   startedAt: number;
+  // active-time tracking (v2): seconds per calendar day, per explanation-card topic, per session; time not yet assigned to a task
+  daySec?: Record<string, number>;
+  cardTopicSec?: Record<string, number>;
+  sessions?: { start: number; sec: number }[];
+  pendingSec?: number;
+  cardsDone?: number;
   finishedAt?: number;
 }
 export interface SrsItem { id: string; topic: string; box: number; due: string; lapses: number }
@@ -45,6 +51,8 @@ export interface GlobalData {
   profiles: Profile[]; // created on the device in the setup flow
   minutes: Record<ProfileId, Record<string, number>>; // weekday override per profile, e.g. { Po: 30 }
   lastProfile?: ProfileId;
+  reportSent?: Record<ProfileId, string>; // report week (Monday) last sent, per profile
+  reportDismissed?: Record<ProfileId, string>; // report week whose reminder was dismissed
 }
 
 const PKEY = (id: ProfileId) => `doucovani:v1:profile:${id}`;

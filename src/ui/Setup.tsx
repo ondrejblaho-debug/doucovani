@@ -41,9 +41,10 @@ export function ProfileForm({ initial, onSave, onCancel, title }: { initial?: Pr
   );
 }
 
-export function Setup({ first, done, cancel }: { first: boolean; done: (id: string) => void; cancel?: () => void }) {
+export function Setup({ first, done, cancel, reports }: { first: boolean; done: (id: string) => void; cancel?: () => void; reports?: () => void }) {
   return (
     <div class="screen setupwrap">
+      {reports && <button class="secondary" onClick={reports}>Přehledy od dětí (pro rodiče)</button>}
       {first && <div class="intro"><h1>Doučování</h1><p>Příprava na přijímačky CERMAT 2027. Vytvoř si svůj profil – data zůstanou jen v tomto zařízení.</p></div>}
       <ProfileForm title={first ? 'Nový profil' : 'Přidat profil'} onCancel={cancel} onSave={(p) => { updateGlobal((g) => { g.profiles.push(p); g.minutes[p.id] = {}; g.lastProfile = p.id; }); done(p.id); }} />
     </div>
