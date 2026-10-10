@@ -1,4 +1,5 @@
 import { useState } from 'preact/hooks';
+import { Icon } from './icons';
 import { ProfileId, profileMeta, student, topicsFor, topic as topicDef } from '../lib/data';
 import { dayPlan, dayStatus, streak, examDays, daysTo, DayStatus, phaseName, schoolTests } from '../lib/plan';
 import { addDays, fmtLong, fromKey, MONTHS_NOM, pad, today as todayKey, toKey } from '../lib/dates';
@@ -36,16 +37,16 @@ export function Calendar({ id }: { id: ProfileId }) {
   return (
     <div class="screen">
       <div class="row3">
-        <div class="stat"><b>🔥 {s}</b><small>série</small></div>
+        <div class="stat"><b>{s}</b><small>série</small></div>
         <div class="stat"><b>{daysTo(t, ex[0])}</b><small>dní do JPZ</small></div>
         <div class="stat"><b>{totalMin}</b><small>minut celkem</small></div>
         <div class="stat"><b>{pct(all.filter((a) => a.ok).length, all.length)} %</b><small>úspěšnost</small></div>
       </div>
       <div class="card">
         <div class="calhead">
-          <button class="icon" aria-label="Předchozí měsíc" onClick={() => shift(-1)}>‹</button>
+          <button class="icon" aria-label="Předchozí měsíc" onClick={() => shift(-1)}><Icon name="chevL" /></button>
           <h2>{MONTHS_NOM[m - 1]} {y}</h2>
-          <button class="icon" aria-label="Další měsíc" onClick={() => shift(1)}>›</button>
+          <button class="icon" aria-label="Další měsíc" onClick={() => shift(1)}><Icon name="chevR" /></button>
         </div>
         <div class="cal">
           {['Po', 'Út', 'St', 'Čt', 'Pá', 'So', 'Ne'].map((d) => <div class="dow">{d}</div>)}
@@ -56,15 +57,13 @@ export function Calendar({ id }: { id: ProfileId }) {
             return (
               <button class={`day st-${st}${d === t ? ' is-today' : ''}${d === sel ? ' sel' : ''}`} onClick={() => setSel(d)} aria-label={`${d} ${ST_LABEL[st]}${sch[d] ? ' ' + sch[d] : ''}`}>
                 <span class="dn">{Number(d.slice(8))}</span>
-                {ds.n > 0 && <span class="dm">{pct(ds.ok, ds.n)}%</span>}
-                {st === 'exam' && <span class="dm">🎓</span>}
-                {sch[d] && <span class="dm sch" title={sch[d]}>{sch[d].includes('AJ') ? '🇬🇧' : '✝️'}</span>}
-                {(st === 'mock' || st === 'mock-done') && <span class="dm">📝</span>}
+                <span class="sd" />
+                {sch[d] && <span class="dm sch" title={sch[d]}>{sch[d].includes('AJ') ? 'AJ' : 'KK'}</span>}
               </button>
             );
           })}
         </div>
-        <div class="legend">{(['done', 'partial', 'missed', 'free', 'mock', 'exam', 'planned'] as DayStatus[]).map((k) => <span><i class={'lg st-' + k} />{ST_LABEL[k]}</span>)}{Object.keys(sch).length > 0 && <span>{Object.values(sch)[0].includes('AJ') ? '🇬🇧' : '✝️'} {Object.values(sch)[0]}</span>}</div>
+        <div class="legend">{(['done', 'partial', 'missed', 'mock', 'exam'] as DayStatus[]).map((k) => <span><i class={'lg st-' + k} />{ST_LABEL[k]}</span>)}{Object.keys(sch).length > 0 && <span><i class="lg sch">{Object.values(sch)[0].includes('AJ') ? 'AJ' : 'KK'}</i>{Object.values(sch)[0]}</span>}</div>
       </div>
       {sel && <DayDetail id={id} date={sel} />}
       <Mastery id={id} color={meta.color} />
@@ -83,14 +82,14 @@ function DayDetail({ id, date }: { id: ProfileId; date: string }) {
       <h3>{fmtLong(date)} <span class={'pill st-' + st}>{ST_LABEL[st]}</span></h3>
       {plan.week && <p class="small">{plan.week.weekNumber}. týden · {phaseName(plan.week.phase)}</p>}
       {plan.kind === 'lesson' && <p>Plán: {plan.blocks.map((b) => `${b.label} ${b.minutes} min`).join(', ')}</p>}
-      {plan.kind === 'mock' && <p>📝 {plan.mock!.label} – JPZ {plan.mock!.testYear}, {plan.mock!.testTerm}</p>}
-      {plan.kind === 'exam' && <p>🎓 {plan.examLabel}</p>}
-      {plan.schoolTest && <p class="schooltest">{plan.schoolTest.includes('AJ') ? '🇬🇧' : '✝️'} <b>{plan.schoolTest}</b> – přesný termín ověř v pozvánce ze školy.</p>}
+      {plan.kind === 'mock' && <p><Icon name="test" size={16} /> {plan.mock!.label} – JPZ {plan.mock!.testYear}, {plan.mock!.testTerm}</p>}
+      {plan.kind === 'exam' && <p><Icon name="cap" size={16} /> {plan.examLabel}</p>}
+      {plan.schoolTest && <p class="schooltest"><Icon name="flag" size={16} /> <b>{plan.schoolTest}</b> – přesný termín ověř v pozvánce ze školy.</p>}
       {ds.n > 0 ? (
         <p><b>{Math.max(1, Math.round(ds.sec / 60))} min</b> · {ds.n} úloh · <b>{pct(ds.ok, ds.n)} %</b> správně<br /><small>{ds.topics.map((x) => topicDef(x)?.name || x).join(', ')}</small></p>
       ) : <p class="small">Žádné záznamy.</p>}
-      {mocks.map((m) => <p>📝 {m.testId}: <b>{m.points} / {m.max} b.</b></p>)}
-      {plan.week?.note && <p class="small">📌 {plan.week.note}</p>}
+      {mocks.map((m) => <p><Icon name="test" size={16} /> {m.testId}: <b>{m.points} / {m.max} b.</b></p>)}
+      {plan.week?.note && <p class="small muted"><Icon name="pin" size={14} /> {plan.week.note}</p>}
     </div>
   );
 }
@@ -112,7 +111,7 @@ export function Mastery({ id, color }: { id: ProfileId; color: string }) {
             const s = p!.topics[t.id];
             const v = s ? Math.round(s.ema * 100) : null;
             const lvl = v === null ? 'none' : v >= 80 ? 'hi' : v >= 50 ? 'mid' : 'lo';
-            return (<div class={'mrow2 ' + lvl}><span>{t.name}</span><span class="bar"><i style={{ width: `${v ?? 0}%`, background: lvl === 'hi' ? '#2e7d32' : lvl === 'mid' ? '#f9a825' : lvl === 'lo' ? '#e53935' : '#ccc' }} /></span><small>{v === null ? '–' : `${v} %`}<br />{s ? `${s.seen}×` : ''}</small></div>);
+            return (<div class={'mrow2 ' + lvl}><span>{t.name}</span><span class="bar"><i style={{ width: `${v ?? 0}%` }} /></span><small>{v === null ? '–' : `${v} %`}<br />{s ? `${s.seen}×` : ''}</small></div>);
           })}
         </div>
       ))}

@@ -45,7 +45,7 @@ while (await page.locator('.task').count() && n < 80) {
   else await t.locator('button.primary').click();
   await page.locator('.feedback').waitFor();
   if (n === 2) await page.screenshot({ path: SHOTS + 'live-03-uloha.png' });
-  await page.getByRole('button', { name: 'Další ➜' }).click(); n++;
+  await page.getByRole('button', { name: 'Další', exact: true }).click(); n++;
 }
 await page.getByText('Skvělá práce!').waitFor();
 log('lesson finished on live site:', n, 'tasks');
@@ -54,7 +54,7 @@ await page.getByRole('button', { name: 'Zpět na Dnes' }).click();
 await ctx.setOffline(true);
 await page.reload();
 await page.locator('.pbtn', { hasText: 'Testík' }).click();
-await page.getByText('Hotovo! 🎉').waitFor();
+await page.getByText('Hotovo!', { exact: true }).waitFor();
 log('offline reload: OK (app + progress available without network)');
 await page.screenshot({ path: SHOTS + 'live-04-offline.png' });
 await b.close();

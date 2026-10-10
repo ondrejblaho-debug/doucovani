@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
+import { Icon } from './icons';
 import type { Task } from '../lib/types';
 import { checkAnswer, correctAnswerText, Response, unitSuffix } from '../lib/check';
 import { BANK } from '../lib/data';
@@ -106,19 +107,19 @@ export function TaskView({ task, onDone, review }: Props) {
 
   return (
     <div class="task" data-kind={task.kind}>
-      {review && <div class="badge rev">🔁 Opakování chyby</div>}
+      {review && <div class="badge rev"><Icon name="repeat" size={14} /> Opakování chyby</div>}
       {passage && passage.audio && <Listen text={passage.text} title={passage.title} answered={answered} />}
-      {passage && !passage.audio && <details class="passage" open><summary>📖 {passage.title || 'Výchozí text'}</summary><div class="ptext">{passage.text}</div></details>}
+      {passage && !passage.audio && <details class="passage" open><summary><Icon name="book" size={16} /> {passage.title || 'Výchozí text'}</summary><div class="ptext">{passage.text}</div></details>}
       <p class="prompt">{task.prompt}</p>
       {body}
       {answered && (
         <div class={'feedback ' + (result ? 'ok' : 'ko')} role="status">
-          <b>{result ? '✔ Správně!' : '✘ Tentokrát ne.'}</b>
+          <b class="fbh"><Icon name={result ? 'check' : 'x'} size={18} /> {result ? 'Správně!' : 'Tentokrát ne.'}</b>
           {!result && !['yng', 'match', 'order'].includes(task.kind) && <div>Správná odpověď: <b>{correctAnswerText(task).replace(/\u00a0/g, ' ')}</b></div>}
           {!result && task.kind === 'order' && <div>Správné pořadí: {task.items!.join(' → ')}</div>}
           <p class="explain">{task.explain}</p>
           {!result && <small>Úlohu ti připomenu v dalších dnech.</small>}
-          <button class="primary" autoFocus onClick={() => onDone(!!result)}>Další ➜</button>
+          <button class="primary" autoFocus onClick={() => onDone(!!result)}>Další</button>
         </div>
       )}
     </div>
@@ -147,13 +148,13 @@ function Listen({ text, title, answered }: { text: string; title: string; answer
   useEffect(() => () => { if (ok) window.speechSynthesis.cancel(); }, []);
   return (
     <div class="passage listen">
-      <b>🎧 {title}</b>
+      <b><Icon name="headphones" size={18} /> {title}</b>
       {ok ? (<div class="opts row">
-        <button class="secondary" onClick={() => play(0.85)}>▶ Přehrát</button>
-        <button class="secondary" onClick={() => play(0.65)}>🐢 Pomaleji</button>
+        <button class="secondary" onClick={() => play(0.85)}><Icon name="play" size={16} /> Přehrát</button>
+        <button class="secondary" onClick={() => play(0.65)}><Icon name="slow" size={16} /> Pomaleji</button>
       </div>) : <p><small>Toto zařízení neumí číst nahlas – přečti si text.</small></p>}
       <small>V testu uslyšíš nahrávku dvakrát.{plays > 0 ? ` Přehráno: ${plays}×` : ''}</small>
-      {(answered || !ok) && <details class="passage" open={!ok}><summary>📄 Přepis nahrávky</summary><div class="ptext">{text}</div></details>}
+      {(answered || !ok) && <details class="passage" open={!ok}><summary><Icon name="file" size={16} /> Přepis nahrávky</summary><div class="ptext">{text}</div></details>}
     </div>
   );
 }

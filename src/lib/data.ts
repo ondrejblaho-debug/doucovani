@@ -14,7 +14,7 @@ export interface Profile {
   english: boolean; // g6: school English test
   school?: string; // optional, shown only on the device
 }
-export const COLORS: [string, string][] = [['#7c4dff', '#efe9ff'], ['#00897b', '#e0f4f1'], ['#e65100', '#fff0e3'], ['#c2185b', '#fde7f0'], ['#1565c0', '#e3eefc'], ['#2e7d32', '#e6f4e7']];
+export const COLORS: [string, string][] = [['#5b6ab0', ''], ['#3f8f86', ''], ['#b8734f', ''], ['#a65b7a', ''], ['#4d7fb8', ''], ['#6f8f5a', '']];
 export const EMOJIS = ['🦊', '🐬', '🦄', '🐼', '🐱', '🦉', '🐢', '🐝', '🌸', '⭐', '🚀', '🎨'];
 const FALLBACK: Profile = { id: '?', name: 'Profil', emoji: '🙂', color: '#5c6bc0', soft: '#eef0fb', track: 'g8', zkk: false, english: false };
 export const profiles = () => loadGlobal().profiles;

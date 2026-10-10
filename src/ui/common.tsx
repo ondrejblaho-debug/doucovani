@@ -18,9 +18,9 @@ export function Ring({ value, size = 56, color, label }: { value: number; size?:
   const r = size / 2 - 5, c = 2 * Math.PI * r, v = Math.max(0, Math.min(1, value));
   return (
     <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} class="ring" aria-label={label}>
-      <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="#e8e8ef" stroke-width="6" />
-      <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke={color} stroke-width="6" stroke-linecap="round" stroke-dasharray={`${c * v} ${c}`} transform={`rotate(-90 ${size / 2} ${size / 2})`} />
-      <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" font-size={size / 4.2} font-weight="700" fill="#333">{label ?? Math.round(v * 100) + '%'}</text>
+      <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="var(--track)" stroke-width="5" />
+      <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke={color} stroke-width="5" stroke-linecap="round" stroke-dasharray={`${c * v} ${c}`} transform={`rotate(-90 ${size / 2} ${size / 2})`} />
+      <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" font-size={size / 4.2} font-weight="600" fill="currentColor">{label ?? Math.round(v * 100) + '%'}</text>
     </svg>
   );
 }

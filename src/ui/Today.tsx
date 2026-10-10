@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
+import { Icon } from './icons';
 import { ProfileId, student, topic as topicDef, profileMeta } from '../lib/data';
 import { dayPlan, streak, phaseName, examDays, daysTo, planStart } from '../lib/plan';
 import { buildLesson, recordAnswer, dueReviews } from '../lib/lesson';
@@ -35,24 +36,24 @@ export function Today({ id, go }: { id: ProfileId; go: (tab: string) => void }) 
 
   return (
     <div class="screen">
-      <header class="hello" style={{ background: meta.color }}>
+      <header class="hello">
         <div>
-          <h1>Ahoj, {meta.name}! {meta.emoji}</h1>
+          <h1>Ahoj, {meta.name}!</h1>
           <p>{fmtLong(date)}{plan.week ? ` · ${plan.week.weekNumber}. týden · ${phaseName(plan.week.phase)}` : ''}</p>
         </div>
         <div class="stats">
-          <div><b>🔥 {s}</b><small>{s === 1 ? 'den' : s >= 2 && s <= 4 ? 'dny' : 'dní'} v řadě</small></div>
+          <div><b><Icon name="flame" size={18} /> {s}</b><small>{s === 1 ? 'den' : s >= 2 && s <= 4 ? 'dny' : 'dní'} v řadě</small></div>
           <div><b>{daysTo(date, ex[0])}</b><small>dní do zkoušky</small></div>
         </div>
       </header>
 
       {plan.kind === 'before' && <div class="card info"><h2>Plán začíná v pondělí {fmtShort(planStart(id))}</h2><p>Do té doby si můžeš zkusit krátkou rozcvičku z prvního týdne.</p></div>}
-      {plan.kind === 'free' && <div class="card info"><h2>🌞 Dnes je volno</h2><p>Neděle je na odpočinek. Jestli chceš, můžeš si dobrovolně procvičovat.</p></div>}
-      {plan.schoolTest && <div class="card info"><h2>{plan.schoolTest.includes('AJ') ? '🇬🇧' : '✝️'} Možná dnes: {plan.schoolTest}</h2><p>Termín je odhadnutý podle loňska – ověř si ho v pozvánce ze školy. Dnešní lekce je jen krátká.</p></div>}
-      {plan.kind === 'exam' && <div class="card exam"><h2>🎓 {plan.examLabel}</h2><p>Hodně štěstí! Vyspi se, nasnídej se a vezmi si propisku (na matiku i rýsovací potřeby). Věříme ti!</p></div>}
-      {plan.kind === 'after' && <div class="card info"><h2>🎉 Přijímačky jsou za námi</h2><p>Plán skončil. Procvičovat můžeš dál, kdykoli chceš.</p></div>}
+      {plan.kind === 'free' && <div class="card info"><h2>Dnes je volno</h2><p>Neděle je na odpočinek. Jestli chceš, můžeš si dobrovolně procvičovat.</p></div>}
+      {plan.schoolTest && <div class="card info"><h2><Icon name="flag" /> Možná dnes: {plan.schoolTest}</h2><p>Termín je odhadnutý podle loňska – ověř si ho v pozvánce ze školy. Dnešní lekce je jen krátká.</p></div>}
+      {plan.kind === 'exam' && <div class="card exam"><h2><Icon name="cap" /> {plan.examLabel}</h2><p>Hodně štěstí! Vyspi se, nasnídej se a vezmi si propisku (na matiku i rýsovací potřeby). Věříme ti!</p></div>}
+      {plan.kind === 'after' && <div class="card info"><h2>Přijímačky jsou za námi</h2><p>Plán skončil. Procvičovat můžeš dál, kdykoli chceš.</p></div>}
       {plan.kind === 'mock' && (
-        <div class="card mock"><h2>📝 Dnes: {plan.mock!.label}</h2>
+        <div class="card mock"><h2><Icon name="test" /> Dnes: {plan.mock!.label}</h2>
           <p>Test JPZ {plan.mock!.testYear}, {plan.mock!.testTerm}. Čeština 60 min, přestávka, matematika 70 min.</p>
           <button class="primary" onClick={() => go('test')}>Otevřít test</button></div>
       )}
@@ -63,11 +64,11 @@ export function Today({ id, go }: { id: ProfileId; go: (tab: string) => void }) 
           <ul class="blocks">{plan.blocks.map((b) => (
             <li><span class={'dot ' + b.subject} /><div><b>{b.label}</b> <small>{b.minutes} min</small><br /><small>{b.topics.filter((t) => !t.endsWith('-mix') || b.topics.length === 1).slice(0, 4).map((t) => topicDef(t)?.name || t).join(' · ')}</small></div></li>
           ))}</ul>
-          {due > 0 && <p class="note">🔁 Čeká na tebe {due} {due === 1 ? 'úloha' : due <= 4 ? 'úlohy' : 'úloh'} k zopakování – přimíchám je do lekce.</p>}
-          {plan.week?.note && <p class="note small">📌 {plan.week.note}</p>}
-          {!lesson && <button class="primary big" onClick={() => start('daily')}>Začít lekci ▶</button>}
-          {lesson && !done && <button class="primary big" onClick={() => start('daily')}>Pokračovat ({lesson.idx}/{lesson.tasks.length}) ▶</button>}
-          {done && <div class="donebox"><Ring value={ok / Math.max(1, lesson.answers.length)} color={meta.color} size={64} /><div><b>Hotovo! 🎉</b><br /><small>{ok} z {lesson.answers.length} správně · {Math.round(lessonSec(lesson) / 60)} min</small></div></div>}
+          {due > 0 && <p class="note"><Icon name="repeat" size={16} /> Čeká na tebe {due} {due === 1 ? 'úloha' : due <= 4 ? 'úlohy' : 'úloh'} k zopakování – přimíchám je do lekce.</p>}
+          {plan.week?.note && <p class="note small"><Icon name="pin" size={15} /> {plan.week.note}</p>}
+          {!lesson && <button class="primary big" onClick={() => start('daily')}>Začít lekci</button>}
+          {lesson && !done && <button class="primary big" onClick={() => start('daily')}>Pokračovat ({lesson.idx}/{lesson.tasks.length})</button>}
+          {done && <div class="donebox"><Ring value={ok / Math.max(1, lesson.answers.length)} color="var(--accent)" size={64} /><div><b>Hotovo!</b><br /><small>{ok} z {lesson.answers.length} správně · {Math.round(lessonSec(lesson) / 60)} min</small></div></div>}
         </div>
       )}
       {(plan.kind !== 'lesson' || done) && plan.kind !== 'exam' && (
@@ -99,8 +100,8 @@ function LessonRunner({ id, lkey, onExit }: { id: ProfileId; lkey: string; onExi
           <h2>{c.intro}</h2>
           <ul>{c.points.map((x) => <li>{x}</li>)}</ul>
           {c.example && <p class="example"><b>Příklad:</b> {c.example}</p>}
-          {c.tip && <p class="tip">💡 {c.tip}</p>}
-          <button class="primary big" onClick={() => { const sec = Math.min(180, (Date.now() - t0.current) / 1000); updateProfile(id, (d) => { d.lessons[lkey].cardSec += sec; }); setCardIdx(cardIdx + 1); }}>{cardIdx + 1 < l.cards.length ? 'Další téma' : 'Jdeme na úlohy'} ➜</button>
+          {c.tip && <p class="tip"><Icon name="bulb" size={16} /> {c.tip}</p>}
+          <button class="primary big" onClick={() => { const sec = Math.min(180, (Date.now() - t0.current) / 1000); updateProfile(id, (d) => { d.lessons[lkey].cardSec += sec; }); setCardIdx(cardIdx + 1); }}>{cardIdx + 1 < l.cards.length ? 'Další téma' : 'Jdeme na úlohy'}</button>
         </div>
       </div>
     );
@@ -110,9 +111,9 @@ function LessonRunner({ id, lkey, onExit }: { id: ProfileId; lkey: string; onExi
     return (
       <div class="screen runner">
         <div class="card center finish">
-          <div class="confetti">🎉</div>
+          <div class="confetti"><Icon name="trophy" size={40} /></div>
           <h2>Skvělá práce!</h2>
-          <Ring value={ok / Math.max(1, l.answers.length)} color={meta.color} size={110} />
+          <Ring value={ok / Math.max(1, l.answers.length)} color="var(--accent)" size={110} />
           <p>{ok} z {l.answers.length} správně · {Math.max(1, Math.round(lessonSec(l) / 60))} min</p>
           {l.answers.some((a) => !a.ok) && <p class="small">Chyby se uložily do opakování – objeví se v dalších dnech.</p>}
           <button class="primary big" onClick={onExit}>Zpět na Dnes</button>
@@ -144,8 +145,8 @@ function LessonRunner({ id, lkey, onExit }: { id: ProfileId; lkey: string; onExi
 function TopBar({ onExit, progress, color, label }: { onExit: () => void; progress: number; color: string; label: string }) {
   return (
     <div class="topbar">
-      <button class="icon" aria-label="Zavřít" onClick={onExit}>✕</button>
-      <div class="pbar"><div style={{ width: `${Math.round(progress * 100)}%`, background: color }} /></div>
+      <button class="icon" aria-label="Zavřít" onClick={onExit}><Icon name="close" /></button>
+      <div class="pbar"><div style={{ width: `${Math.round(progress * 100)}%` }} /></div>
       <small>{label}</small>
     </div>
   );

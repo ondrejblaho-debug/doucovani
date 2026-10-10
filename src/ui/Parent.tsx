@@ -1,4 +1,5 @@
 import { useState } from 'preact/hooks';
+import { Icon, Avatar } from './icons';
 import { ProfileId, student, topic as topicDef, profileMeta } from '../lib/data';
 import { ProfileForm } from './Setup';
 import { streak, examDays, daysTo } from '../lib/plan';
@@ -21,9 +22,9 @@ export function Parent({ unlocked, unlock }: { unlocked: boolean; unlock: () => 
     return (
       <div class="screen center">
         <div class="card pin">
-          <h2>👨‍👧‍👧 Sekce pro rodiče</h2><p class="small">Zadej PIN (výchozí 1234)</p>
+          <div class="lockic"><Icon name="lock" size={28} /></div><h2>Sekce pro rodiče</h2><p class="small">Zadej PIN (výchozí 1234)</p>
           <div class={'dots' + (err ? ' err' : '')}>{[0, 1, 2, 3].map((i) => <i class={i < pin.length ? 'on' : ''} />)}</div>
-          <div class="pad">{['1', '2', '3', '4', '5', '6', '7', '8', '9', '', '0', '⌫'].map((d) => d === '' ? <span /> : <button class="key" aria-label={d === '⌫' ? 'smazat' : d} onClick={() => (d === '⌫' ? setPin(pin.slice(0, -1)) : press(d))}>{d}</button>)}</div>
+          <div class="pad">{['1', '2', '3', '4', '5', '6', '7', '8', '9', '', '0', '⌫'].map((d) => d === '' ? <span /> : <button class="key" aria-label={d === '⌫' ? 'smazat' : d} onClick={() => (d === '⌫' ? setPin(pin.slice(0, -1)) : press(d))}>{d === '⌫' ? <Icon name="backspace" size={24} /> : d}</button>)}</div>
         </div>
       </div>
     );
@@ -52,21 +53,21 @@ function Overview({ id }: { id: ProfileId }) {
   const weak = Object.entries(p!.topics).filter(([, s]) => s.seen >= 3).sort((a, b) => a[1].ema - b[1].ema).slice(0, 4);
   const srs = Object.keys(p!.srs).length;
   return (
-    <div class="card overview" style={{ borderTop: `6px solid ${pm.color}` }}>
-      <h3>{pm.emoji} {pm.name} · {st.grade}. třída → {st.schoolType}</h3>
+    <div class="card overview">
+      <h3 class="ovh"><Avatar emoji={pm.emoji} color={pm.color} size={30} /> <span>{pm.name}<small class="muted"> · {st.grade}. třída → {st.schoolType}</small></span></h3>
       <p class="small">{[pm.school, pm.track === 'g6' ? (pm.english ? 'angličtina zapnutá' : 'angličtina vypnutá') : (pm.zkk ? 'test z křesťanské kultury zapnutý' : '')].filter(Boolean).join(' · ')}</p>
       <div class="row3">
-        <div class="stat"><b>🔥 {streak(id, t, p!, g)}</b><small>série</small></div>
+        <div class="stat"><b>{streak(id, t, p!, g)}</b><small>série</small></div>
         <div class="stat"><b>{min7}</b><small>min / 7 dní</small></div>
         <div class="stat"><b>{pct(ans7.filter((a) => a.ok).length, ans7.length)} %</b><small>správně / 7 dní</small></div>
         <div class="stat"><b>{srs}</b><small>k opakování</small></div>
       </div>
       <div class="week7">{last7.map((d) => { const a = ls(d).flatMap((l) => l.answers); const done = ls(d).some((l) => l.finishedAt); return <div class={done ? 'd done' : a.length ? 'd part' : 'd'} title={d}><small>{d.slice(8)}.</small></div>; })}</div>
       {weak.length > 0 && <p class="small">Nejslabší témata: {weak.map(([tid, s]) => `${topicDef(tid)?.name} (${Math.round(s.ema * 100)} %)`).join(', ')}</p>}
-      <Trend results={p!.mocks} color={pm.color} />
+      <Trend results={p!.mocks} />
       <p class="small">Do přijímaček zbývá {daysTo(t, examDays(id)[0])} dní.</p>
       <div class="row2">
-        <button class="secondary" onClick={() => setEdit(true)}>✏️ Upravit profil a moduly</button>
+        <button class="secondary" onClick={() => setEdit(true)}><Icon name="edit" size={18} /> Upravit profil a moduly</button>
         <button class="link danger" onClick={() => { if (confirm(`Opravdu smazat veškerý pokrok – ${pm.name}? (Nejdřív si udělej zálohu.)`)) updateProfile(id, (d) => Object.assign(d, emptyProfile())); }}>Smazat pokrok</button>
         <button class="link danger" onClick={() => { if (confirm(`Smazat celý profil ${pm.name} z tohoto zařízení?`)) { removeProfileData(id); updateGlobal((x) => { x.profiles = x.profiles.filter((q) => q.id !== id); delete x.minutes[id]; if (x.lastProfile === id) delete x.lastProfile; }); } }}>Smazat profil</button>
       </div>
@@ -110,16 +111,16 @@ function Backup() {
     const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `doucovani-zaloha-${todayKey()}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 5000);
   };
   const doImport = async (text: string) => {
-    try { const b = await parseImport(text); if (confirm(`Obnovit zálohu z ${b.exportedAt.slice(0, 10)}? Současná data se přepíšou.`)) { applyBackup(b); setMsg('✔ Záloha obnovena.'); } } catch (e) { setMsg('✘ ' + (e as Error).message); }
+    try { const b = await parseImport(text); if (confirm(`Obnovit zálohu z ${b.exportedAt.slice(0, 10)}? Současná data se přepíšou.`)) { applyBackup(b); setMsg('Záloha obnovena.'); } } catch (e) { setMsg('Chyba: ' + (e as Error).message); }
   };
   return (
     <div class="card">
       <h3>Záloha a přenos</h3>
-      <div class="row2"><button class="secondary" onClick={download}>⬇ Stáhnout zálohu (JSON)</button>
-        <button class="secondary" onClick={async () => { const c = await shareCode(); setCode(c); try { await navigator.clipboard.writeText(c); setMsg('Kód zkopírován do schránky.'); } catch { setMsg('Kód zkopíruj ručně.'); } }}>🔗 Kód pro sdílení</button></div>
+      <div class="row2"><button class="secondary" onClick={download}><Icon name="download" size={18} /> Stáhnout zálohu (JSON)</button>
+        <button class="secondary" onClick={async () => { const c = await shareCode(); setCode(c); try { await navigator.clipboard.writeText(c); setMsg('Kód zkopírován do schránky.'); } catch { setMsg('Kód zkopíruj ručně.'); } }}><Icon name="copy" size={18} /> Kód pro sdílení</button></div>
       {code && <textarea class="code" readOnly rows={3} value={code} onFocus={(e) => (e.target as HTMLTextAreaElement).select()} />}
       <h4>Obnovit</h4>
-      <label class="secondary file">📂 Načíst soubor JSON<input type="file" accept="application/json,.json" onChange={async (e) => { const f = (e.target as HTMLInputElement).files?.[0]; if (f) doImport(await f.text()); }} /></label>
+      <label class="secondary file"><Icon name="folder" size={18} /> Načíst soubor JSON<input type="file" accept="application/json,.json" onChange={async (e) => { const f = (e.target as HTMLInputElement).files?.[0]; if (f) doImport(await f.text()); }} /></label>
       <textarea class="code" rows={3} placeholder="…nebo sem vlož kód zálohy (DOUC1…) či JSON" value={inp} onInput={(e) => setInp((e.target as HTMLTextAreaElement).value)} />
       <button class="secondary" disabled={!inp.trim()} onClick={() => doImport(inp)}>Obnovit z kódu</button>
       {msg && <p class="small">{msg}</p>}

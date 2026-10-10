@@ -46,7 +46,7 @@ async function fullLesson(page, name, shotPrefix) {
     const k = await answerCurrent(page, n % 4 === 1);
     kinds[k] = (kinds[k] || 0) + 1;
     if (n === 1) await page.screenshot({ path: `${SHOTS}${shotPrefix}-uloha-zpetna-vazba.png` });
-    await page.getByRole('button', { name: 'Další ➜' }).click();
+    await page.getByRole('button', { name: 'Další', exact: true }).click();
     n++;
     if (n > 80) throw new Error('lesson does not end');
   }
@@ -85,7 +85,7 @@ await page.getByRole('button', { name: /Ema/ }).click();
 await page.getByText('Dnešní lekce').waitFor();
 await page.screenshot({ path: SHOTS + '02-ema-dnes.png' });
 await fullLesson(page, 'Ema', '03-ema');
-await page.getByText('Hotovo! 🎉').waitFor();
+await page.getByText('Hotovo!', { exact: true }).waitFor();
 
 // next day: mistakes come back as reviews
 await setDay(page, '2026-10-13');

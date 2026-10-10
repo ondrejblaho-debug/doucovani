@@ -1,4 +1,5 @@
 import { useState } from 'preact/hooks';
+import { Icon } from './icons';
 import { ProfileId, profileMeta, student, findKey, KEYS, TestKey, KeyItem, MockDef } from '../lib/data';
 import { scoreTest, isSelfItem, autoOpen, Answers, SelfPts } from '../lib/mock';
 import { updateProfile, MockResult } from '../lib/store';
@@ -28,7 +29,7 @@ function TestList({ id, open, openResult }: { id: ProfileId; open: (t: string, d
       <div class="card">
         <h2>Testy nanečisto</h2>
         <p class="small">Oficiální testy CERMAT (JPZ {st.grade === 5 ? '8letá' : '6letá'} gymnázia). Test vytiskni nebo otevři, spusť časovač, řeš na papír a pak zapiš odpovědi – aplikace je vyhodnotí podle klíče.</p>
-        <Trend results={p!.mocks} color={meta.color} />
+        <Trend results={p!.mocks} />
       </div>
       {scheduled.map((m) => <MockCard id={id} m={m} isNext={m === next} open={open} openResult={openResult} />)}
       <details class="card">
@@ -64,7 +65,8 @@ function MockCard({ id, m, isNext, open, openResult }: { id: ProfileId; m: MockD
   );
 }
 
-export function Trend({ results, color }: { results: MockResult[]; color: string }) {
+export function Trend({ results }: { results: MockResult[] }) {
+  const color = 'var(--accent)', c2 = 'var(--text2)';
   if (!results.length) return <p class="small muted">Zatím žádné výsledky – graf se ukáže po prvním testu.</p>;
   const W = 320, H = 150, P = 28;
   const sorted = [...results].sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
@@ -73,11 +75,11 @@ export function Trend({ results, color }: { results: MockResult[]; color: string
   const line = (subj: string) => sorted.map((r, i) => (r.subject === subj ? `${xs[i]},${y(r.points, r.max)}` : null)).filter(Boolean).join(' ');
   return (
     <svg class="trend" viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Vývoj bodů v testech">
-      {[0, 25, 50].map((v) => <g><line x1={P} x2={W - P / 2} y1={y(v, 50)} y2={y(v, 50)} stroke="#eee" /><text x={4} y={y(v, 50) + 4} font-size="10" fill="#888">{v}</text></g>)}
+      {[0, 25, 50].map((v) => <g><line x1={P} x2={W - P / 2} y1={y(v, 50)} y2={y(v, 50)} stroke="var(--line)" /><text x={4} y={y(v, 50) + 4} font-size="10" fill="var(--text3)">{v}</text></g>)}
       <polyline points={line('cestina')} fill="none" stroke={color} stroke-width="2.5" />
-      <polyline points={line('matematika')} fill="none" stroke="#ff7043" stroke-width="2.5" stroke-dasharray="5 3" />
-      {sorted.map((r, i) => <circle cx={xs[i]} cy={y(r.points, r.max)} r="4" fill={r.subject === 'cestina' ? color : '#ff7043'}><title>{`${r.testId}: ${r.points}/${r.max}`}</title></circle>)}
-      <text x={P} y={H - 6} font-size="10" fill={color}>● ČJL</text><text x={P + 50} y={H - 6} font-size="10" fill="#ff7043">● MA</text>
+      <polyline points={line('matematika')} fill="none" stroke={c2} stroke-width="2" stroke-dasharray="5 3" />
+      {sorted.map((r, i) => <circle cx={xs[i]} cy={y(r.points, r.max)} r="4" fill={r.subject === 'cestina' ? color : c2}><title>{`${r.testId}: ${r.points}/${r.max}`}</title></circle>)}
+      <text x={P} y={H - 6} font-size="10" fill={color}>— ČJL</text><text x={P + 50} y={H - 6} font-size="10" fill={c2}>- - MA</text>
     </svg>
   );
 }
@@ -86,7 +88,7 @@ function Timer({ id, k }: { id: ProfileId; k: TestKey }) {
   const { p } = useStore(id);
   const now = useNow(1000);
   const t = p!.timers[k.id];
-  if (!t) return <button class="primary big" onClick={() => updateProfile(id, (d) => { d.timers[k.id] = { start: Date.now(), minutes: k.durationMin }; })}>⏱ Spustit časovač ({k.durationMin} min)</button>;
+  if (!t) return <button class="primary big" onClick={() => updateProfile(id, (d) => { d.timers[k.id] = { start: Date.now(), minutes: k.durationMin }; })}>Spustit časovač ({k.durationMin} min)</button>;
   const left = Math.max(0, t.start + t.minutes * 60000 - now);
   const mm = Math.floor(left / 60000), ss = Math.floor((left % 60000) / 1000);
   if (left === 0 && navigator.vibrate) navigator.vibrate(200);
@@ -124,24 +126,24 @@ function RunTest({ id, testId, mockDate, back, done }: { id: ProfileId; testId: 
 
   return (
     <div class="screen">
-      <div class="topbar"><button class="icon" aria-label="Zpět" onClick={back}>‹</button><b>{SUBJ[k.subject]} · JPZ {k.year}, {k.term}</b></div>
+      <div class="topbar"><button class="icon" aria-label="Zpět" onClick={back}><Icon name="chevL" /></button><b>{SUBJ[k.subject]} · JPZ {k.year}, {k.term}</b></div>
       <div class="card">
         <div class="links">
-          <a class="secondary" href={k.tsUrl} target="_blank" rel="noopener">📄 Testový sešit (PDF)</a>
-          <a class="link" href={k.ksrUrl} target="_blank" rel="noopener">🔑 Klíč (pro rodiče)</a>
+          <a class="secondary" href={k.tsUrl} target="_blank" rel="noopener"><Icon name="file" size={18} /> Testový sešit (PDF)</a>
+          <a class="link" href={k.ksrUrl} target="_blank" rel="noopener"><Icon name="key" size={16} /> Klíč (pro rodiče)</a>
         </div>
         <Timer id={id} k={k} />
         <p class="small">Řeš na papír. Po skončení zapiš odpovědi níže (stačí písmena / čísla jako v záznamovém archu). {k.keySource.includes('ruční') ? 'Klíč tohoto testu byl ručně přepsán z obrázku.' : ''}</p>
       </div>
       {phase === 'entry' && (<>
         {k.items.map((it) => <ItemEntry k={k} it={it} a={answers} setA={setA} />)}
-        <button class="primary big" onClick={() => save({ phase: 'score' })}>Hotovo – vyhodnotit ➜</button>
+        <button class="primary big" onClick={() => save({ phase: 'score' })}>Hotovo – vyhodnotit</button>
       </>)}
       {phase === 'score' && (<>
         <div class="card"><h3>Vyhodnocení</h3><p>Automaticky: <b>{sc.autoPoints} b.</b> · Ručně (rodič): <b>{sc.selfPoints} b.</b> · Celkem <b>{sc.points} / {sc.max}</b></p>
           <p class="small">U otevřených úloh porovnej odpověď s klíčem a vyber počet bodů. Návrh aplikace je předvyplněný tečkou •.</p></div>
         {k.items.map((it) => <ItemScore k={k} it={it} a={answers} self={self} setS={setS} score={sc.items.find((x) => x.n === it.n)!} />)}
-        <div class="row2"><button class="secondary" onClick={() => save({ phase: 'entry' })}>‹ Upravit odpovědi</button><button class="primary" onClick={finish}>Uložit výsledek</button></div>
+        <div class="row2"><button class="secondary" onClick={() => save({ phase: 'entry' })}>Upravit odpovědi</button><button class="primary" onClick={finish}>Uložit výsledek</button></div>
       </>)}
     </div>
   );
@@ -204,10 +206,10 @@ function Result({ id, rid, back }: { id: ProfileId; rid: string; back: () => voi
   const meta = profileMeta(id);
   return (
     <div class="screen">
-      <div class="topbar"><button class="icon" aria-label="Zpět" onClick={back}>‹</button><b>Výsledek testu</b></div>
+      <div class="topbar"><button class="icon" aria-label="Zpět" onClick={back}><Icon name="chevL" /></button><b>Výsledek testu</b></div>
       <div class="card center">
         <h2>{SUBJ[r.subject]}</h2><p>JPZ {k.year}, {k.term} · {fmtFull(r.date)}</p>
-        <div class="bigscore" style={{ color: meta.color }}>{r.points}<small> / {r.max} b.</small></div>
+        <div class="bigscore">{r.points}<small> / {r.max} b.</small></div>
         <p class="small">automaticky {r.autoPoints} b. · ručně {r.selfPoints} b.{r.minutesUsed ? ` · ${r.minutesUsed} min` : ''}</p>
       </div>
       <div class="card"><h3>Body po úlohách</h3><div class="grid-items">{k.items.map((it) => { const v = r.itemPoints[it.n] ?? 0; return <div class={'gi ' + (v === it.max ? 'full' : v ? 'half' : 'zero')}><b>{it.n}</b><small>{v}/{it.max}</small></div>; })}</div></div>
