@@ -7,6 +7,7 @@ const dev = { ...devices['iPhone 13'], locale: 'cs-CZ', timezoneId: 'Europe/Prag
 const b = await webkit.launch();
 const [A, B] = demoPair();
 const ctx = await b.newContext(dev);
+await ctx.clock.setSystemTime(new Date('2026-11-29T19:05:00+01:00')); // demo 'now' matches the demo data
 await ctx.addInitScript(() => { navigator.share = async (d) => { window.__shared = d; }; });
 const page = await ctx.newPage();
 await page.goto(URL_);
