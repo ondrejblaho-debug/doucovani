@@ -9,6 +9,7 @@
   --shadow: 0 1px 2px rgba(17, 17, 19, .04), 0 2px 10px rgba(17, 17, 19, .03);
   --bar-bg: rgba(250, 250, 250, .78);
   --r: 14px; --r-sm: 10px;
+  --tabbar-h: 58px; --appbar-h: 52px; --actionbar-h: 74px; --gap-b: 20px;
   --pcolor: var(--accent);
   --sat: env(safe-area-inset-top, 0px); --sab: env(safe-area-inset-bottom, 0px); --sal: env(safe-area-inset-left, 0px); --sar: env(safe-area-inset-right, 0px);
 }
@@ -36,13 +37,13 @@ p { margin: .5em 0; }
 .avatar.plus { width: 44px; height: 44px; color: var(--text2); box-shadow: 0 0 0 1px var(--line2); background: transparent; }
 
 /* ———————————————————————— App shell ———————————————————————— */
-.app { min-height: 100vh; padding: calc(52px + var(--sat)) var(--sar) calc(84px + var(--sab)) var(--sal); }
+.app { min-height: 100vh; padding: calc(var(--appbar-h) + var(--sat)) var(--sar) calc(var(--tabbar-h) + var(--sab) + var(--gap-b)) var(--sal); }
 .appbar { position: fixed; top: 0; left: 0; right: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: calc(6px + var(--sat)) calc(14px + var(--sar)) 6px calc(14px + var(--sal)); background: var(--bar-bg); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-bottom: .5px solid var(--line); }
 .appbar .who { display: inline-flex; align-items: center; gap: 8px; background: transparent; border: 0; padding: 6px 4px; font-weight: 600; min-height: 40px; color: var(--text); }
 .appbar .who .ic { color: var(--text3); }
 .appbar .title { font-weight: 600; font-size: .95rem; color: var(--text2); }
 main { max-width: 640px; margin: 0 auto; }
-.tabs { position: fixed; bottom: 0; left: 0; right: 0; z-index: 10; display: flex; background: var(--bar-bg); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-top: .5px solid var(--line2); padding: 4px var(--sar) calc(2px + var(--sab)) var(--sal); }
+.tabs { position: fixed; bottom: 0; left: 0; right: 0; z-index: 10; display: flex; height: calc(var(--tabbar-h) + var(--sab)); background: var(--bar-bg); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-top: .5px solid var(--line2); padding: 4px var(--sar) calc(2px + var(--sab)) var(--sal); }
 .tabs button { flex: 1; border: 0; background: none; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 5px 0 3px; min-height: 52px; color: var(--text3); }
 .tabs button small { font-size: .66rem; font-weight: 500; letter-spacing: 0; }
 .tabs button.on { color: var(--accent); }
@@ -212,3 +213,16 @@ details summary { cursor: pointer; }
 .track { display: flex; align-items: center; gap: 10px; padding: 14px; border: 1px solid var(--line2); border-radius: 12px; background: var(--surface); }
 .track.on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
 .track input { accent-color: var(--accent); }
+
+/* ———————————————————————— Bottom spacing, sticky CTA, focus mode ———————————————————————— */
+/* Dnes: the start button sticks just above the tab bar while its card is on screen */
+.sticky-cta { position: sticky; bottom: calc(var(--tabbar-h) + var(--sab) + 10px); z-index: 2; box-shadow: 0 0 0 8px var(--surface); }
+/* Active lesson / mock test: no app bar, no tab bar; own top close/back + fixed bottom action bar */
+html.focus .appbar, html.focus .tabs { display: none; }
+html.focus .app { padding-top: 0; padding-bottom: calc(var(--ab-h, calc(var(--actionbar-h) + var(--sab))) + var(--gap-b)); }
+html.focus .runner > .topbar { position: sticky; top: 0; z-index: 9; margin: -16px -16px 0; padding: calc(10px + var(--sat)) calc(16px + var(--sar)) 10px calc(16px + var(--sal)); background: var(--bar-bg); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-bottom: .5px solid var(--line); }
+.actionbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 11; background: var(--bar-bg); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-top: .5px solid var(--line2); padding: 10px calc(16px + var(--sar)) calc(10px + var(--sab)) calc(16px + var(--sal)); }
+.actionbar-in { max-width: 608px; margin: 0 auto; }
+.actionbar button.primary, .actionbar button.secondary { margin-top: 0; min-height: 52px; }
+.actionbar .row2 { flex-wrap: nowrap; }
+.finish { margin-top: 24px; }

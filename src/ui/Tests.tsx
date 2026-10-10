@@ -4,7 +4,7 @@ import { ProfileId, profileMeta, student, findKey, KEYS, TestKey, KeyItem, MockD
 import { scoreTest, isSelfItem, autoOpen, Answers, SelfPts } from '../lib/mock';
 import { updateProfile, MockResult } from '../lib/store';
 import { fmtFull, fmtShort, today as todayKey } from '../lib/dates';
-import { useStore, useNow } from './common';
+import { useStore, useNow, useFocusMode, ActionBar } from './common';
 
 type View = { k: 'list' } | { k: 'run'; testId: string; mockDate?: string } | { k: 'result'; rid: string };
 const SUBJ = { cestina: 'Český jazyk a literatura', matematika: 'Matematika' } as const;
@@ -113,6 +113,7 @@ function RunTest({ id, testId, mockDate, back, done }: { id: ProfileId; testId: 
   const setA = (n: string, v: string | string[]) => save({ answers: { ...answers, [n]: v } });
   const setS = (n: string, v: number) => save({ self: { ...self, [n]: v } });
   const sc = scoreTest(k, answers, self);
+  useFocusMode(true);
 
   const finish = () => {
     const rid = `${testId}-${Date.now()}`;
@@ -125,7 +126,7 @@ function RunTest({ id, testId, mockDate, back, done }: { id: ProfileId; testId: 
   };
 
   return (
-    <div class="screen">
+    <div class="screen runner">
       <div class="topbar"><button class="icon" aria-label="Zpět" onClick={back}><Icon name="chevL" /></button><b>{SUBJ[k.subject]} · JPZ {k.year}, {k.term}</b></div>
       <div class="card">
         <div class="links">
@@ -137,13 +138,13 @@ function RunTest({ id, testId, mockDate, back, done }: { id: ProfileId; testId: 
       </div>
       {phase === 'entry' && (<>
         {k.items.map((it) => <ItemEntry k={k} it={it} a={answers} setA={setA} />)}
-        <button class="primary big" onClick={() => save({ phase: 'score' })}>Hotovo – vyhodnotit</button>
+        <ActionBar><button class="primary big" onClick={() => save({ phase: 'score' })}>Hotovo – vyhodnotit</button></ActionBar>
       </>)}
       {phase === 'score' && (<>
         <div class="card"><h3>Vyhodnocení</h3><p>Automaticky: <b>{sc.autoPoints} b.</b> · Ručně (rodič): <b>{sc.selfPoints} b.</b> · Celkem <b>{sc.points} / {sc.max}</b></p>
           <p class="small">U otevřených úloh porovnej odpověď s klíčem a vyber počet bodů. Návrh aplikace je předvyplněný tečkou •.</p></div>
         {k.items.map((it) => <ItemScore k={k} it={it} a={answers} self={self} setS={setS} score={sc.items.find((x) => x.n === it.n)!} />)}
-        <div class="row2"><button class="secondary" onClick={() => save({ phase: 'entry' })}>Upravit odpovědi</button><button class="primary" onClick={finish}>Uložit výsledek</button></div>
+        <ActionBar><div class="row2"><button class="secondary" onClick={() => save({ phase: 'entry' })}>Upravit odpovědi</button><button class="primary" onClick={finish}>Uložit výsledek</button></div></ActionBar>
       </>)}
     </div>
   );

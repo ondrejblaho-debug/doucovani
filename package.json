@@ -8,7 +8,7 @@
     "build": "npm run validate && tsc --noEmit && vite build && node scripts/build-sw.mjs",
     "validate": "tsx scripts/validate.ts && tsx scripts/check-mock.ts",
     "preview": "vite preview --host 0.0.0.0 --port 4173 --strictPort",
-    "e2e": "node tests/e2e.mjs",
+    "e2e": "node tests/e2e.mjs && node tests/layout.mjs",
     "e2e:live": "node tests/live.mjs"
   },
   "devDependencies": {

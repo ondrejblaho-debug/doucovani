@@ -1,6 +1,30 @@
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect, useRef, useState } from 'preact/hooks';
 import { subscribe, loadProfile, loadGlobal } from '../lib/store';
 import type { ProfileId } from '../lib/data';
+import type { ComponentChildren } from 'preact';
+
+/** Focus mode (active lesson / mock test): hides the app bar + tab bar; screens show their own top close/back control and a fixed bottom action bar. */
+export function useFocusMode(on = true) {
+  useEffect(() => {
+    if (!on) return;
+    const el = document.documentElement;
+    el.classList.add('focus');
+    return () => el.classList.remove('focus');
+  }, [on]);
+}
+/** Fixed bottom bar for the screen's primary action (full width, respects the home-indicator safe area). */
+export function ActionBar({ children }: { children: ComponentChildren }) {
+  const ref = useRef<HTMLDivElement>(null);
+  useEffect(() => { // content padding follows the real bar height (e.g. wrapped labels on small phones)
+    const el = ref.current; if (!el) return;
+    const root = document.documentElement;
+    const set = () => root.style.setProperty('--ab-h', el.offsetHeight + 'px');
+    set();
+    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(set) : null; ro?.observe(el);
+    return () => { ro?.disconnect(); root.style.removeProperty('--ab-h'); };
+  }, []);
+  return <div class="actionbar" ref={ref}><div class="actionbar-in">{children}</div></div>;
+}
 
 export function useStore(id?: ProfileId) {
   const [, setN] = useState(0);

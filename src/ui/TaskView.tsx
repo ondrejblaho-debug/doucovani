@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
+import { ActionBar } from './common';
 import { Icon } from './icons';
 import type { Task } from '../lib/types';
 import { checkAnswer, correctAnswerText, Response, unitSuffix } from '../lib/check';
@@ -59,7 +60,7 @@ export function TaskView({ task, onDone, review }: Props) {
             <div class="yn2">{[true, false].map((v) => <button class={'chip' + (cur[i] === v ? ' on' : '')} disabled={answered} onClick={() => { const n = [...cur]; n[i] = v; setResp(n); }}>{v ? 'ANO' : 'NE'}</button>)}</div>
             {answered && cur[i] !== s.a && <small class="fix">Správně: {s.a ? 'ANO' : 'NE'}</small>}
           </div>))}</div>
-        {!answered && <button class="primary" disabled={cur.filter((x) => x !== undefined).length < task.statements!.length} onClick={() => submit(cur)}>Zkontrolovat</button>}
+        {!answered && <ActionBar><button class="primary" disabled={cur.filter((x) => x !== undefined).length < task.statements!.length} onClick={() => submit(cur)}>Zkontrolovat</button></ActionBar>}
       </>);
       break;
     }
@@ -73,7 +74,7 @@ export function TaskView({ task, onDone, review }: Props) {
           {task.unit && <span class="unit">{task.unit}</span>}
         </form>
         {!answered && chips.length > 0 && <div class="chips">{chips.map((c) => <button class="chip" onClick={() => setResp(v + (c === '−' ? '-' : c))}>{c}</button>)}</div>}
-        {!answered && <button class="primary" disabled={!v.trim()} onClick={() => submit(v)}>Zkontrolovat</button>}
+        {!answered && <ActionBar><button class="primary" disabled={!v.trim()} onClick={() => submit(v)}>Zkontrolovat</button></ActionBar>}
       </>);
       break;
     }
@@ -89,7 +90,7 @@ export function TaskView({ task, onDone, review }: Props) {
             </select>
             {answered && cur[i] !== p[1] && <small class="fix">Správně: {p[1]}</small>}
           </label>))}</div>
-        {!answered && <button class="primary" disabled={task.pairs!.some((_, i) => !cur[i])} onClick={() => submit(cur)}>Zkontrolovat</button>}
+        {!answered && <ActionBar><button class="primary" disabled={task.pairs!.some((_, i) => !cur[i])} onClick={() => submit(cur)}>Zkontrolovat</button></ActionBar>}
       </>);
       break;
     }
@@ -100,7 +101,7 @@ export function TaskView({ task, onDone, review }: Props) {
             <span>{x}</span>
             {!answered && <span class="mv"><button class="chip" disabled={i === 0} aria-label="nahoru" onClick={() => { const n = [...ord]; [n[i - 1], n[i]] = [n[i], n[i - 1]]; setOrd(n); }}>▲</button><button class="chip" disabled={i === ord.length - 1} aria-label="dolů" onClick={() => { const n = [...ord]; [n[i + 1], n[i]] = [n[i], n[i + 1]]; setOrd(n); }}>▼</button></span>}
           </li>))}</ol>
-        {!answered && <button class="primary" onClick={() => submit(ord)}>Zkontrolovat</button>}
+        {!answered && <ActionBar><button class="primary" onClick={() => submit(ord)}>Zkontrolovat</button></ActionBar>}
       </>);
       break;
   }
@@ -119,7 +120,7 @@ export function TaskView({ task, onDone, review }: Props) {
           {!result && task.kind === 'order' && <div>Správné pořadí: {task.items!.join(' → ')}</div>}
           <p class="explain">{task.explain}</p>
           {!result && <small>Úlohu ti připomenu v dalších dnech.</small>}
-          <button class="primary" autoFocus onClick={() => onDone(!!result)}>Další</button>
+          <ActionBar><button class="primary" autoFocus onClick={() => onDone(!!result)}>Další</button></ActionBar>
         </div>
       )}
     </div>

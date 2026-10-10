@@ -8,7 +8,7 @@ import { updateProfile, LessonState } from '../lib/store';
 import { fmtLong, fmtShort, today as todayKey } from '../lib/dates';
 import { CARDS } from '../content/cards';
 import { TaskView } from './TaskView';
-import { useStore, Ring, pct } from './common';
+import { useStore, Ring, pct, useFocusMode, ActionBar } from './common';
 
 export function Today({ id, go }: { id: ProfileId; go: (tab: string) => void }) {
   const { p, g } = useStore(id);
@@ -67,8 +67,8 @@ export function Today({ id, go }: { id: ProfileId; go: (tab: string) => void }) 
           ))}</ul>
           {due > 0 && <p class="note"><Icon name="repeat" size={16} /> Čeká na tebe {due} {due === 1 ? 'úloha' : due <= 4 ? 'úlohy' : 'úloh'} k zopakování – přimíchám je do lekce.</p>}
           {plan.week?.note && <p class="note small"><Icon name="pin" size={15} /> {plan.week.note}</p>}
-          {!lesson && <button class="primary big" onClick={() => start('daily')}>Začít lekci</button>}
-          {lesson && !done && <button class="primary big" onClick={() => start('daily')}>Pokračovat ({lesson.idx}/{lesson.tasks.length})</button>}
+          {!lesson && <button class="primary big sticky-cta" onClick={() => start('daily')}>Začít lekci</button>}
+          {lesson && !done && <button class="primary big sticky-cta" onClick={() => start('daily')}>Pokračovat ({lesson.idx}/{lesson.tasks.length})</button>}
           {done && <div class="donebox"><Ring value={ok / Math.max(1, lesson.answers.length)} color="var(--accent)" size={64} /><div><b>Hotovo!</b><br /><small>{ok} z {lesson.answers.length} správně · {Math.round(lessonSec(lesson) / 60)} min</small></div></div>}
         </div>
       )}
@@ -90,6 +90,7 @@ function LessonRunner({ id, lkey, onExit }: { id: ProfileId; lkey: string; onExi
   const t0 = useRef(Date.now());
   useEffect(() => { t0.current = Date.now(); window.scrollTo(0, 0); }, [l.idx, cardIdx]);
   const date = todayKey();
+  useFocusMode(true);
 
   if (cardIdx < l.cards.length) {
     const tid = l.cards[cardIdx]; const c = CARDS[tid];
@@ -102,7 +103,7 @@ function LessonRunner({ id, lkey, onExit }: { id: ProfileId; lkey: string; onExi
           <ul>{c.points.map((x) => <li>{x}</li>)}</ul>
           {c.example && <p class="example"><b>Příklad:</b> {c.example}</p>}
           {c.tip && <p class="tip"><Icon name="bulb" size={16} /> {c.tip}</p>}
-          <button class="primary big" onClick={() => { const sec = Math.min(180, (Date.now() - t0.current) / 1000); updateProfile(id, (d) => { d.lessons[lkey].cardSec += sec; }); setCardIdx(cardIdx + 1); }}>{cardIdx + 1 < l.cards.length ? 'Další téma' : 'Jdeme na úlohy'}</button>
+          <ActionBar><button class="primary big" onClick={() => { const sec = Math.min(180, (Date.now() - t0.current) / 1000); updateProfile(id, (d) => { d.lessons[lkey].cardSec += sec; }); setCardIdx(cardIdx + 1); }}>{cardIdx + 1 < l.cards.length ? 'Další téma' : 'Jdeme na úlohy'}</button></ActionBar>
         </div>
       </div>
     );
@@ -111,13 +112,14 @@ function LessonRunner({ id, lkey, onExit }: { id: ProfileId; lkey: string; onExi
     const ok = l.answers.filter((a) => a.ok).length;
     return (
       <div class="screen runner">
+        <div class="topbar"><button class="icon" aria-label="Zavřít" onClick={onExit}><Icon name="close" /></button><small>Lekce dokončena</small></div>
         <div class="card center finish">
           <div class="confetti"><Icon name="trophy" size={40} /></div>
           <h2>Skvělá práce!</h2>
           <Ring value={ok / Math.max(1, l.answers.length)} color="var(--accent)" size={110} />
           <p>{ok} z {l.answers.length} správně · {Math.max(1, Math.round(lessonSec(l) / 60))} min</p>
           {l.answers.some((a) => !a.ok) && <p class="small">Chyby se uložily do opakování – objeví se v dalších dnech.</p>}
-          <button class="primary big" onClick={onExit}>Zpět na Dnes</button>
+          <ActionBar><button class="primary big" onClick={onExit}>Zpět na Dnes</button></ActionBar>
         </div>
       </div>
     );
