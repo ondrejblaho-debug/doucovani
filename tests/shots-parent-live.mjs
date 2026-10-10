@@ -47,7 +47,7 @@ await pc.close();
 // side-by-side on a larger screen (iPad landscape)
 const wc = await b.newContext({ viewport: { width: 1180, height: 820 }, deviceScaleFactor: 2, locale: 'cs-CZ', timezoneId: 'Europe/Prague' });
 const wp = await wc.newPage();
-await wp.goto(urlA); await wp.locator('.dash').waitFor();
+await wp.goto(urlA); await wp.locator('.dcol.sel .dash').waitFor();
 await wp.goto(urlB); await wp.locator('.compare').waitFor();
 await wp.locator('.dashgrid').scrollIntoViewIfNeeded(); await wp.evaluate(() => scrollBy(0, -60));
 await wp.screenshot({ path: SHOTS + 'parent-03b-side-by-side-ipad.png' });

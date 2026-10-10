@@ -198,7 +198,7 @@ let urlA, urlB;
   // older link must not replace the newer one
   const older = await page.evaluate(async (u) => u, urlA);
   await page.goto(older);
-  await page.locator('.dash').waitFor();
+  await page.locator('.dcol.sel .dash').waitFor();
   const saved = await page.evaluate(() => Object.keys(JSON.parse(localStorage.getItem('doucovani:v1:reports'))).length);
   expect(saved === 2, `saved reports ${saved}`);
   // reopen app without hash → setup shows link to reports
